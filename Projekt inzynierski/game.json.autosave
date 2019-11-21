@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Gdevelop\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Projekt inzynierski\\game.json.autosave",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -369,6 +369,92 @@
         "metadata": "",
         "name": "Dust - 3226.mp4",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "start_button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "start_button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "start_button-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "start_button-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "start_button-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "start_button-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "start_button_clicked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "start_button_clicked.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Loadgame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Loadgame.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Loadgame_clicked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Loadgame_clicked.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "exit_clicked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exit_clicked.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Solar Phasing - Dark Post Apocalyptic Background 1 (-5db).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Solar Phasing - Dark Post Apocalyptic Background 1 (-5db).wav",
+        "userAdded": false
+      },
+      {
+        "file": "menu_click.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu_click.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -401,7 +487,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.256
+        "zoomFactor": 1.072
       },
       "objectsGroups": [],
       "variables": [],
@@ -438,15 +524,45 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 600,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Fog",
-          "width": 800,
-          "x": 653,
-          "y": -860,
-          "zOrder": 2,
+          "name": "Przycisk_load",
+          "width": 0,
+          "x": 300,
+          "y": 267,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Przycisk_start",
+          "width": 0,
+          "x": 300,
+          "y": 134,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Przycisk_exit",
+          "width": 0,
+          "x": 300,
+          "y": 400,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -506,20 +622,226 @@
           ]
         },
         {
-          "name": "Fog",
+          "name": "Przycisk_load",
           "tags": "",
-          "type": "Video::VideoObject",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [],
-          "content": {
-            "opacity": 150,
-            "loop": true,
-            "volume": 100,
-            "videoResource": "Fog - 23496.mp4"
-          }
+          "animations": [
+            {
+              "name": "Normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Loadgame.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clicked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Loadgame_clicked.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Przycisk_exit",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "exit.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clicked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "exit_clicked.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Przycisk_start",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "start_button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Clicked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "start_button_clicked.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Po załadowaniu",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -528,10 +850,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Video::Pause"
+                "value": "Toujours"
               },
               "parameters": [
-                "Backgroundvideo"
+                ""
               ],
               "subInstructions": []
             }
@@ -540,15 +862,326 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Video::Play"
+                "value": "ChangeAnimation"
               },
               "parameters": [
-                "Backgroundvideo"
+                "Przycisk_start",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Przycisk_load",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Przycisk_exit",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Solar Phasing - Dark Post Apocalyptic Background 1 (-5db).wav",
+                "yes",
+                "1",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Video::Pause"
+                  },
+                  "parameters": [
+                    "Backgroundvideo"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Video::Play"
+                  },
+                  "parameters": [
+                    "Backgroundvideo"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Działanie przycisków",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Przycisk_start",
+                "mouse",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Przycisk_start",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "menu_click.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Przycisk_load",
+                "mouse",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Przycisk_load",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "menu_click.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Przycisk_exit",
+                "mouse",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Przycisk_exit",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
