@@ -1342,13 +1342,90 @@
         "name": "Arrow.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "plx-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plx-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "plx-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plx-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "plx-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plx-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "plx-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plx-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "plx-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plx-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "desktop-icon-512-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "desktop-icon-512-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Lives",
+      "value": "3"
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -1838,38 +1915,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetFullScreen"
-              },
-              "parameters": [
-                "",
-                "yes",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
                 "value": "Toujours"
               },
               "parameters": [
@@ -2288,12 +2333,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"0\"",
-                "yes"
+                "\"1\""
               ],
               "subInstructions": []
             }
@@ -2411,842 +2455,6 @@
       "behaviorsSharedData": []
     },
     {
-      "b": 0,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "_48",
-      "name": "0",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 0,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 0,
-      "uiSettings": {
-        "grid": false,
-        "gridB": 255,
-        "gridG": 180,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridR": 158,
-        "gridWidth": 32,
-        "snap": true,
-        "windowMask": false,
-        "zoomFactor": 0.352
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "text_display",
-          "width": 0,
-          "x": 50,
-          "y": 50,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "bold": true,
-          "italic": false,
-          "name": "text_display",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "(...)",
-          "font": "amatic\\Amatic-Bold.ttf",
-          "characterSize": 30,
-          "color": {
-            "b": 0,
-            "g": 255,
-            "r": 128
-          }
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Initialize:",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarSceneTxt"
-              },
-              "parameters": [
-                "text.string.1",
-                "=",
-                "\"Witaj w grze ...\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarSceneTxt"
-              },
-              "parameters": [
-                "text.string.2",
-                "=",
-                "\"Jest rok (rok).\"\n+NewLine()+\"Po kilku latach ukrywania się w metrze jedno wydarzenie sprawiło,\"+NewLine()+\"że musisz wyjść na powierzchnię.\"\n+NewLine()+\n\"Kilka dni wcześniej, wydarzyło się coś  \"\n+NewLine()+\"* Number of displayed strings\"\n+NewLine()+\"* Text of displayed strings\"\n+NewLine()+\"* Etc\"\n+NewLine()\n+NewLine()+\"Press any key to continue...\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarSceneTxt"
-              },
-              "parameters": [
-                "text.string.3",
-                "=",
-                "\"Credits:\"\n+NewLine()\n+NewLine()+\"PixelMix font\"\n+NewLine()+\"----- by Andrew Tyler\"\n+NewLine()\n+NewLine()+\"Script and algorithm\"\n+NewLine()+\"----- by erdo (Diego Piedra)\"\n+NewLine()\n+NewLine()+\"Press any key to continue...\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "text.string.count",
-                "=",
-                "3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "text.typing_speed",
-                "=",
-                "0.1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "text.prompt.blinking_delay",
-                "=",
-                "0.4"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarSceneTxt"
-              },
-              "parameters": [
-                "text.prompt.character",
-                "=",
-                "\"_\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "automation.string.finished",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "input.waiting",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Input:",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "input.waiting",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnyKeyPressed"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "input.waiting",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Automation:",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "input.waiting",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "Variable(text.typing_speed)",
-                "\"automation.typing_speed\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"automation.typing_speed\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "automation.string.finished",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "automation.string.finished",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "automation.current.string.id",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "automation.current.string.id",
-                        "=",
-                        "Variable(text.string.count)+1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "automation.current.string.id",
-                        "=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarSceneTxt"
-                  },
-                  "parameters": [
-                    "automation.current.string.text",
-                    "=",
-                    "VariableString(text.string[VariableString(automation.current.string.id)])"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "automation.current.string.lenght",
-                    "=",
-                    "StrLength(VariableString(automation.current.string.text))"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "automation.current.character.id",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "automation.current.character.id",
-                    "=",
-                    "Variable(automation.current.string.lenght)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "automation.current.character.id",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "automation.string.finished",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "input.waiting",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarSceneTxt"
-                  },
-                  "parameters": [
-                    "automation.current.portion",
-                    "=",
-                    "SubStr(VariableString(automation.current.string.text),0,Variable(automation.current.character.id)-1)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "blip.wav",
-                    "no",
-                    "25",
-                    "0.75"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "automation.prompt.state",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarSceneTxt"
-              },
-              "parameters": [
-                "automation.current.displayed_text",
-                "+",
-                "VariableString(text.prompt.character)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "Variable(text.prompt.blinking_delay)",
-                "\"automation.prompt.blinking_delay\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"automation.prompt.blinking_delay\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "automation.process_check",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "automation.prompt.state",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "automation.process_check",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "automation.prompt.state",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "automation.process_check",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "automation.prompt.state",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "automation.prompt.state",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "automation.prompt.state",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarSceneTxt"
-              },
-              "parameters": [
-                "automation.current.displayed_text",
-                "=",
-                "VariableString(automation.current.portion)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "text_display",
-                "=",
-                "VariableString(automation.current.displayed_text)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Wyjscie_z_gry"
-        }
-      ],
-      "layers": [
-        {
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
-    },
-    {
       "b": 209,
       "disableInputWhenNotFocused": true,
       "mangledName": "_49",
@@ -3270,10 +2478,19 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.856
+        "zoomFactor": 0.778
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "PlayerX",
+          "value": ""
+        },
+        {
+          "name": "PlayerY",
+          "value": ""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -3283,9 +2500,54 @@
           "locked": false,
           "name": "Player",
           "width": 100,
-          "x": 29,
-          "y": 406,
+          "x": 15,
+          "y": 450,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 398,
+          "layer": "",
+          "locked": false,
+          "name": "podloga",
+          "width": 252,
+          "x": -101,
+          "y": 550,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Grid",
+          "locked": false,
+          "name": "Lives",
+          "width": 0,
+          "x": 702,
+          "y": 19,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "HitZone",
+          "width": 482,
+          "x": 130,
+          "y": 579,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3297,10 +2559,115 @@
           "layer": "",
           "locked": false,
           "name": "podloga",
-          "width": 808,
-          "x": 0,
-          "y": 499,
+          "width": 445,
+          "x": 351,
+          "y": 550,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 848,
+          "layer": "Layer",
+          "locked": false,
+          "name": "Background1",
+          "width": 1401,
+          "x": -241,
+          "y": -116,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 250,
+          "layer": "Layer2",
+          "locked": false,
+          "name": "Background2",
+          "width": 4140,
+          "x": -230,
+          "y": 350,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 250,
+          "layer": "Layer3",
+          "locked": false,
+          "name": "Background3",
+          "width": 4140,
+          "x": -230,
+          "y": 350,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 250,
+          "layer": "Layer4",
+          "locked": false,
+          "name": "Background4",
+          "width": 4140,
+          "x": -230,
+          "y": 350,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2,
+          "layer": "Layer5",
+          "locked": false,
+          "name": "Background5",
+          "width": 4140,
+          "x": -230,
+          "y": 350,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1006,
+          "layer": "",
+          "locked": false,
+          "name": "podloga",
+          "width": 481,
+          "x": -481,
+          "y": -136,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 184,
+          "layer": "",
+          "locked": false,
+          "name": "Background6",
+          "width": 379,
+          "x": 1,
+          "y": 170,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3343,13 +2710,7 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "0.png",
-                      "points": [
-                        {
-                          "name": "Shoot",
-                          "x": 0,
-                          "y": 0
-                        }
-                      ],
+                      "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -3358,38 +2719,38 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 308.5,
-                            "y": 128
+                            "x": 323.516,
+                            "y": 331.667
                           },
                           {
-                            "x": 387.5,
-                            "y": 226
+                            "x": 296.849,
+                            "y": 366.667
                           },
                           {
-                            "x": 298.5,
-                            "y": 409
+                            "x": 300.182,
+                            "y": 411.667
                           },
                           {
-                            "x": 214.5,
-                            "y": 412
+                            "x": 210.182,
+                            "y": 408.333
                           },
                           {
-                            "x": 169.766,
-                            "y": 320
+                            "x": 180.182,
+                            "y": 325
                           },
                           {
-                            "x": 181.5,
-                            "y": 188
+                            "x": 198.516,
+                            "y": 120
                           },
                           {
-                            "x": 194.5,
-                            "y": 121
+                            "x": 321.849,
+                            "y": 135
                           }
                         ]
                       ]
@@ -3404,40 +2765,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 308.5,
-                            "y": 128
+                            "x": 323.516,
+                            "y": 331.667
                           },
                           {
-                            "x": 387.5,
-                            "y": 226
+                            "x": 296.849,
+                            "y": 366.667
                           },
                           {
-                            "x": 298.5,
-                            "y": 409
+                            "x": 300.182,
+                            "y": 411.667
                           },
                           {
-                            "x": 214.5,
-                            "y": 412
+                            "x": 210.182,
+                            "y": 408.333
                           },
                           {
-                            "x": 169.766,
-                            "y": 320
+                            "x": 180.182,
+                            "y": 325
                           },
                           {
-                            "x": 181.5,
-                            "y": 188
+                            "x": 198.516,
+                            "y": 120
                           },
                           {
-                            "x": 194.5,
-                            "y": 121
+                            "x": 321.849,
+                            "y": 135
                           }
                         ]
                       ]
@@ -3452,40 +2813,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 308.5,
-                            "y": 128
+                            "x": 323.516,
+                            "y": 331.667
                           },
                           {
-                            "x": 387.5,
-                            "y": 226
+                            "x": 296.849,
+                            "y": 366.667
                           },
                           {
-                            "x": 298.5,
-                            "y": 409
+                            "x": 300.182,
+                            "y": 411.667
                           },
                           {
-                            "x": 214.5,
-                            "y": 412
+                            "x": 210.182,
+                            "y": 408.333
                           },
                           {
-                            "x": 169.766,
-                            "y": 320
+                            "x": 180.182,
+                            "y": 325
                           },
                           {
-                            "x": 181.5,
-                            "y": 188
+                            "x": 198.516,
+                            "y": 120
                           },
                           {
-                            "x": 194.5,
-                            "y": 121
+                            "x": 321.849,
+                            "y": 135
                           }
                         ]
                       ]
@@ -3500,40 +2861,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 308.5,
-                            "y": 128
+                            "x": 323.516,
+                            "y": 331.667
                           },
                           {
-                            "x": 387.5,
-                            "y": 226
+                            "x": 296.849,
+                            "y": 366.667
                           },
                           {
-                            "x": 298.5,
-                            "y": 409
+                            "x": 300.182,
+                            "y": 411.667
                           },
                           {
-                            "x": 214.5,
-                            "y": 412
+                            "x": 210.182,
+                            "y": 408.333
                           },
                           {
-                            "x": 169.766,
-                            "y": 320
+                            "x": 180.182,
+                            "y": 325
                           },
                           {
-                            "x": 181.5,
-                            "y": 188
+                            "x": 198.516,
+                            "y": 120
                           },
                           {
-                            "x": 194.5,
-                            "y": 121
+                            "x": 321.849,
+                            "y": 135
                           }
                         ]
                       ]
@@ -3548,40 +2909,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 308.5,
-                            "y": 128
+                            "x": 323.516,
+                            "y": 331.667
                           },
                           {
-                            "x": 387.5,
-                            "y": 226
+                            "x": 296.849,
+                            "y": 366.667
                           },
                           {
-                            "x": 298.5,
-                            "y": 409
+                            "x": 300.182,
+                            "y": 411.667
                           },
                           {
-                            "x": 214.5,
-                            "y": 412
+                            "x": 210.182,
+                            "y": 408.333
                           },
                           {
-                            "x": 169.766,
-                            "y": 320
+                            "x": 180.182,
+                            "y": 325
                           },
                           {
-                            "x": 181.5,
-                            "y": 188
+                            "x": 198.516,
+                            "y": 120
                           },
                           {
-                            "x": 194.5,
-                            "y": 121
+                            "x": 321.849,
+                            "y": 135
                           }
                         ]
                       ]
@@ -3596,40 +2957,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 308.5,
-                            "y": 128
+                            "x": 323.516,
+                            "y": 331.667
                           },
                           {
-                            "x": 387.5,
-                            "y": 226
+                            "x": 296.849,
+                            "y": 366.667
                           },
                           {
-                            "x": 298.5,
-                            "y": 409
+                            "x": 300.182,
+                            "y": 411.667
                           },
                           {
-                            "x": 214.5,
-                            "y": 412
+                            "x": 210.182,
+                            "y": 408.333
                           },
                           {
-                            "x": 169.766,
-                            "y": 320
+                            "x": 180.182,
+                            "y": 325
                           },
                           {
-                            "x": 181.5,
-                            "y": 188
+                            "x": 198.516,
+                            "y": 120
                           },
                           {
-                            "x": 194.5,
-                            "y": 121
+                            "x": 321.849,
+                            "y": 135
                           }
                         ]
                       ]
@@ -3644,40 +3005,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 308.5,
-                            "y": 128
+                            "x": 323.516,
+                            "y": 331.667
                           },
                           {
-                            "x": 387.5,
-                            "y": 226
+                            "x": 296.849,
+                            "y": 366.667
                           },
                           {
-                            "x": 298.5,
-                            "y": 409
+                            "x": 300.182,
+                            "y": 411.667
                           },
                           {
-                            "x": 214.5,
-                            "y": 412
+                            "x": 210.182,
+                            "y": 408.333
                           },
                           {
-                            "x": 169.766,
-                            "y": 320
+                            "x": 180.182,
+                            "y": 325
                           },
                           {
-                            "x": 181.5,
-                            "y": 188
+                            "x": 198.516,
+                            "y": 120
                           },
                           {
-                            "x": 194.5,
-                            "y": 121
+                            "x": 321.849,
+                            "y": 135
                           }
                         ]
                       ]
@@ -3692,40 +3053,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 308.5,
-                            "y": 128
+                            "x": 323.516,
+                            "y": 331.667
                           },
                           {
-                            "x": 387.5,
-                            "y": 226
+                            "x": 296.849,
+                            "y": 366.667
                           },
                           {
-                            "x": 298.5,
-                            "y": 409
+                            "x": 300.182,
+                            "y": 411.667
                           },
                           {
-                            "x": 214.5,
-                            "y": 412
+                            "x": 210.182,
+                            "y": 408.333
                           },
                           {
-                            "x": 169.766,
-                            "y": 320
+                            "x": 180.182,
+                            "y": 325
                           },
                           {
-                            "x": 181.5,
-                            "y": 188
+                            "x": 198.516,
+                            "y": 120
                           },
                           {
-                            "x": 194.5,
-                            "y": 121
+                            "x": 321.849,
+                            "y": 135
                           }
                         ]
                       ]
@@ -3740,40 +3101,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 308.5,
-                            "y": 128
+                            "x": 323.516,
+                            "y": 331.667
                           },
                           {
-                            "x": 387.5,
-                            "y": 226
+                            "x": 296.849,
+                            "y": 366.667
                           },
                           {
-                            "x": 298.5,
-                            "y": 409
+                            "x": 300.182,
+                            "y": 411.667
                           },
                           {
-                            "x": 214.5,
-                            "y": 412
+                            "x": 210.182,
+                            "y": 408.333
                           },
                           {
-                            "x": 169.766,
-                            "y": 320
+                            "x": 180.182,
+                            "y": 325
                           },
                           {
-                            "x": 181.5,
-                            "y": 188
+                            "x": 198.516,
+                            "y": 120
                           },
                           {
-                            "x": 194.5,
-                            "y": 121
+                            "x": 321.849,
+                            "y": 135
                           }
                         ]
                       ]
@@ -3788,40 +3149,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 308.5,
-                            "y": 128
+                            "x": 323.516,
+                            "y": 331.667
                           },
                           {
-                            "x": 387.5,
-                            "y": 226
+                            "x": 296.849,
+                            "y": 366.667
                           },
                           {
-                            "x": 298.5,
-                            "y": 409
+                            "x": 300.182,
+                            "y": 411.667
                           },
                           {
-                            "x": 214.5,
-                            "y": 412
+                            "x": 210.182,
+                            "y": 408.333
                           },
                           {
-                            "x": 169.766,
-                            "y": 320
+                            "x": 180.182,
+                            "y": 325
                           },
                           {
-                            "x": 181.5,
-                            "y": 188
+                            "x": 198.516,
+                            "y": 120
                           },
                           {
-                            "x": 194.5,
-                            "y": 121
+                            "x": 321.849,
+                            "y": 135
                           }
                         ]
                       ]
@@ -3836,7 +3197,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.03,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -3848,39 +3209,39 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 347.266,
-                            "y": 140
+                            "x": 357.266,
+                            "y": 145
                           },
                           {
-                            "x": 329.766,
-                            "y": 337.5
+                            "x": 307.266,
+                            "y": 302.5
                           },
                           {
                             "x": 319.766,
-                            "y": 397.5
-                          },
-                          {
-                            "x": 202.266,
-                            "y": 407.5
-                          },
-                          {
-                            "x": 187.266,
-                            "y": 327.5
+                            "y": 405
                           },
                           {
                             "x": 197.266,
-                            "y": 197.5
+                            "y": 405
                           },
                           {
-                            "x": 227.266,
+                            "x": 184.766,
+                            "y": 330
+                          },
+                          {
+                            "x": 194.766,
+                            "y": 230
+                          },
+                          {
+                            "x": 229.766,
                             "y": 115
                           }
                         ]
@@ -3896,39 +3257,39 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 347.266,
-                            "y": 140
+                            "x": 344.766,
+                            "y": 142.5
                           },
                           {
                             "x": 329.766,
-                            "y": 337.5
+                            "y": 255
                           },
                           {
-                            "x": 319.766,
-                            "y": 397.5
+                            "x": 324.766,
+                            "y": 405
                           },
                           {
-                            "x": 202.266,
-                            "y": 407.5
+                            "x": 209.766,
+                            "y": 410
                           },
                           {
-                            "x": 187.266,
-                            "y": 327.5
+                            "x": 184.766,
+                            "y": 330
                           },
                           {
-                            "x": 197.266,
-                            "y": 197.5
+                            "x": 194.766,
+                            "y": 230
                           },
                           {
-                            "x": 227.266,
+                            "x": 229.766,
                             "y": 115
                           }
                         ]
@@ -3944,39 +3305,39 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 347.266,
-                            "y": 140
+                            "x": 337.266,
+                            "y": 132.5
                           },
                           {
-                            "x": 329.766,
-                            "y": 337.5
+                            "x": 314.766,
+                            "y": 287.5
                           },
                           {
-                            "x": 312.266,
-                            "y": 402.5
+                            "x": 309.766,
+                            "y": 410
                           },
                           {
-                            "x": 207.266,
-                            "y": 412.5
+                            "x": 204.766,
+                            "y": 407.5
                           },
                           {
-                            "x": 187.266,
-                            "y": 327.5
+                            "x": 184.766,
+                            "y": 330
                           },
                           {
-                            "x": 197.266,
-                            "y": 197.5
+                            "x": 194.766,
+                            "y": 230
                           },
                           {
-                            "x": 227.266,
+                            "x": 229.766,
                             "y": 115
                           }
                         ]
@@ -3992,39 +3353,39 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 347.266,
-                            "y": 140
+                            "x": 332.266,
+                            "y": 127.5
                           },
                           {
-                            "x": 304.766,
-                            "y": 335
+                            "x": 307.266,
+                            "y": 302.5
                           },
                           {
-                            "x": 294.766,
-                            "y": 415
-                          },
-                          {
-                            "x": 202.266,
+                            "x": 302.266,
                             "y": 407.5
                           },
                           {
-                            "x": 187.266,
-                            "y": 327.5
+                            "x": 217.266,
+                            "y": 410
                           },
                           {
-                            "x": 197.266,
-                            "y": 197.5
+                            "x": 184.766,
+                            "y": 330
                           },
                           {
-                            "x": 227.266,
+                            "x": 194.766,
+                            "y": 230
+                          },
+                          {
+                            "x": 199.766,
                             "y": 115
                           }
                         ]
@@ -4040,40 +3401,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
                             "x": 324.766,
+                            "y": 132.5
+                          },
+                          {
+                            "x": 327.266,
+                            "y": 320
+                          },
+                          {
+                            "x": 292.266,
+                            "y": 410
+                          },
+                          {
+                            "x": 214.766,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 174.766,
+                            "y": 335
+                          },
+                          {
+                            "x": 194.766,
+                            "y": 230
+                          },
+                          {
+                            "x": 189.766,
                             "y": 120
-                          },
-                          {
-                            "x": 324.766,
-                            "y": 337.5
-                          },
-                          {
-                            "x": 289.766,
-                            "y": 402.5
-                          },
-                          {
-                            "x": 207.266,
-                            "y": 405
-                          },
-                          {
-                            "x": 167.266,
-                            "y": 322.5
-                          },
-                          {
-                            "x": 177.266,
-                            "y": 195
-                          },
-                          {
-                            "x": 192.266,
-                            "y": 130
                           }
                         ]
                       ]
@@ -4088,39 +3449,39 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 312.266,
-                            "y": 127.5
+                            "x": 309.766,
+                            "y": 125
                           },
                           {
-                            "x": 317.266,
-                            "y": 332.5
+                            "x": 327.266,
+                            "y": 325
                           },
                           {
-                            "x": 297.266,
-                            "y": 405
+                            "x": 302.266,
+                            "y": 415
                           },
                           {
-                            "x": 217.266,
+                            "x": 207.266,
                             "y": 410
                           },
                           {
-                            "x": 172.266,
-                            "y": 332.5
+                            "x": 169.766,
+                            "y": 327.5
                           },
                           {
-                            "x": 179.766,
-                            "y": 205
+                            "x": 182.266,
+                            "y": 220
                           },
                           {
-                            "x": 187.266,
+                            "x": 189.766,
                             "y": 122.5
                           }
                         ]
@@ -4136,40 +3497,40 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 327.266,
-                            "y": 120
+                            "x": 322.266,
+                            "y": 132.5
                           },
                           {
-                            "x": 319.766,
-                            "y": 335
+                            "x": 312.266,
+                            "y": 277.5
                           },
                           {
-                            "x": 304.766,
-                            "y": 402.5
+                            "x": 299.766,
+                            "y": 407.5
+                          },
+                          {
+                            "x": 214.766,
+                            "y": 415
+                          },
+                          {
+                            "x": 169.766,
+                            "y": 340
+                          },
+                          {
+                            "x": 182.266,
+                            "y": 230
                           },
                           {
                             "x": 204.766,
-                            "y": 405
-                          },
-                          {
-                            "x": 172.266,
-                            "y": 327.5
-                          },
-                          {
-                            "x": 197.266,
-                            "y": 197.5
-                          },
-                          {
-                            "x": 189.766,
-                            "y": 112.5
+                            "y": 122.5
                           }
                         ]
                       ]
@@ -4184,10 +3545,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -4196,27 +3557,27 @@
                             "y": 127.5
                           },
                           {
-                            "x": 319.766,
-                            "y": 340
+                            "x": 317.266,
+                            "y": 322.5
                           },
                           {
-                            "x": 317.266,
-                            "y": 407.5
+                            "x": 314.766,
+                            "y": 412.5
                           },
                           {
                             "x": 202.266,
-                            "y": 407.5
+                            "y": 415
                           },
                           {
-                            "x": 187.266,
-                            "y": 327.5
+                            "x": 169.766,
+                            "y": 330
                           },
                           {
-                            "x": 197.266,
-                            "y": 197.5
+                            "x": 199.766,
+                            "y": 235
                           },
                           {
-                            "x": 214.766,
+                            "x": 207.266,
                             "y": 115
                           }
                         ]
@@ -4232,39 +3593,39 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 347.266,
+                            "x": 352.266,
                             "y": 140
                           },
                           {
-                            "x": 329.766,
-                            "y": 337.5
+                            "x": 307.266,
+                            "y": 302.5
                           },
                           {
-                            "x": 314.766,
-                            "y": 407.5
-                          },
-                          {
-                            "x": 197.266,
-                            "y": 410
-                          },
-                          {
-                            "x": 187.266,
-                            "y": 327.5
+                            "x": 319.766,
+                            "y": 405
                           },
                           {
                             "x": 197.266,
-                            "y": 197.5
+                            "y": 405
                           },
                           {
-                            "x": 227.266,
+                            "x": 184.766,
+                            "y": 330
+                          },
+                          {
+                            "x": 194.766,
+                            "y": 230
+                          },
+                          {
+                            "x": 229.766,
                             "y": 115
                           }
                         ]
@@ -4280,39 +3641,39 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 326,
-                        "y": 267
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 347.266,
-                            "y": 140
+                            "x": 357.266,
+                            "y": 145
                           },
                           {
-                            "x": 329.766,
-                            "y": 337.5
+                            "x": 307.266,
+                            "y": 302.5
                           },
                           {
-                            "x": 324.766,
-                            "y": 410
-                          },
-                          {
-                            "x": 202.266,
-                            "y": 407.5
-                          },
-                          {
-                            "x": 187.266,
-                            "y": 327.5
+                            "x": 319.766,
+                            "y": 405
                           },
                           {
                             "x": 197.266,
-                            "y": 197.5
+                            "y": 405
                           },
                           {
-                            "x": 227.266,
+                            "x": 184.766,
+                            "y": 330
+                          },
+                          {
+                            "x": 194.766,
+                            "y": 230
+                          },
+                          {
+                            "x": 229.766,
                             "y": 115
                           }
                         ]
@@ -5824,7 +5185,7 @@
           "height": 32,
           "name": "podloga",
           "tags": "",
-          "texture": "desktop-icon-512.png",
+          "texture": "desktop-icon-512-1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -5846,6 +5207,8 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -5853,9 +5216,7 @@
               "deceleration": 800,
               "ignoreDefaultControls": false,
               "maxSpeed": 200,
-              "name": "TopDownMovement",
-              "rotateObject": true,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+              "rotateObject": true
             }
           ],
           "animations": [
@@ -5940,6 +5301,124 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Lives",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "height": 32,
+          "name": "HitZone",
+          "tags": "",
+          "texture": "NewFile-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "Background1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "plx-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Background2",
+          "tags": "",
+          "texture": "plx-2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "Background3",
+          "tags": "",
+          "texture": "plx-3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "Background4",
+          "tags": "",
+          "texture": "plx-4.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "Background5",
+          "tags": "",
+          "texture": "plx-5.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "Background6",
+          "tags": "",
+          "texture": "NewFile-1-0.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -5951,9 +5430,298 @@
             "includeConfig": 0
           },
           "target": "PlayerBehavior"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Camera"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "ExitGame"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"Position\"",
+                "\"PlayerX\"",
+                "29"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"Position\"",
+                "\"PlayerX\"",
+                "406"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Lives",
+                "=",
+                "\"Lives:\"+\" \"+GlobalVariableString(Lives)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "HitZone",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Lives",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"Position\"",
+                "\"PlayerX\"",
+                "",
+                "PlayerXPosition"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"Position\"",
+                "\"PlayerY\"",
+                "",
+                "PlayerYPosition"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Variable(PlayerYPosition)",
+                "=",
+                "Variable(PlayerXPosition)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Lives",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Lives",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X()*0.3",
+                "\"Layer2\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X()*0.25",
+                "\"Layer3\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X()*0.20",
+                "\"Layer4\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X()*0.15",
+                "\"Layer5\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
+        {
+          "name": "Layer",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Layer2",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Layer3",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Layer4",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Layer5",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
         {
           "name": "",
           "visibility": true,
@@ -5969,6 +5737,12 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "name": "Grid",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -6034,6 +5808,70 @@
       "lastChangeTimeStamp": 0,
       "name": "PlayerBehavior",
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -6113,33 +5951,14 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
-                        "value": "BuiltinCommonInstructions::Or"
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsMoving"
                       },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "TopDownMovementBehavior::IsMoving"
-                          },
-                          "parameters": [
-                            "Player",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "AnyKeyPressed"
-                          },
-                          "parameters": [
-                            ""
-                          ],
-                          "subInstructions": []
-                        }
-                      ]
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -6331,70 +6150,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Player",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Player",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlatformBehavior::IsJumping"
               },
               "parameters": [
@@ -6418,11 +6173,698 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "1",
+      "lastChangeTimeStamp": 0,
+      "name": "Camera",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X()",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
     }
   ],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "@4ian",
+      "description": "Add actions and conditions to manage the life of the object. Object can get damages, lose some health and you can check with a condition if it's dead.",
+      "extensionNamespace": "",
+      "fullName": "Health (life points and damages for objects)",
+      "name": "Health",
+      "shortDescription": "Add actions and conditions to manage the life of the object. Object can get damages, lose some health and you can check with a condition if it's dead.",
+      "tags": "health, life, damage, hit, heal",
+      "version": "0.0.1",
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Add actions and conditions to manage the life of the object. Object can get damages, lose some health and you can check with a condition if it's dead.",
+          "fullName": "Health",
+          "name": "Health",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "Add some damage to the object, decreasing its life.",
+              "fullName": "Damage the object",
+              "functionType": "Action",
+              "name": "Hit",
+              "sentence": "Damage _PARAM0_, removing _PARAM2_ from its health",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"DamageCooldown\"",
+                            "Object.Behavior::PropertyDamageCooldown()"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Health::Health::PropertyCooldownActive"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::SetPropertyHealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "-",
+                        "GetArgumentAsNumber(\"DamageValue\")"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"DamageCooldown\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::SetPropertyCooldownActive"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::SetPropertyIsJustDamaged"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Health::Health",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Value of the damage to do (will be removed from object health)",
+                  "name": "DamageValue",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the object is considered dead (no more health)",
+              "fullName": "Is dead",
+              "functionType": "Condition",
+              "name": "IsDead",
+              "sentence": "_PARAM0_ is dead",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::PropertyHealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "<=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Health::Health",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::SetPropertyIsJustDamaged"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Health::Health",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the object was just damaged previously in the events.",
+              "fullName": "Is just damaged",
+              "functionType": "Condition",
+              "name": "IsJustDamaged",
+              "sentence": "_PARAM0_ has just been damaged",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::PropertyIsJustDamaged"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Health::Health",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Heal the object, incrasing its life.",
+              "fullName": "Heal the object",
+              "functionType": "Action",
+              "name": "Heal",
+              "sentence": "Heal _PARAM0_, adding _PARAM2_ to its health",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::SetPropertyHealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "GetArgumentAsNumber(\"HealValue\")"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::PropertyMaxHealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ">",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::SetPropertyHealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "min(Object.Behavior::PropertyHealth(), Object.Behavior::PropertyMaxHealth())"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Health::Health",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "How much to heal (will be added to object health)",
+                  "name": "HealValue",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the object health to set it to a specific value (check if the actions to damage or heal the object are not better suited to your use case before using this one).",
+              "fullName": "Change object health",
+              "functionType": "Action",
+              "name": "SetHealth",
+              "sentence": "Set health of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::SetPropertyHealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::PropertyMaxHealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ">",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::SetPropertyHealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "min(Object.Behavior::PropertyHealth(), Object.Behavior::PropertyMaxHealth())"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Health::Health",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "New health value",
+                  "name": "Value",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "The health of the object",
+              "fullName": "Health",
+              "functionType": "Expression",
+              "name": "Health",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyHealth()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Health::Health",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "100",
+              "type": "Number",
+              "label": "Health",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Health"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Damage cooldown (in seconds) (0 for no cooldown)",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "DamageCooldown"
+            },
+            {
+              "value": "100",
+              "type": "Number",
+              "label": "Maximum health (0 for no maximum)",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MaxHealth"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "IsJustDamaged"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CooldownActive"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
