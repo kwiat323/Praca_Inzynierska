@@ -1711,6 +1711,103 @@
         "name": "Gold_10.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Stone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stone.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "amatic/AmaticSC-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "amatic\\AmaticSC-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile9.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1724,13 +1821,13 @@
       "variables": [],
       "behaviors": [
         {
+          "gravity": 800,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "ignoreDefaultControls": false,
           "acceleration": 1500,
           "canGrabPlatforms": false,
           "deceleration": 1500,
-          "gravity": 1000,
           "jumpSpeed": 600,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
@@ -1740,9 +1837,9 @@
           "yGrabOffset": 0
         },
         {
-          "extraBorder": 10,
           "name": "ZniszczPoza",
-          "type": "DestroyOutsideBehavior::DestroyOutside"
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 10
         }
       ],
       "animations": [
@@ -1780,12 +1877,12 @@
                         "y": 366.667
                       },
                       {
-                        "x": 300.182,
-                        "y": 411.667
+                        "x": 300.5,
+                        "y": 405
                       },
                       {
-                        "x": 210.182,
-                        "y": 408.333
+                        "x": 204.5,
+                        "y": 405
                       },
                       {
                         "x": 180.182,
@@ -1828,12 +1925,12 @@
                         "y": 366.667
                       },
                       {
-                        "x": 300.182,
-                        "y": 411.667
+                        "x": 300.5,
+                        "y": 405
                       },
                       {
-                        "x": 210.182,
-                        "y": 408.333
+                        "x": 204.5,
+                        "y": 405
                       },
                       {
                         "x": 180.182,
@@ -1876,12 +1973,12 @@
                         "y": 366.667
                       },
                       {
-                        "x": 300.182,
-                        "y": 411.667
+                        "x": 300.5,
+                        "y": 405
                       },
                       {
-                        "x": 210.182,
-                        "y": 408.333
+                        "x": 204.5,
+                        "y": 405
                       },
                       {
                         "x": 180.182,
@@ -1924,12 +2021,12 @@
                         "y": 366.667
                       },
                       {
-                        "x": 300.182,
-                        "y": 411.667
+                        "x": 300.5,
+                        "y": 405
                       },
                       {
-                        "x": 210.182,
-                        "y": 408.333
+                        "x": 204.5,
+                        "y": 405
                       },
                       {
                         "x": 180.182,
@@ -1972,12 +2069,12 @@
                         "y": 366.667
                       },
                       {
-                        "x": 300.182,
-                        "y": 411.667
+                        "x": 300.5,
+                        "y": 405
                       },
                       {
-                        "x": 210.182,
-                        "y": 408.333
+                        "x": 204.5,
+                        "y": 405
                       },
                       {
                         "x": 180.182,
@@ -2020,12 +2117,12 @@
                         "y": 366.667
                       },
                       {
-                        "x": 300.182,
-                        "y": 411.667
+                        "x": 300.5,
+                        "y": 405
                       },
                       {
-                        "x": 210.182,
-                        "y": 408.333
+                        "x": 204.5,
+                        "y": 405
                       },
                       {
                         "x": 180.182,
@@ -2068,12 +2165,12 @@
                         "y": 366.667
                       },
                       {
-                        "x": 300.182,
-                        "y": 411.667
+                        "x": 300.5,
+                        "y": 405
                       },
                       {
-                        "x": 210.182,
-                        "y": 408.333
+                        "x": 204.5,
+                        "y": 405
                       },
                       {
                         "x": 180.182,
@@ -2116,12 +2213,12 @@
                         "y": 366.667
                       },
                       {
-                        "x": 300.182,
-                        "y": 411.667
+                        "x": 300.5,
+                        "y": 405
                       },
                       {
-                        "x": 210.182,
-                        "y": 408.333
+                        "x": 204.5,
+                        "y": 405
                       },
                       {
                         "x": 180.182,
@@ -2164,12 +2261,12 @@
                         "y": 366.667
                       },
                       {
-                        "x": 300.182,
-                        "y": 411.667
+                        "x": 300.5,
+                        "y": 405
                       },
                       {
-                        "x": 210.182,
-                        "y": 408.333
+                        "x": 204.5,
+                        "y": 405
                       },
                       {
                         "x": 180.182,
@@ -2212,12 +2309,12 @@
                         "y": 366.667
                       },
                       {
-                        "x": 300.182,
-                        "y": 411.667
+                        "x": 300.5,
+                        "y": 405
                       },
                       {
-                        "x": 210.182,
-                        "y": 408.333
+                        "x": 204.5,
+                        "y": 405
                       },
                       {
                         "x": 180.182,
@@ -2325,7 +2422,7 @@
                       },
                       {
                         "x": 209.766,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 184.766,
@@ -2369,11 +2466,11 @@
                       },
                       {
                         "x": 309.766,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 204.766,
-                        "y": 407.5
+                        "y": 405
                       },
                       {
                         "x": 184.766,
@@ -2417,11 +2514,11 @@
                       },
                       {
                         "x": 302.266,
-                        "y": 407.5
+                        "y": 405
                       },
                       {
                         "x": 217.266,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 184.766,
@@ -2465,11 +2562,11 @@
                       },
                       {
                         "x": 292.266,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 214.766,
-                        "y": 407.5
+                        "y": 405
                       },
                       {
                         "x": 174.766,
@@ -2513,11 +2610,11 @@
                       },
                       {
                         "x": 302.266,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 207.266,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 169.766,
@@ -2561,11 +2658,11 @@
                       },
                       {
                         "x": 299.766,
-                        "y": 407.5
+                        "y": 405
                       },
                       {
                         "x": 214.766,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 169.766,
@@ -2609,11 +2706,11 @@
                       },
                       {
                         "x": 314.766,
-                        "y": 412.5
+                        "y": 405
                       },
                       {
                         "x": 202.266,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 169.766,
@@ -2765,11 +2862,11 @@
                       },
                       {
                         "x": 294.766,
-                        "y": 407.5
+                        "y": 405
                       },
                       {
                         "x": 214.766,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 192.266,
@@ -2813,11 +2910,11 @@
                       },
                       {
                         "x": 294.766,
-                        "y": 407.5
+                        "y": 405
                       },
                       {
                         "x": 214.766,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 192.266,
@@ -2861,11 +2958,11 @@
                       },
                       {
                         "x": 312.266,
-                        "y": 397.5
+                        "y": 405
                       },
                       {
                         "x": 214.766,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 192.266,
@@ -2909,11 +3006,11 @@
                       },
                       {
                         "x": 314.766,
-                        "y": 390
+                        "y": 405
                       },
                       {
                         "x": 229.766,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 182.266,
@@ -2957,11 +3054,11 @@
                       },
                       {
                         "x": 309.766,
-                        "y": 390
+                        "y": 405
                       },
                       {
                         "x": 239.766,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 179.766,
@@ -3004,12 +3101,12 @@
                         "y": 245
                       },
                       {
-                        "x": 356.25,
-                        "y": 420
+                        "x": 354.5,
+                        "y": 422
                       },
                       {
-                        "x": 286.25,
-                        "y": 462.5
+                        "x": 295.5,
+                        "y": 458
                       },
                       {
                         "x": 196.25,
@@ -3263,11 +3360,11 @@
                       },
                       {
                         "x": 294.766,
-                        "y": 420
+                        "y": 405
                       },
                       {
                         "x": 219.766,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 162.266,
@@ -3313,11 +3410,11 @@
                       },
                       {
                         "x": 299.766,
-                        "y": 417.5
+                        "y": 405
                       },
                       {
                         "x": 214.766,
-                        "y": 412.5
+                        "y": 405
                       },
                       {
                         "x": 197.266,
@@ -3363,11 +3460,11 @@
                       },
                       {
                         "x": 302.266,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 212.266,
-                        "y": 412.5
+                        "y": 405
                       },
                       {
                         "x": 197.266,
@@ -3413,11 +3510,11 @@
                       },
                       {
                         "x": 302.266,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 207.266,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 194.766,
@@ -3463,11 +3560,11 @@
                       },
                       {
                         "x": 297.266,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 209.766,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 187.266,
@@ -3513,11 +3610,11 @@
                       },
                       {
                         "x": 294.766,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 214.766,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 187.266,
@@ -3563,11 +3660,11 @@
                       },
                       {
                         "x": 299.766,
-                        "y": 412.5
+                        "y": 405
                       },
                       {
                         "x": 212.266,
-                        "y": 412.5
+                        "y": 405
                       },
                       {
                         "x": 184.766,
@@ -3613,11 +3710,11 @@
                       },
                       {
                         "x": 304.766,
-                        "y": 412.5
+                        "y": 405
                       },
                       {
                         "x": 214.766,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 177.266,
@@ -3663,11 +3760,11 @@
                       },
                       {
                         "x": 299.766,
-                        "y": 417.5
+                        "y": 405
                       },
                       {
                         "x": 219.766,
-                        "y": 412.5
+                        "y": 405
                       },
                       {
                         "x": 179.766,
@@ -3713,11 +3810,11 @@
                       },
                       {
                         "x": 297.266,
-                        "y": 415
+                        "y": 405
                       },
                       {
                         "x": 209.766,
-                        "y": 412.5
+                        "y": 405
                       },
                       {
                         "x": 162.266,
@@ -3769,11 +3866,11 @@
                       },
                       {
                         "x": 296.849,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 216.849,
-                        "y": 411.667
+                        "y": 405
                       },
                       {
                         "x": 181.849,
@@ -3821,11 +3918,11 @@
                       },
                       {
                         "x": 296.849,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 216.849,
-                        "y": 411.667
+                        "y": 405
                       },
                       {
                         "x": 181.849,
@@ -3925,11 +4022,11 @@
                       },
                       {
                         "x": 296.849,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 216.849,
-                        "y": 411.667
+                        "y": 405
                       },
                       {
                         "x": 181.849,
@@ -3977,11 +4074,11 @@
                       },
                       {
                         "x": 304.766,
-                        "y": 382.5
+                        "y": 405
                       },
                       {
                         "x": 217.266,
-                        "y": 387.5
+                        "y": 405
                       },
                       {
                         "x": 181.849,
@@ -4029,11 +4126,11 @@
                       },
                       {
                         "x": 299.766,
-                        "y": 340
+                        "y": 405
                       },
                       {
                         "x": 229.766,
-                        "y": 337.5
+                        "y": 405
                       },
                       {
                         "x": 172.266,
@@ -4085,11 +4182,11 @@
                       },
                       {
                         "x": 227.266,
-                        "y": 312.5
+                        "y": 405
                       },
                       {
                         "x": 182.266,
-                        "y": 257.5
+                        "y": 405
                       },
                       {
                         "x": 164.766,
@@ -4133,11 +4230,11 @@
                       },
                       {
                         "x": 297.266,
-                        "y": 335
+                        "y": 405
                       },
                       {
                         "x": 227.266,
-                        "y": 335
+                        "y": 405
                       },
                       {
                         "x": 181.849,
@@ -4185,11 +4282,11 @@
                       },
                       {
                         "x": 294.766,
-                        "y": 382.5
+                        "y": 405
                       },
                       {
                         "x": 222.266,
-                        "y": 387.5
+                        "y": 405
                       },
                       {
                         "x": 179.766,
@@ -4237,11 +4334,11 @@
                       },
                       {
                         "x": 296.849,
-                        "y": 410
+                        "y": 405
                       },
                       {
                         "x": 216.849,
-                        "y": 411.667
+                        "y": 405
                       },
                       {
                         "x": 181.849,
@@ -4265,24 +4362,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "height": 32,
-      "name": "podloga",
-      "tags": "",
-      "texture": "desktop-icon-512-1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
         }
       ]
     },
@@ -4375,16 +4454,6 @@
           ]
         }
       ]
-    },
-    {
-      "height": 32,
-      "name": "HitZone",
-      "tags": "",
-      "texture": "NewFile-1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "behaviors": []
     },
     {
       "name": "AddHeart",
@@ -4577,6 +4646,353 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Heart",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "heart.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coin",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.05,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AddScore",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.05,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gold_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hit",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Lives",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Score",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 50,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "objectsGroups": [],
@@ -5400,7 +5816,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.874
+        "zoomFactor": 0.394
       },
       "objectsGroups": [
         {
@@ -5429,29 +5845,14 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Grid",
-          "locked": false,
-          "name": "Lives",
-          "width": 0,
-          "x": 740,
-          "y": 6,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
-          "height": 100,
+          "height": 150,
           "layer": "",
           "locked": false,
           "name": "Player",
-          "width": 100,
-          "x": 28,
-          "y": 446,
+          "width": 150,
+          "x": 104,
+          "y": 381,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -5462,10 +5863,10 @@
           "customSize": false,
           "height": 0,
           "layer": "Layer2",
-          "locked": false,
+          "locked": true,
           "name": "Background",
           "width": 0,
-          "x": -400,
+          "x": -393,
           "y": -420,
           "zOrder": 11,
           "numberProperties": [],
@@ -5477,7 +5878,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Layer3",
-          "locked": false,
+          "locked": true,
           "name": "Background1",
           "width": 0,
           "x": -400,
@@ -5492,7 +5893,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Layer4",
-          "locked": false,
+          "locked": true,
           "name": "Background2",
           "width": 0,
           "x": -400,
@@ -5507,7 +5908,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Layer5",
-          "locked": false,
+          "locked": true,
           "name": "Background3",
           "width": 0,
           "x": -400,
@@ -5522,7 +5923,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Layer6",
-          "locked": false,
+          "locked": true,
           "name": "Background4",
           "width": 0,
           "x": -400,
@@ -5537,7 +5938,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Layer2",
-          "locked": false,
+          "locked": true,
           "name": "Background",
           "width": 0,
           "x": 1520,
@@ -5552,7 +5953,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Layer3",
-          "locked": false,
+          "locked": true,
           "name": "Background1",
           "width": 0,
           "x": 1520,
@@ -5567,7 +5968,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Layer4",
-          "locked": false,
+          "locked": true,
           "name": "Background2",
           "width": 0,
           "x": 1520,
@@ -5582,7 +5983,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Layer5",
-          "locked": false,
+          "locked": true,
           "name": "Background3",
           "width": 0,
           "x": 1520,
@@ -5597,7 +5998,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Layer6",
-          "locked": false,
+          "locked": true,
           "name": "Background4",
           "width": 0,
           "x": 1520,
@@ -5612,7 +6013,7 @@
           "customSize": true,
           "height": 50,
           "layer": "Grid",
-          "locked": false,
+          "locked": true,
           "name": "Heart",
           "width": 50,
           "x": 685,
@@ -5625,44 +6026,149 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 72,
-          "layer": "",
-          "locked": false,
-          "name": "podloga",
-          "width": 1231,
-          "x": -163,
-          "y": 564,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 30,
-          "layer": "",
-          "locked": false,
-          "name": "AddHeart",
-          "width": 30,
-          "x": 610,
-          "y": 505,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 30,
           "layer": "",
           "locked": false,
           "name": "AddScore",
           "width": 30,
-          "x": 383,
-          "y": 438,
+          "x": 1233,
+          "y": 436,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "Grid",
+          "locked": true,
+          "name": "Coin",
+          "width": 50,
+          "x": 10,
+          "y": 10,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Tile1",
+          "width": 5538,
+          "x": -273,
+          "y": 545,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Tile2",
+          "width": 128,
+          "x": -400,
+          "y": 545,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 164,
+          "layer": "",
+          "locked": false,
+          "name": "Tile4",
+          "width": 128,
+          "x": -400,
+          "y": 669,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Tile5",
+          "width": 5538,
+          "x": -273,
+          "y": 672,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 745,
+          "layer": "",
+          "locked": false,
+          "name": "Tile6",
+          "width": 128,
+          "x": -83,
+          "y": -200,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 745,
+          "layer": "",
+          "locked": false,
+          "name": "Tile5",
+          "width": 320,
+          "x": -400,
+          "y": -200,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": -4,
+          "y": 492,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Grid",
+          "locked": false,
+          "name": "Lives",
+          "width": 0,
+          "x": 744,
+          "y": 5,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5675,9 +6181,9 @@
           "locked": false,
           "name": "Score",
           "width": 0,
-          "x": 60,
-          "y": 6,
-          "zOrder": 20,
+          "x": 66,
+          "y": 5,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5685,187 +6191,50 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 50,
-          "layer": "Grid",
+          "height": 91,
+          "layer": "",
           "locked": false,
-          "name": "Coin",
-          "width": 50,
-          "x": 10,
-          "y": 10,
-          "zOrder": 21,
+          "name": "Tile7",
+          "width": 128,
+          "x": 735,
+          "y": 360,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile8",
+          "width": 157,
+          "x": 863,
+          "y": 360,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile9",
+          "width": 128,
+          "x": 1020,
+          "y": 360,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "bold": true,
-          "italic": false,
-          "name": "Score",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "characterSize": 50,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "Lives",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "characterSize": 50,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "name": "Hit",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Arrow1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Arrow1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 69.0278,
-                            "y": 52.5
-                          },
-                          {
-                            "x": 37.3611,
-                            "y": 51.9444
-                          },
-                          {
-                            "x": 35.6944,
-                            "y": 56.1111
-                          },
-                          {
-                            "x": 24.3056,
-                            "y": 56.1111
-                          },
-                          {
-                            "x": 25.4167,
-                            "y": 50.5556
-                          },
-                          {
-                            "x": 24.5833,
-                            "y": 45.5556
-                          },
-                          {
-                            "x": 35.1389,
-                            "y": 44.7222
-                          },
-                          {
-                            "x": 36.8056,
-                            "y": 48.6111
-                          },
-                          {
-                            "x": 68.75,
-                            "y": 47.7778
-                          },
-                          {
-                            "x": 71.5278,
-                            "y": 43.6111
-                          },
-                          {
-                            "x": 89.0278,
-                            "y": 50.8333
-                          },
-                          {
-                            "x": 72.3611,
-                            "y": 57.7778
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "name": "Background4",
           "tags": "",
@@ -6063,21 +6432,163 @@
         },
         {
           "height": 32,
-          "name": "Floor1",
+          "name": "Tile1",
           "tags": "",
-          "texture": "tileworld1t0010a.png",
+          "texture": "Tile2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
-          "name": "Heart",
+          "height": 32,
+          "name": "Tile2",
+          "tags": "",
+          "texture": "Tile1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile3",
+          "tags": "",
+          "texture": "Tile3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile4",
+          "tags": "",
+          "texture": "Tile4.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile5",
+          "tags": "",
+          "texture": "Tile5.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile6",
+          "tags": "",
+          "texture": "Tile6.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile7",
+          "tags": "",
+          "texture": "Tile7.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile8",
+          "tags": "",
+          "texture": "Tile8.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "Stone",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -6089,7 +6600,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "heart.png",
+                      "image": "Stone.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6111,233 +6622,20 @@
           ]
         },
         {
-          "name": "Coin",
+          "height": 32,
+          "name": "Tile9",
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "texture": "Tile9.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
           "variables": [],
-          "behaviors": [],
-          "animations": [
+          "behaviors": [
             {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.05,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "AddScore",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.05,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Gold_10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
             }
           ]
         }
@@ -6406,7 +6704,18 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Toujours"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -6433,94 +6742,73 @@
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "HitZone",
-                "",
-                "",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Player.X()*0.3",
+                    "\"Layer2\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Player.X()*0.25",
+                    "\"Layer3\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Player.X()*0.20",
+                    "\"Layer4\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Player.X()*0.15",
+                    "\"Layer5\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Lives",
-                "-",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LireFichierExp"
-              },
-              "parameters": [
-                "\"Position\"",
-                "\"PlayerX\"",
-                "",
-                "PlayerXPosition"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LireFichierExp"
-              },
-              "parameters": [
-                "\"Position\"",
-                "\"PlayerY\"",
-                "",
-                "PlayerYPosition"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "Variable(PlayerXPosition)",
-                "=",
-                "Variable(PlayerYPosition)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "Arrow",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
+          ]
         },
         {
           "disabled": false,
@@ -6562,71 +6850,6 @@
                 "Lives",
                 "=",
                 "3"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CameraX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Player.X()*0.3",
-                "\"Layer2\"",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "CameraX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Player.X()*0.25",
-                "\"Layer3\"",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "CameraX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Player.X()*0.20",
-                "\"Layer4\"",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "CameraX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Player.X()*0.15",
-                "\"Layer5\"",
-                ""
               ],
               "subInstructions": []
             }
@@ -7384,47 +7607,6 @@
                             "\"Attack\""
                           ],
                           "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "Arrow1",
-                            "Player.PointX(\"Shoot\")-15",
-                            "Player.PointY(\"Shoot\")",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "AddForceVers"
-                          },
-                          "parameters": [
-                            "Arrow1",
-                            "Hit",
-                            "500",
-                            "1"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "RotateTowardPosition"
-                          },
-                          "parameters": [
-                            "Arrow1",
-                            "Hit.X()",
-                            "Hit.Y()",
-                            "0",
-                            ""
-                          ],
-                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -7481,47 +7663,6 @@
                           "parameters": [
                             "Player",
                             "\"Attack\""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "Arrow1",
-                            "Player.PointX(\"Shoot\")",
-                            "Player.PointY(\"Shoot\")",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "AddForceVers"
-                          },
-                          "parameters": [
-                            "Arrow1",
-                            "Hit",
-                            "300",
-                            "1"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "RotateTowardPosition"
-                          },
-                          "parameters": [
-                            "Arrow1",
-                            "Hit.X()",
-                            "Hit.Y()",
-                            "0",
-                            ""
                           ],
                           "subInstructions": []
                         }
@@ -7688,6 +7829,20 @@
                 "",
                 "=",
                 "Player.X()",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.Y()",
                 "",
                 ""
               ],
