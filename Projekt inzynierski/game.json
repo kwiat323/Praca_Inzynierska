@@ -6056,7 +6056,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.214
+        "zoomFactor": 0.334
       },
       "objectsGroups": [
         {
@@ -6484,6 +6484,21 @@
           "x": 947,
           "y": 280,
           "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 1393,
+          "y": 491,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7429,19 +7444,6 @@
                 "\"Shooting\""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Player",
-                "\"Flipped",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -8190,20 +8192,6 @@
                 "",
                 "=",
                 "Player.X()",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "CameraY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Player.Y()",
                 "",
                 ""
               ],
