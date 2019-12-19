@@ -1909,6 +1909,13 @@
         "name": "small_wood_spike_04.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Spike.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Spike.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3524,12 +3531,12 @@
                         "y": 422.5
                       },
                       {
-                        "x": 363.75,
-                        "y": 497.5
+                        "x": 366.5,
+                        "y": 480
                       },
                       {
-                        "x": 218.75,
-                        "y": 492.5
+                        "x": 221.5,
+                        "y": 475
                       },
                       {
                         "x": 53.75,
@@ -3582,8 +3589,8 @@
                         "y": 485
                       },
                       {
-                        "x": 81.25,
-                        "y": 535
+                        "x": 59.5,
+                        "y": 485
                       },
                       {
                         "x": 51.25,
@@ -5336,7 +5343,51 @@
       }
     }
   ],
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Tiles",
+      "objects": [
+        {
+          "name": "Tile1"
+        },
+        {
+          "name": "Tile2"
+        },
+        {
+          "name": "Tile3"
+        },
+        {
+          "name": "Tile4"
+        },
+        {
+          "name": "Tile5"
+        },
+        {
+          "name": "Tile6"
+        },
+        {
+          "name": "Tile7"
+        },
+        {
+          "name": "Tile8"
+        },
+        {
+          "name": "Tile9"
+        },
+        {
+          "name": "Stone"
+        }
+      ]
+    },
+    {
+      "name": "Enemy",
+      "objects": [
+        {
+          "name": "Spike"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "Lives",
@@ -6615,45 +6666,9 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.466
+        "zoomFactor": 0.298
       },
-      "objectsGroups": [
-        {
-          "name": "Tiles",
-          "objects": [
-            {
-              "name": "Tile1"
-            },
-            {
-              "name": "Tile2"
-            },
-            {
-              "name": "Tile3"
-            },
-            {
-              "name": "Tile4"
-            },
-            {
-              "name": "Tile5"
-            },
-            {
-              "name": "Tile6"
-            },
-            {
-              "name": "Tile7"
-            },
-            {
-              "name": "Tile8"
-            },
-            {
-              "name": "Tile9"
-            },
-            {
-              "name": "Stone"
-            }
-          ]
-        }
-      ],
+      "objectsGroups": [],
       "variables": [
         {
           "name": "PlayerX",
@@ -7013,7 +7028,7 @@
           "width": 128,
           "x": 735,
           "y": 360,
-          "zOrder": 33,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7043,7 +7058,7 @@
           "width": 128,
           "x": 1020,
           "y": 360,
-          "zOrder": 35,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7928,19 +7943,8 @@
                 "value": "ResetObjectTimer"
               },
               "parameters": [
-                "Player",
-                "\"IsDead\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PauseObjectTimer"
-              },
-              "parameters": [
-                "Player",
-                "\"IsDead\""
+                "Spike",
+                "\"UpTimer\""
               ],
               "subInstructions": []
             },
@@ -7951,18 +7955,7 @@
               },
               "parameters": [
                 "Spike",
-                "\"Up\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Spike",
-                "\"Down\""
+                "\"DownTimer\""
               ],
               "subInstructions": []
             },
@@ -7973,7 +7966,7 @@
               },
               "parameters": [
                 "Player",
-                "\"Down\""
+                "\"DownTimer\""
               ],
               "subInstructions": []
             }
@@ -8093,19 +8086,55 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Gdy brak playera na mapie",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "NbObjet"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "Player",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NbObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Lives",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -8134,122 +8163,60 @@
                 ""
               ],
               "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
                 "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Arrow",
-                "Tiles",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "Arrow",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Lives",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "UnPauseObjectTimer"
+                "value": "ChangeHeight"
               },
               "parameters": [
                 "Player",
-                "\"IsDead\""
+                "=",
+                "150"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "SetAnimationName"
+                "value": "ChangeWidth"
               },
               "parameters": [
                 "Player",
-                "\"Die\""
+                "=",
+                "150"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "10"
               ],
               "subInstructions": []
             }
           ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectTimer"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"IsDead\"",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Menu\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Zachowanie spike",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -8263,7 +8230,7 @@
               },
               "parameters": [
                 "Spike",
-                "\"Up\"",
+                "\"UpTimer\"",
                 "3"
               ],
               "subInstructions": []
@@ -8289,7 +8256,7 @@
               },
               "parameters": [
                 "Spike",
-                "\"Up\""
+                "\"UpTimer\""
               ],
               "subInstructions": []
             },
@@ -8300,7 +8267,7 @@
               },
               "parameters": [
                 "Spike",
-                "\"Up\""
+                "\"UpTimer\""
               ],
               "subInstructions": []
             },
@@ -8311,7 +8278,7 @@
               },
               "parameters": [
                 "Spike",
-                "\"Down\""
+                "\"DownTimer\""
               ],
               "subInstructions": []
             },
@@ -8322,12 +8289,51 @@
               },
               "parameters": [
                 "Spike",
-                "\"Down\""
+                "\"DownTimer\""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Spike",
+                    "400",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Spike.wav",
+                    "2",
+                    "",
+                    "5",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -8341,7 +8347,7 @@
               },
               "parameters": [
                 "Spike",
-                "\"Down\"",
+                "\"DownTimer\"",
                 "3"
               ],
               "subInstructions": []
@@ -8367,7 +8373,7 @@
               },
               "parameters": [
                 "Spike",
-                "\"Down\""
+                "\"DownTimer\""
               ],
               "subInstructions": []
             },
@@ -8378,7 +8384,7 @@
               },
               "parameters": [
                 "Spike",
-                "\"Down\""
+                "\"DownTimer\""
               ],
               "subInstructions": []
             },
@@ -8389,133 +8395,12 @@
               },
               "parameters": [
                 "Spike",
-                "\"Up\""
+                "\"UpTimer\""
               ],
               "subInstructions": []
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Spike",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Animation"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ]
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Player",
-                "\"Die\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Lives",
-                "-",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "UnPauseObjectTimer"
-              },
-              "parameters": [
-                "Player",
-                "\"IsDead\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectTimer"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"IsDead\"",
-                    "5"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Player",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
         }
       ],
       "layers": [
@@ -8670,7 +8555,7 @@
               },
               "parameters": [
                 "Player",
-                "\"Shooting\""
+                "\"ShootingTimer\""
               ],
               "subInstructions": []
             },
@@ -8681,7 +8566,41 @@
               },
               "parameters": [
                 "Player",
-                "\"Shooting\""
+                "\"ShootingTimer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"IsDeadTimer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"IsDeadTimer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "yes"
               ],
               "subInstructions": []
             }
@@ -8759,7 +8678,7 @@
               },
               "parameters": [
                 "Player",
-                "\"Flipped",
+                "Flipped",
                 "=",
                 "0"
               ],
@@ -8824,7 +8743,7 @@
               },
               "parameters": [
                 "Player",
-                "\"Flipped",
+                "Flipped",
                 "=",
                 "1"
               ],
@@ -8979,6 +8898,19 @@
                   "subInstructions": []
                 }
               ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "IsDead",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -9083,15 +9015,37 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarObjet"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "Player",
-                    "IsShooting",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Player",
+                        "IsShooting",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Player",
+                        "IsDead",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ],
               "actions": [],
@@ -9345,7 +9299,7 @@
                           },
                           "parameters": [
                             "Player",
-                            "\"Flipped\"",
+                            "Flipped",
                             "=",
                             "0"
                           ],
@@ -9373,7 +9327,7 @@
                           },
                           "parameters": [
                             "Player",
-                            "\"Shooting\""
+                            "\"ShootingTimer\""
                           ],
                           "subInstructions": []
                         },
@@ -9471,7 +9425,7 @@
                           },
                           "parameters": [
                             "Player",
-                            "\"Flipped\"",
+                            "Flipped",
                             "=",
                             "1"
                           ],
@@ -9499,7 +9453,7 @@
                           },
                           "parameters": [
                             "Player",
-                            "\"Shooting\""
+                            "\"ShootingTimer\""
                           ],
                           "subInstructions": []
                         },
@@ -9603,7 +9557,7 @@
               },
               "parameters": [
                 "Player",
-                "\"Shooting\"",
+                "\"ShootingTimer\"",
                 "1"
               ],
               "subInstructions": []
@@ -9630,7 +9584,7 @@
               },
               "parameters": [
                 "Player",
-                "\"Shooting\""
+                "\"ShootingTimer\""
               ],
               "subInstructions": []
             },
@@ -9641,7 +9595,7 @@
               },
               "parameters": [
                 "Player",
-                "\"Shooting\""
+                "\"ShootingTimer\""
               ],
               "subInstructions": []
             },
@@ -9658,6 +9612,144 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player umarł",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "IsDead",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Lives",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Die\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "UnPauseObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"IsDeadTimer\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"IsDeadTimer\"",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Player",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -9792,6 +9884,246 @@
                 "Score",
                 "+",
                 "10"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Kolizja z Enemy",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Enemy",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "IsDead",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Liczba żyć = 0",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Lives",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "UnPauseObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"IsDeadTimer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Die\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"IsDeadTimer\"",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"IsDeadTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"IsDeadTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Zachowanie arrow",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "Tiles",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "Enemy",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Arrow",
+                ""
               ],
               "subInstructions": []
             }
