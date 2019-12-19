@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Kuba\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1807,6 +1807,71 @@
         "metadata": "",
         "name": "Tile9.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "PickHeart.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "PickHeart.wav",
+        "userAdded": false
+      },
+      {
+        "file": "PickCoin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "PickCoin.wav",
+        "userAdded": false
+      },
+      {
+        "file": "Jump.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jump.wav",
+        "userAdded": true
+      },
+      {
+        "file": "ArrowShoot.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ArrowShoot.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Jungle.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jungle.wav",
+        "userAdded": false
+      },
+      {
+        "file": "Jungle.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jungle.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sign_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sign_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Run.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Run.wav",
+        "userAdded": true
+      },
+      {
+        "file": "BackgroundMusicMenu.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "BackgroundMusicMenu.mp3",
         "userAdded": true
       }
     ],
@@ -4905,7 +4970,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "heart.png",
+                  "image": "Bronze_11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5271,31 +5336,11 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.168
+        "zoomFactor": 1.48
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 600,
-          "layer": "",
-          "locked": false,
-          "name": "Background",
-          "width": 800,
-          "x": -352,
-          "y": -1141,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": -2147480000
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -5337,6 +5382,21 @@
           "x": 365,
           "y": 360,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "width": 0,
+          "x": -389,
+          "y": -1019,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5520,6 +5580,51 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Przycisk_start",
+                "=",
+                "255"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Przycisk_exit",
+                "=",
+                "255"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Przycisk_load",
+                "=",
+                "255"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -5598,6 +5703,21 @@
                 "\"Button_timer_exit\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "BackgroundMusicMenu.mp3",
+                "1",
+                "",
+                "5",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -5636,7 +5756,20 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Przycisk_start",
+                "=",
+                "200"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -5713,7 +5846,20 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Przycisk_load",
+                "=",
+                "200"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -5790,7 +5936,20 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Przycisk_exit",
+                "=",
+                "200"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -5900,7 +6059,7 @@
               },
               "parameters": [
                 "",
-                "\"1\""
+                "\"Info\""
               ],
               "subInstructions": []
             }
@@ -6023,9 +6182,373 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Info",
+      "name": "Info",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.472
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Information",
+          "width": 0,
+          "x": 30,
+          "y": 38,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ChangeScene",
+          "width": 0,
+          "x": 120,
+          "y": 550,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Information",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Sterowanie\n\nPoruszanie się:\nA,D,Strzałka w lewo, Strzałka w prawo\n\nAtak:\nLewy przycisk myszy\n\nSkok:\nSpacja,Strzałka w górę",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "ChangeScene",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Naciśnij lewy przycisk myszy, aby przejść dalej...",
+          "font": "",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "ExitGame"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Info2\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Info2",
+      "name": "Info2",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Information",
+          "width": 0,
+          "x": 12,
+          "y": 174,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "Coin",
+          "width": 80,
+          "x": 155,
+          "y": 155,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Information2",
+          "width": 0,
+          "x": 120,
+          "y": 550,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "Heart",
+          "width": 80,
+          "x": 155,
+          "y": 295,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Information",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Zbieraj         aby zwiększyć swój wynik\n\n\nZbieraj         aby zwiększyć swój limit żyć",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Information2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Naciśnij lewy przycisk myszy, aby przejść dalej...",
+          "font": "",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "ExitGame"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"1\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -6054,14 +6577,45 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
-        "windowMask": false,
-        "zoomFactor": 0.334
+        "snap": false,
+        "windowMask": true,
+        "zoomFactor": 0.562
       },
       "objectsGroups": [
         {
-          "name": "Group",
-          "objects": []
+          "name": "Tiles",
+          "objects": [
+            {
+              "name": "Tile1"
+            },
+            {
+              "name": "Tile2"
+            },
+            {
+              "name": "Tile3"
+            },
+            {
+              "name": "Tile4"
+            },
+            {
+              "name": "Tile5"
+            },
+            {
+              "name": "Tile6"
+            },
+            {
+              "name": "Tile7"
+            },
+            {
+              "name": "Tile8"
+            },
+            {
+              "name": "Tile9"
+            },
+            {
+              "name": "Stone"
+            }
+          ]
         }
       ],
       "variables": [
@@ -6091,8 +6645,8 @@
           "locked": false,
           "name": "Player",
           "width": 150,
-          "x": 190,
-          "y": 497,
+          "x": 153,
+          "y": 501,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -6252,27 +6806,12 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "Grid",
-          "locked": true,
-          "name": "Heart",
-          "width": 50,
-          "x": 685,
-          "y": 10,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
           "layer": "",
           "locked": false,
           "name": "AddScore",
           "width": 50,
-          "x": 841,
-          "y": 284,
+          "x": 931,
+          "y": 475,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -6475,15 +7014,60 @@
         },
         {
           "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 1452,
+          "y": 493,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Sign",
+          "width": 0,
+          "x": 544,
+          "y": 480,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": true,
           "height": 50,
           "layer": "",
           "locked": false,
-          "name": "AddHeart",
+          "name": "AddScore",
           "width": 50,
-          "x": 947,
+          "x": 834,
           "y": 280,
-          "zOrder": 36,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 1013,
+          "y": 280,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6496,9 +7080,24 @@
           "locked": false,
           "name": "Stone",
           "width": 0,
-          "x": 1393,
-          "y": 491,
+          "x": 2010,
+          "y": 493,
           "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "Grid",
+          "locked": false,
+          "name": "Heart",
+          "width": 50,
+          "x": 685,
+          "y": 10,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6908,9 +7507,126 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "name": "Sign",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sign_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34.9072,
+                            "y": 35
+                          },
+                          {
+                            "x": 24.2822,
+                            "y": 35.3125
+                          },
+                          {
+                            "x": 23.25,
+                            "y": 63.5
+                          },
+                          {
+                            "x": 13.3447,
+                            "y": 63.4375
+                          },
+                          {
+                            "x": 13.9697,
+                            "y": 34.375
+                          },
+                          {
+                            "x": 0.844727,
+                            "y": 34.6875
+                          },
+                          {
+                            "x": 0.219727,
+                            "y": 12.8125
+                          },
+                          {
+                            "x": 13.6572,
+                            "y": 12.8125
+                          },
+                          {
+                            "x": 13.6572,
+                            "y": 1.25
+                          },
+                          {
+                            "x": 23.6572,
+                            "y": 1.25
+                          },
+                          {
+                            "x": 23.9697,
+                            "y": 13.75
+                          },
+                          {
+                            "x": 35.5322,
+                            "y": 13.75
+                          },
+                          {
+                            "x": 35.5322,
+                            "y": 9.375
+                          },
+                          {
+                            "x": 61.1572,
+                            "y": 22.8125
+                          },
+                          {
+                            "x": 35.5322,
+                            "y": 39.0625
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Linki z zachowaniem",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -6941,6 +7657,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Background i background sound",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6958,12 +7689,37 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeAnimation"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
-                "AddHeart",
-                "=",
-                "0"
+                "",
+                "Jungle.mp3",
+                "1",
+                "yes",
+                "2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"IsDead\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"IsDead\""
               ],
               "subInstructions": []
             }
@@ -7088,99 +7844,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Lives",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Menu\"",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Lives",
-                "=",
-                "3"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "AddHeart",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "AddHeart",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Lives",
-                "+",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
                 "value": "NbObjet"
               },
               "parameters": [
@@ -7256,8 +7919,8 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
-                "AddScore",
+                "Arrow",
+                "Tiles",
                 "",
                 "",
                 ""
@@ -7272,20 +7935,87 @@
                 "value": "Delete"
               },
               "parameters": [
-                "AddScore",
+                "Arrow",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Lives",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "UnPauseObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"IsDead\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarGlobal"
+                "value": "ChangeAnimation"
               },
               "parameters": [
-                "Score",
-                "+",
-                "10"
+                "Player",
+                "=",
+                "\"Dead\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"IsDead\"",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
               ],
               "subInstructions": []
             }
@@ -7409,6 +8139,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Po rozpoczęciu sceny reset oraz zapauzowanie timera \"Shooting\"",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7447,6 +8192,21 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Odwracanie asseta postaci w stronę w którą idzie",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -7586,6 +8346,117 @@
             {
               "type": {
                 "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Animacja skoku + dźwięk",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Or"
               },
               "parameters": [],
@@ -7628,7 +8499,67 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Jump.wav",
+                    "",
+                    "",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Sprawdzanie czy postać się porusza oraz czy aktualnie postać atakuje",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -7698,9 +8629,56 @@
                         "\"Run\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        "=",
+                        "250"
+                      ],
+                      "subInstructions": []
                     }
                   ],
-                  "events": []
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "Run.wav",
+                            "3",
+                            "yes",
+                            "5",
+                            "0.8"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 },
                 {
                   "disabled": false,
@@ -7730,9 +8708,35 @@
                         "\"Stand\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "3"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Postać atakuje",
+                  "comment2": ""
                 },
                 {
                   "disabled": false,
@@ -7806,6 +8810,30 @@
                             "Hit"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlatformBehavior::MaxSpeed"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject",
+                            "=",
+                            "100"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PauseSoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "3"
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -7873,8 +8901,8 @@
                           "parameters": [
                             "",
                             "Arrow",
-                            "Player.X(\"Shoot\")",
-                            "Player.Y(\"Shoot\")",
+                            "Player.PointX(\"Shoot\")",
+                            "Player.PointY(\"Shoot\")",
                             ""
                           ],
                           "subInstructions": []
@@ -7915,6 +8943,21 @@
                             "Hit",
                             "500",
                             "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "ArrowShoot.wav",
+                            "2",
+                            "",
+                            "15",
+                            "3"
                           ],
                           "subInstructions": []
                         }
@@ -7984,8 +9027,8 @@
                           "parameters": [
                             "",
                             "Arrow",
-                            "Player.X(\"Shoot\")",
-                            "Player.Y(\"Shoot\")",
+                            "Player.PointX(\"Shoot\")",
+                            "Player.PointY(\"Shoot\")",
                             ""
                           ],
                           "subInstructions": []
@@ -8026,6 +9069,21 @@
                             "Hit",
                             "500",
                             "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "ArrowShoot.wav",
+                            "2",
+                            "",
+                            "15",
+                            "3"
                           ],
                           "subInstructions": []
                         }
@@ -8109,16 +9167,34 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Kolizja Player z Sercem i Monetą",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "CollisionNP"
               },
               "parameters": [
+                "Player",
+                "AddHeart",
                 "",
-                "d"
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -8127,11 +9203,38 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlatformBehavior::SimulateRightKey"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
-                "Player",
-                "PlatformerObject"
+                "",
+                "PickHeart.wav",
+                "2",
+                "",
+                "15",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "AddHeart",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Lives",
+                "+",
+                "1"
               ],
               "subInstructions": []
             }
@@ -8146,11 +9249,14 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "CollisionNP"
               },
               "parameters": [
+                "Player",
+                "AddScore",
                 "",
-                "a"
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -8159,11 +9265,38 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlatformBehavior::SimulateLeftKey"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
-                "Player",
-                "PlatformerObject"
+                "",
+                "PickCoin.wav",
+                "2",
+                "",
+                "15",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "AddScore",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
               ],
               "subInstructions": []
             }
@@ -8177,6 +9310,38 @@
       "lastChangeTimeStamp": 0,
       "name": "Camera",
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "AddHeart",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
