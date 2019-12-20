@@ -1961,6 +1961,13 @@
         "name": "Right.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Fly.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Fly.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5373,25 +5380,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": true,
-      "variables": [],
-      "behaviors": [
+      "variables": [
         {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 0,
-          "canGrabPlatforms": false,
-          "deceleration": 0,
-          "gravity": 0,
-          "ignoreDefaultControls": true,
-          "jumpSpeed": 0,
-          "maxFallingSpeed": 0,
-          "maxSpeed": 0,
-          "roundCoordinates": true,
-          "slopeMaxAngle": 60,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
+          "name": "GoingLeft",
+          "value": "1"
         }
       ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -5462,7 +5457,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 45.5,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 45.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 13.5,
+                        "y": 32.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -7429,8 +7443,8 @@
           "locked": false,
           "name": "Fly",
           "width": 0,
-          "x": 1213,
-          "y": 259,
+          "x": 1395,
+          "y": 256,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -7552,6 +7566,36 @@
           "x": 2721,
           "y": 447,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 1139,
+          "y": 260,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 1508,
+          "y": 258,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8737,7 +8781,7 @@
               "parameters": [
                 "Player",
                 "=",
-                "10"
+                "30"
               ],
               "subInstructions": []
             }
@@ -8849,7 +8893,7 @@
                   "parameters": [
                     "Player",
                     "Spike",
-                    "400",
+                    "600",
                     ""
                   ],
                   "subInstructions": []
@@ -8864,7 +8908,7 @@
                   "parameters": [
                     "",
                     "Spike.wav",
-                    "2",
+                    "4",
                     "",
                     "5",
                     ""
@@ -8969,8 +9013,8 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GoLeft",
                 "Fly",
+                "GoLeft",
                 ""
               ],
               "subInstructions": []
@@ -9004,8 +9048,8 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GoRight",
                 "Fly",
+                "GoRight",
                 ""
               ],
               "subInstructions": []
@@ -9039,7 +9083,7 @@
                 "value": "Animation"
               },
               "parameters": [
-                "Enemy",
+                "Fly",
                 "=",
                 "0"
               ],
@@ -9071,35 +9115,24 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Fly",
-                    "-3",
-                    "0",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateLeftKey"
-                  },
-                  "parameters": [
-                    "Fly",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "FlipX"
                   },
                   "parameters": [
                     "Fly",
                     "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Fly",
+                    "180",
+                    "50",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -9129,35 +9162,24 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Fly",
-                    "3",
-                    "0",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateRightKey"
-                  },
-                  "parameters": [
-                    "Fly",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "FlipX"
                   },
                   "parameters": [
                     "Fly",
                     "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Fly",
+                    "0",
+                    "50",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -9195,41 +9217,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Animation"
-                  },
-                  "parameters": [
-                    "Fly",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceVers"
-                  },
-                  "parameters": [
-                    "Fly",
-                    "Player",
-                    "3",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -9252,18 +9239,6 @@
                     "Fly",
                     "=",
                     "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Score",
-                    "+",
-                    "10"
                   ],
                   "subInstructions": []
                 }
@@ -9302,11 +9277,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "TopDownMovementBehavior::SimulateDownKey"
+                    "value": "AddForceAL"
                   },
                   "parameters": [
                     "Fly",
-                    "TopDownMovement"
+                    "90",
+                    "200",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -9320,22 +9297,14 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlatformBehavior::IsOnFloor"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
                         "Fly",
-                        "PlatformerObject"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::IsMoving"
-                      },
-                      "parameters": [
-                        "Fly",
-                        "PlatformerObject"
+                        "Tiles",
+                        "1",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -9359,7 +9328,7 @@
                       "parameters": [
                         "Fly",
                         "-",
-                        "25*TimeDelta()"
+                        "75*TimeDelta()"
                       ],
                       "subInstructions": []
                     }
@@ -9396,7 +9365,64 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "AddScore",
+                                "Fly.X()",
+                                "Fly.Y()-50",
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeHeight"
+                              },
+                              "parameters": [
+                                "AddScore",
+                                "=",
+                                "50"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeWidth"
+                              },
+                              "parameters": [
+                                "AddScore",
+                                "=",
+                                "50"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 }
