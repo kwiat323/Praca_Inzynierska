@@ -1968,6 +1968,33 @@
         "metadata": "",
         "name": "Fly.wav",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "long.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "long.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "short.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "short.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "short1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "short1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6923,7 +6950,7 @@
       "title": "",
       "v": 218,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -6931,9 +6958,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": false,
+        "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.658
+        "zoomFactor": 0.154
       },
       "objectsGroups": [],
       "variables": [
@@ -6965,7 +6992,7 @@
           "width": 150,
           "x": 153,
           "y": 501,
-          "zOrder": 30,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7130,7 +7157,7 @@
           "width": 50,
           "x": 999,
           "y": 468,
-          "zOrder": 19,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7157,10 +7184,10 @@
           "layer": "",
           "locked": false,
           "name": "Tile1",
-          "width": 5538,
+          "width": 3473,
           "x": -273,
           "y": 545,
-          "zOrder": 22,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7175,7 +7202,7 @@
           "width": 128,
           "x": -400,
           "y": 545,
-          "zOrder": 23,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7190,7 +7217,7 @@
           "width": 128,
           "x": -400,
           "y": 669,
-          "zOrder": 25,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7198,14 +7225,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 161,
+          "height": 160,
           "layer": "",
           "locked": false,
           "name": "Tile5",
-          "width": 5538,
+          "width": 3473,
           "x": -273,
           "y": 672,
-          "zOrder": 26,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7220,7 +7247,7 @@
           "width": 128,
           "x": -83,
           "y": -200,
-          "zOrder": 28,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7235,7 +7262,7 @@
           "width": 320,
           "x": -400,
           "y": -200,
-          "zOrder": 29,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7250,7 +7277,7 @@
           "width": 0,
           "x": -4,
           "y": 492,
-          "zOrder": 30,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7295,7 +7322,7 @@
           "width": 128,
           "x": 735,
           "y": 358,
-          "zOrder": 9,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7310,7 +7337,7 @@
           "width": 138,
           "x": 863,
           "y": 358,
-          "zOrder": 9,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7325,7 +7352,7 @@
           "width": 128,
           "x": 1000,
           "y": 358,
-          "zOrder": 9,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7355,7 +7382,7 @@
           "width": 50,
           "x": 834,
           "y": 280,
-          "zOrder": 19,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7370,7 +7397,7 @@
           "width": 50,
           "x": 1013,
           "y": 280,
-          "zOrder": 19,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7385,7 +7412,7 @@
           "width": 0,
           "x": 2010,
           "y": 493,
-          "zOrder": 37,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7415,7 +7442,7 @@
           "width": 0,
           "x": 874,
           "y": 438,
-          "zOrder": 23,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7430,7 +7457,7 @@
           "width": 0,
           "x": 1650,
           "y": 22,
-          "zOrder": 39,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7445,7 +7472,7 @@
           "width": 0,
           "x": 1395,
           "y": 256,
-          "zOrder": 39,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7490,7 +7517,7 @@
           "width": 0,
           "x": 2375,
           "y": 427,
-          "zOrder": 42,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7505,7 +7532,7 @@
           "width": 0,
           "x": 2444,
           "y": 427,
-          "zOrder": 43,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7520,7 +7547,7 @@
           "width": 0,
           "x": 2509,
           "y": 427,
-          "zOrder": 44,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7535,7 +7562,7 @@
           "width": 50,
           "x": 2615,
           "y": 447,
-          "zOrder": 19,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7550,7 +7577,7 @@
           "width": 50,
           "x": 2826,
           "y": 447,
-          "zOrder": 19,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7565,7 +7592,7 @@
           "width": 50,
           "x": 2721,
           "y": 447,
-          "zOrder": 19,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7596,6 +7623,141 @@
           "x": 1508,
           "y": 258,
           "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Tile3",
+          "width": 128,
+          "x": 3200,
+          "y": 545,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Tile6",
+          "width": 127,
+          "x": 3200,
+          "y": 672,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Tile2",
+          "width": 128,
+          "x": 4128,
+          "y": 545,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Tile4",
+          "width": 128,
+          "x": 4128,
+          "y": 672,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Tile1",
+          "width": 3458,
+          "x": 4256,
+          "y": 545,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Tile5",
+          "width": 3458,
+          "x": 4256,
+          "y": 672,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 3328,
+          "y": 545,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 4096,
+          "y": 545,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Ledge",
+          "width": 150,
+          "x": 3584,
+          "y": 545,
+          "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8393,6 +8555,58 @@
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ledge",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "GoingLeft",
+              "value": "1"
+            }
+          ],
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "short1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -9429,6 +9643,167 @@
               ]
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Ruszająca się platforma",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Ledge",
+                "GoRight",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Ledge",
+                "GoingLeft",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Ledge",
+                "GoLeft",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Ledge",
+                "GoingLeft",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Ledge",
+                "GoingLeft",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Ledge",
+                "180",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Ledge",
+                "GoingLeft",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Ledge",
+                "0",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
