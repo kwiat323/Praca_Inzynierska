@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Kuba\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -5376,6 +5376,8 @@
       "variables": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 0,
           "canGrabPlatforms": false,
           "deceleration": 0,
@@ -5384,14 +5386,14 @@
           "jumpSpeed": 0,
           "maxFallingSpeed": 0,
           "maxSpeed": 0,
-          "name": "PlatformerObject",
           "roundCoordinates": true,
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "xGrabTolerance": 10,
           "yGrabOffset": 0
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -5399,9 +5401,7 @@
           "deceleration": 800,
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
-          "name": "TopDownMovement",
-          "rotateObject": true,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+          "rotateObject": true
         }
       ],
       "animations": [
@@ -6524,6 +6524,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     },
@@ -6693,6 +6697,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     },
@@ -6892,6 +6900,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     },
@@ -6919,7 +6931,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.25
+        "zoomFactor": 0.658
       },
       "objectsGroups": [],
       "variables": [
@@ -6951,7 +6963,7 @@
           "width": 150,
           "x": 153,
           "y": 501,
-          "zOrder": 10,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7114,8 +7126,8 @@
           "locked": false,
           "name": "AddScore",
           "width": 50,
-          "x": 931,
-          "y": 475,
+          "x": 999,
+          "y": 468,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -7140,7 +7152,7 @@
           "angle": 0,
           "customSize": true,
           "height": 128,
-          "layer": "Layer2",
+          "layer": "",
           "locked": false,
           "name": "Tile1",
           "width": 5538,
@@ -7280,7 +7292,7 @@
           "name": "Tile7",
           "width": 128,
           "x": 735,
-          "y": 360,
+          "y": 358,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -7293,9 +7305,9 @@
           "layer": "",
           "locked": false,
           "name": "Tile8",
-          "width": 157,
+          "width": 138,
           "x": 863,
-          "y": 359,
+          "y": 358,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -7309,8 +7321,8 @@
           "locked": false,
           "name": "Tile9",
           "width": 128,
-          "x": 1020,
-          "y": 360,
+          "x": 1000,
+          "y": 358,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -7401,7 +7413,7 @@
           "width": 0,
           "x": 874,
           "y": 438,
-          "zOrder": 10,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7429,7 +7441,7 @@
           "locked": false,
           "name": "Fly",
           "width": 0,
-          "x": 1055,
+          "x": 1056,
           "y": 20,
           "zOrder": 39,
           "numberProperties": [],
@@ -7535,7 +7547,7 @@
           "name": "AddScore",
           "width": 50,
           "x": 2826,
-          "y": 445,
+          "y": 447,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -7550,7 +7562,7 @@
           "name": "AddScore",
           "width": 50,
           "x": 2721,
-          "y": 443,
+          "y": 447,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -9039,7 +9051,7 @@
                 "value": "Animation"
               },
               "parameters": [
-                "Enemy",
+                "Fly",
                 "=",
                 "0"
               ],
