@@ -2038,6 +2038,195 @@
         "metadata": "",
         "name": "Death.wav",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-attack-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-attack-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-attack-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-attack-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-attack-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-attack-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-attack-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-attack-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-attack-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-attack-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-die-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-die-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-die-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-die-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-die-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-die-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-die-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-die-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-hurt-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-hurt-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-hurt-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-hurt-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-hurt-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-hurt-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-hurt-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-hurt-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-idle-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-idle-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-idle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-idle-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-idle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-idle-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-idle-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-idle-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-move-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-move-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-move-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-move-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-move-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-move-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime/slime-move-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime\\slime-move-3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5209,7 +5398,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.05,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -5767,6 +5956,25 @@
         {
           "name": "Spike"
         },
+        {
+          "name": "Fly"
+        }
+      ]
+    },
+    {
+      "name": "Monsters",
+      "objects": [
+        {
+          "name": "Slime"
+        },
+        {
+          "name": "Fly"
+        }
+      ]
+    },
+    {
+      "name": "FlyingMonsters",
+      "objects": [
         {
           "name": "Fly"
         }
@@ -7148,7 +7356,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.634
+        "zoomFactor": 0.73
       },
       "objectsGroups": [],
       "variables": [
@@ -7733,8 +7941,8 @@
           "locked": false,
           "name": "GoRight",
           "width": 0,
-          "x": 3328,
-          "y": 480,
+          "x": 2796,
+          "y": 518,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -8138,39 +8346,9 @@
           "locked": false,
           "name": "Stone",
           "width": 0,
-          "x": 7197,
-          "y": 501,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Stone",
-          "width": 0,
           "x": 6862,
           "y": 494,
           "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Stone",
-          "width": 0,
-          "x": 7197,
-          "y": 501,
-          "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8198,8 +8376,8 @@
           "locked": false,
           "name": "Stone",
           "width": 0,
-          "x": 7197,
-          "y": 494,
+          "x": 7243,
+          "y": 502,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -8336,6 +8514,426 @@
           "x": -400,
           "y": -490,
           "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 90,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "width": 90,
+          "x": 3060,
+          "y": 469,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 3199,
+          "y": 509,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 3263,
+          "y": 502,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 90,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "width": 90,
+          "x": 7777,
+          "y": 467,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 90,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "width": 90,
+          "x": 8097,
+          "y": 467,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 8310,
+          "y": 510,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 7681,
+          "y": 504,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile7",
+          "width": 128,
+          "x": 8541,
+          "y": 279,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile8",
+          "width": 138,
+          "x": 8669,
+          "y": 279,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile9",
+          "width": 128,
+          "x": 8806,
+          "y": 279,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 8548,
+          "y": 225,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 8902,
+          "y": 221,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fly",
+          "width": 0,
+          "x": 8805,
+          "y": 218,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile7",
+          "width": 128,
+          "x": 7396,
+          "y": 328,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile8",
+          "width": 138,
+          "x": 7524,
+          "y": 328,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile9",
+          "width": 128,
+          "x": 7661,
+          "y": 328,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 7403,
+          "y": 274,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 7757,
+          "y": 270,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fly",
+          "width": 0,
+          "x": 7660,
+          "y": 267,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 7583,
+          "y": 269,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 6505,
+          "y": 151,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 6611,
+          "y": 148,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 7468,
+          "y": 269,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 8365,
+          "y": 503,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 7979,
+          "y": 503,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 8205,
+          "y": 503,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 8685,
+          "y": 221,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 8577,
+          "y": 221,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9120,6 +9718,273 @@
           "width": 1920,
           "variables": [],
           "behaviors": []
+        },
+        {
+          "name": "Slime",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Move",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.13,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-move-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-move-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-move-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-move-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-die-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-die-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-die-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-die-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-attack-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-attack-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-attack-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-attack-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "slime\\slime-attack-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -9653,7 +10518,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Zachowanie fly",
+          "comment": "Zachowanie potworów",
           "comment2": ""
         },
         {
@@ -9667,7 +10532,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Fly",
+                "Monsters",
                 "GoLeft",
                 ""
               ],
@@ -9681,7 +10546,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Fly",
+                "Monsters",
                 "GoingLeft",
                 "=",
                 "1"
@@ -9702,7 +10567,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Fly",
+                "Monsters",
                 "GoRight",
                 ""
               ],
@@ -9716,7 +10581,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Fly",
+                "Monsters",
                 "GoingLeft",
                 "=",
                 "0"
@@ -9737,7 +10602,7 @@
                 "value": "Animation"
               },
               "parameters": [
-                "Fly",
+                "Monsters",
                 "=",
                 "0"
               ],
@@ -9757,7 +10622,7 @@
                     "value": "VarObjet"
                   },
                   "parameters": [
-                    "Fly",
+                    "Monsters",
                     "GoingLeft",
                     "=",
                     "1"
@@ -9772,7 +10637,7 @@
                     "value": "FlipX"
                   },
                   "parameters": [
-                    "Fly",
+                    "Monsters",
                     "no"
                   ],
                   "subInstructions": []
@@ -9783,7 +10648,7 @@
                     "value": "AddForceAL"
                   },
                   "parameters": [
-                    "Fly",
+                    "Monsters",
                     "180",
                     "100",
                     "0"
@@ -9804,7 +10669,7 @@
                     "value": "VarObjet"
                   },
                   "parameters": [
-                    "Fly",
+                    "Monsters",
                     "GoingLeft",
                     "=",
                     "0"
@@ -9819,7 +10684,7 @@
                     "value": "FlipX"
                   },
                   "parameters": [
-                    "Fly",
+                    "Monsters",
                     "yes"
                   ],
                   "subInstructions": []
@@ -9830,7 +10695,7 @@
                     "value": "AddForceAL"
                   },
                   "parameters": [
-                    "Fly",
+                    "Monsters",
                     "0",
                     "100",
                     "0"
@@ -9854,7 +10719,7 @@
               },
               "parameters": [
                 "Player",
-                "Fly",
+                "Monsters",
                 "600",
                 ""
               ],
@@ -9866,38 +10731,17 @@
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SoundPlaying"
-                  },
-                  "parameters": [
-                    "",
-                    "10"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "Fly.wav",
-                    "10",
-                    "yes",
-                    "100",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Zachowanie potworów po trafieniu strzałą",
+              "comment2": ""
             },
             {
               "disabled": false,
@@ -9911,7 +10755,7 @@
                   },
                   "parameters": [
                     "Arrow",
-                    "Fly",
+                    "Monsters",
                     "",
                     "",
                     ""
@@ -9926,7 +10770,7 @@
                     "value": "ChangeAnimation"
                   },
                   "parameters": [
-                    "Fly",
+                    "Monsters",
                     "=",
                     "1"
                   ],
@@ -9946,7 +10790,7 @@
                     "value": "Animation"
                   },
                   "parameters": [
-                    "Fly",
+                    "Monsters",
                     "=",
                     "1"
                   ],
@@ -9960,7 +10804,7 @@
                     "value": "Arreter"
                   },
                   "parameters": [
-                    "Fly"
+                    "Monsters"
                   ],
                   "subInstructions": []
                 },
@@ -9970,7 +10814,7 @@
                     "value": "AddForceAL"
                   },
                   "parameters": [
-                    "Fly",
+                    "FlyingMonsters",
                     "90",
                     "250",
                     ""
@@ -9987,6 +10831,18 @@
                     "10"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Slime",
+                    "-",
+                    "95*TimeDelta()"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
@@ -9998,10 +10854,115 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "Monsters",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Monsters",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "AddScore",
+                            "Monsters.X()",
+                            "Monsters.Y()",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangeHeight"
+                          },
+                          "parameters": [
+                            "AddScore",
+                            "=",
+                            "50"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangeWidth"
+                          },
+                          "parameters": [
+                            "AddScore",
+                            "=",
+                            "50"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Zachowanie Latających potworów gdy upadną na ziemie",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Fly",
+                        "FlyingMonsters",
                         "Tiles",
                         "1",
                         "",
@@ -10017,7 +10978,7 @@
                         "value": "Arreter"
                       },
                       "parameters": [
-                        "Fly"
+                        "FlyingMonsters"
                       ],
                       "subInstructions": []
                     },
@@ -10046,7 +11007,7 @@
                             "value": "Opacity"
                           },
                           "parameters": [
-                            "Fly",
+                            "FlyingMonsters",
                             "=",
                             "0"
                           ],
@@ -10060,7 +11021,7 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "Fly",
+                            "FlyingMonsters",
                             ""
                           ],
                           "subInstructions": []
@@ -10099,7 +11060,7 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "ChangeHeight"
+                                "value": "ChangeWidth"
                               },
                               "parameters": [
                                 "AddScore",
@@ -10111,7 +11072,7 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "ChangeWidth"
+                                "value": "ChangeHeight"
                               },
                               "parameters": [
                                 "AddScore",
@@ -10154,7 +11115,7 @@
               },
               "parameters": [
                 "Player",
-                "Fly",
+                "Monsters",
                 ""
               ],
               "subInstructions": []
@@ -10167,7 +11128,7 @@
                 "value": "ChangeAnimation"
               },
               "parameters": [
-                "Fly",
+                "Monsters",
                 "=",
                 "1"
               ],
@@ -10211,6 +11172,21 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Zachowanie Slime",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -10424,6 +11400,21 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "",
+          "comment2": ""
         }
       ],
       "layers": [
@@ -12137,7 +13128,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "Fly",
+                    "Monsters",
                     "",
                     "",
                     ""
@@ -12150,7 +13141,7 @@
                     "value": "Animation"
                   },
                   "parameters": [
-                    "Fly",
+                    "Monsters",
                     "=",
                     "0"
                   ],
