@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Kuba\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Users\\Karol\\Documents\\Pracainz\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -5816,7 +5816,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.48
+        "zoomFactor": 0.472
       },
       "objectsGroups": [],
       "variables": [],
@@ -7148,7 +7148,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.22
+        "zoomFactor": 0.634
       },
       "objectsGroups": [],
       "variables": [
@@ -7181,156 +7181,6 @@
           "x": 153,
           "y": 501,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Layer2",
-          "locked": true,
-          "name": "Background",
-          "width": 0,
-          "x": -393,
-          "y": -420,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Layer3",
-          "locked": true,
-          "name": "Background1",
-          "width": 0,
-          "x": -400,
-          "y": -420,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Layer4",
-          "locked": true,
-          "name": "Background2",
-          "width": 0,
-          "x": -400,
-          "y": -420,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Layer5",
-          "locked": true,
-          "name": "Background3",
-          "width": 0,
-          "x": -400,
-          "y": -420,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Layer6",
-          "locked": true,
-          "name": "Background4",
-          "width": 0,
-          "x": -400,
-          "y": -420,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Layer2",
-          "locked": true,
-          "name": "Background",
-          "width": 0,
-          "x": 1520,
-          "y": -420,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Layer3",
-          "locked": true,
-          "name": "Background1",
-          "width": 0,
-          "x": 1520,
-          "y": -420,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Layer4",
-          "locked": true,
-          "name": "Background2",
-          "width": 0,
-          "x": 1520,
-          "y": -420,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Layer5",
-          "locked": true,
-          "name": "Background3",
-          "width": 0,
-          "x": 1520,
-          "y": -420,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Layer6",
-          "locked": true,
-          "name": "Background4",
-          "width": 0,
-          "x": 1520,
-          "y": -420,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7848,13 +7698,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 161,
+          "height": 167,
           "layer": "",
           "locked": false,
           "name": "Tile4",
           "width": 128,
           "x": 4128,
-          "y": 672,
+          "y": 666,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7863,28 +7713,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 122,
           "layer": "",
           "locked": false,
           "name": "Tile1",
-          "width": 3458,
+          "width": 12205,
           "x": 4256,
           "y": 545,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 161,
-          "layer": "",
-          "locked": false,
-          "name": "Tile5",
-          "width": 3458,
-          "x": 4256,
-          "y": 672,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7959,7 +7794,7 @@
           "name": "Tile10",
           "width": 864,
           "x": 3296,
-          "y": 555,
+          "y": 564,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -8229,7 +8064,7 @@
           "name": "Spike",
           "width": 0,
           "x": 5715,
-          "y": 439,
+          "y": 431,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -8249,203 +8084,293 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Spike",
+          "width": 0,
+          "x": 7072,
+          "y": 431,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Spike",
+          "width": 0,
+          "x": 6989,
+          "y": 431,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 6862,
+          "y": 498,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 7197,
+          "y": 501,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 6862,
+          "y": 494,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 7197,
+          "y": 501,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 6862,
+          "y": 500,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 7197,
+          "y": 494,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fly",
+          "width": 0,
+          "x": 6099,
+          "y": 294,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 5963,
+          "y": 302,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 6279,
+          "y": 300,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 167,
+          "layer": "",
+          "locked": false,
+          "name": "Tile5",
+          "width": 12381,
+          "x": 4255,
+          "y": 666,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 5853,
+          "y": 494,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "BackgroundLayer1",
+          "locked": true,
+          "name": "BackgroundLayer1",
+          "width": 18289,
+          "x": -400,
+          "y": -420,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "BackgroundLayer2",
+          "locked": true,
+          "name": "BackgrounLayer2",
+          "width": 17750,
+          "x": -400,
+          "y": -420,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "BackgroundLayer0",
+          "locked": true,
+          "name": "BackgroundLayer0",
+          "width": 18952,
+          "x": -400,
+          "y": -420,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "BackgroundLayer3",
+          "locked": true,
+          "name": "NewObject",
+          "width": 17126,
+          "x": -400,
+          "y": -490,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
-          "name": "Background4",
+          "height": 1080,
+          "name": "BackgroundLayer0",
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "texture": "BG_Decor.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1920,
           "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sky.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "behaviors": []
         },
         {
-          "name": "Background3",
+          "height": 1080,
+          "name": "BackgroundLayer1",
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "texture": "Middle_Decor.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1920,
           "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "BG_Decor.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "behaviors": []
         },
         {
-          "name": "Background2",
+          "height": 1080,
+          "name": "BackgrounLayer2",
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "texture": "Foreground.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1920,
           "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Middle_Decor.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Background1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Foreground.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Background",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Ground.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "behaviors": []
         },
         {
           "height": 32,
@@ -8599,9 +8524,9 @@
           "variables": [],
           "behaviors": [
             {
+              "canBeGrabbed": true,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
@@ -8616,7 +8541,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "Stone.png",
                       "points": [],
                       "originPoint": {
@@ -8630,7 +8555,42 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 83.125,
+                            "y": 25.8333
+                          },
+                          {
+                            "x": 87.2917,
+                            "y": 52.0833
+                          },
+                          {
+                            "x": 60.2083,
+                            "y": 52.9167
+                          },
+                          {
+                            "x": 2.29167,
+                            "y": 53.3333
+                          },
+                          {
+                            "x": 6.04167,
+                            "y": 32.0833
+                          },
+                          {
+                            "x": 31.875,
+                            "y": 3.75
+                          },
+                          {
+                            "x": 45.625,
+                            "y": 1.25
+                          },
+                          {
+                            "x": 71.0417,
+                            "y": 12.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -9150,6 +9110,16 @@
               ]
             }
           ]
+        },
+        {
+          "height": 1080,
+          "name": "NewObject",
+          "tags": "",
+          "texture": "Ground.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1920,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -10458,31 +10428,25 @@
       ],
       "layers": [
         {
-          "name": "Layer6",
+          "name": "BackgroundLayer0",
           "visibility": true,
           "cameras": [],
           "effects": []
         },
         {
-          "name": "Layer5",
+          "name": "BackgroundLayer1",
           "visibility": true,
           "cameras": [],
           "effects": []
         },
         {
-          "name": "Layer4",
+          "name": "BackgroundLayer2",
           "visibility": true,
           "cameras": [],
           "effects": []
         },
         {
-          "name": "Layer3",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        },
-        {
-          "name": "Layer2",
+          "name": "BackgroundLayer3",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -10502,7 +10466,13 @@
               "width": 0
             }
           ],
-          "effects": []
+          "effects": [
+            {
+              "effectName": "",
+              "name": "Effect",
+              "parameters": {}
+            }
+          ]
         },
         {
           "name": "Grid",
