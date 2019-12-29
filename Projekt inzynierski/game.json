@@ -15247,7 +15247,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.466
+        "zoomFactor": 0.682
       },
       "objectsGroups": [],
       "variables": [
@@ -16841,8 +16841,8 @@
           "locked": false,
           "name": "GoLeft",
           "width": 0,
-          "x": 844,
-          "y": 531,
+          "x": 1459,
+          "y": 504,
           "zOrder": 94,
           "numberProperties": [],
           "stringProperties": [],
@@ -16856,8 +16856,8 @@
           "locked": false,
           "name": "GoRight",
           "width": 0,
-          "x": 363,
-          "y": 533,
+          "x": 1095,
+          "y": 516,
           "zOrder": 95,
           "numberProperties": [],
           "stringProperties": [],
@@ -16871,9 +16871,39 @@
           "locked": false,
           "name": "Boss3",
           "width": 200,
-          "x": 483,
-          "y": 396,
+          "x": 1188,
+          "y": 392,
           "zOrder": 96,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "layer": "Grid",
+          "locked": false,
+          "name": "hb",
+          "width": 500,
+          "x": 168,
+          "y": 565,
+          "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Grid",
+          "locked": false,
+          "name": "BossHealth",
+          "width": 0,
+          "x": 12,
+          "y": 561,
+          "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20634,7 +20664,7 @@
           "variables": [
             {
               "name": "Health",
-              "value": "180"
+              "value": "500"
             }
           ],
           "behaviors": [],
@@ -33471,6 +33501,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "BossHealth",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Boss Health",
+          "font": "amatic\\Amatic-Bold.ttf",
+          "characterSize": 28,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -33675,13 +33724,33 @@
                 "\"Hit2\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "hb"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "BossHealth"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -34245,6 +34314,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Health bar Bossów",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -34263,6 +34347,75 @@
           ],
           "actions": [],
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Bosses",
+                    "600",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "hb",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "BossHealth",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Arrow",
+                        "Bosses",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": []
+                }
+              ]
+            },
             {
               "disabled": false,
               "folded": false,
@@ -34370,7 +34523,7 @@
                     "Bosses",
                     "Health",
                     "-",
-                    "35"
+                    "50"
                   ],
                   "subInstructions": []
                 },
@@ -34407,6 +34560,18 @@
                     "\"Hit2\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "hb",
+                    "=",
+                    "Boss3.Variable(Health)"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
@@ -34423,7 +34588,7 @@
                       "parameters": [
                         "Bosses",
                         "Health",
-                        "<",
+                        "<=",
                         "1"
                       ],
                       "subInstructions": []
@@ -34452,6 +34617,28 @@
                         "\"Hit2\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "hb",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BossHealth",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -34470,7 +34657,7 @@
                   },
                   "parameters": [
                     "Boss1",
-                    "2.1",
+                    "0.5",
                     "\"Hit2\""
                   ],
                   "subInstructions": []
@@ -34558,6 +34745,17 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "Boss1",
+                    "\"Hit2\""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -34864,6 +35062,14 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -34883,7 +35089,7 @@
               },
               "parameters": [
                 "Player",
-                "Monsters",
+                "1HitMonsters",
                 ""
               ],
               "subInstructions": []
@@ -34896,7 +35102,7 @@
                 "value": "ChangeAnimation"
               },
               "parameters": [
-                "Monsters",
+                "1HitMonsters",
                 "=",
                 "1"
               ],
@@ -35191,6 +35397,21 @@
           "conditions": [],
           "actions": [],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "",
+          "comment2": ""
         }
       ],
       "layers": [
