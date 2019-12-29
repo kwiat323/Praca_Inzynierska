@@ -31315,6 +31315,17 @@
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
