@@ -15862,51 +15862,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 318,
-          "layer": "",
-          "locked": false,
-          "name": "Reaper1",
-          "width": 275,
-          "x": 580,
-          "y": 295,
-          "zOrder": 102,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 262,
-          "layer": "",
-          "locked": false,
-          "name": "Reaper2",
-          "width": 239,
-          "x": 504,
-          "y": 340,
-          "zOrder": 103,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 252,
-          "layer": "",
-          "locked": false,
-          "name": "Reaper3",
-          "width": 244,
-          "x": 382,
-          "y": 347,
-          "zOrder": 104,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
