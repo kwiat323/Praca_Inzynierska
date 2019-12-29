@@ -9031,6 +9031,987 @@
         "name": "Reaper\\r3\\Throwing\\0_Reaper_Man_Throwing_011.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "healthbar/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "healthbar\\1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o1/Hurt/0_Goblin_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o2/Hurt/0_Ogre_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Orcs/o3/Hurt/0_Orc_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orcs\\o3\\Hurt\\0_Orc_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g1/Hurt/0_Golem_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g1\\Hurt\\0_Golem_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g2/Hurt/0_Golem_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g2\\Hurt\\0_Golem_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Golems/g3/Hurt/0_Golem_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Golems\\g3\\Hurt\\0_Golem_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -12874,6 +13855,17 @@
           "name": "Reaper3"
         }
       ]
+    },
+    {
+      "name": "1HitMonsters",
+      "objects": [
+        {
+          "name": "Fly"
+        },
+        {
+          "name": "Slime"
+        }
+      ]
     }
   ],
   "variables": [
@@ -12891,6 +13883,10 @@
     },
     {
       "name": "CheckpointY",
+      "value": ""
+    },
+    {
+      "name": "healthbar",
       "value": ""
     }
   ],
@@ -14251,7 +15247,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.514
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [
@@ -14269,6 +15265,10 @@
         },
         {
           "name": "MouseY",
+          "value": ""
+        },
+        {
+          "name": "MonsterHealth",
           "value": ""
         }
       ],
@@ -15862,6 +16862,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 196,
+          "layer": "",
+          "locked": false,
+          "name": "Boss3",
+          "width": 200,
+          "x": 483,
+          "y": 396,
+          "zOrder": 96,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -16916,7 +17931,12 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Health",
+              "value": "100"
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -18037,6 +19057,222 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.03,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -18045,7 +19281,12 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Health",
+              "value": "120"
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -19166,6 +20407,222 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -19174,7 +20631,12 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Health",
+              "value": "180"
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -20278,6 +21740,222 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.02,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_011.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21424,6 +23102,222 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.03,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o1\\Hurt\\0_Goblin_Hurt_011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -22536,6 +24430,222 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Orcs\\o2\\Throwing\\0_Ogre_Throwing_011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.03,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o2\\Hurt\\0_Ogre_Hurt_011.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23682,6 +25792,222 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.03,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orcs\\o3\\Hurt\\0_Orc_Hurt_011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -24794,6 +27120,222 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Golems\\g1\\Throwing\\0_Golem_Throwing_011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.03,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g1\\Hurt\\0_Golem_Hurt_011.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -25940,6 +28482,222 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.03,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g2\\Hurt\\0_Golem_Hurt_011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -27052,6 +29810,222 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Golems\\g3\\Throwing\\0_Golem_Throwing_011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.03,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Golems\\g3\\Hurt\\0_Golem_Hurt_011.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30458,6 +33432,45 @@
               ]
             }
           ]
+        },
+        {
+          "name": "hb",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "healthbar\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -30649,6 +33662,17 @@
                 "yes",
                 "100",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "Boss1",
+                "\"Hit2\""
               ],
               "subInstructions": []
             }
@@ -30998,6 +34022,14 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -31084,6 +34116,14 @@
           ],
           "actions": [],
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            },
             {
               "disabled": false,
               "folded": false,
@@ -31235,7 +34275,69 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Zachowanie potworów po trafieniu strzałą",
+              "comment": "Zachowanie potworów jednostrzałowych po trafieniu strzałą",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "1HitMonsters",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "1HitMonsters",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Zachowanie po trafieniu potwora",
               "comment2": ""
             },
             {
@@ -31262,12 +34364,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeAnimation"
+                    "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Monsters",
-                    "=",
-                    "1"
+                    "Bosses",
+                    "Health",
+                    "-",
+                    "35"
                   ],
                   "subInstructions": []
                 },
@@ -31281,8 +34384,159 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Monsters",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "Boss1",
+                    "\"Hit2\""
+                  ],
+                  "subInstructions": []
                 }
               ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Bosses",
+                        "Health",
+                        "<",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Monsters",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseTimer"
+                      },
+                      "parameters": [
+                        "Boss1",
+                        "\"Hit2\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "Boss1",
+                    "2.1",
+                    "\"Hit2\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Monsters",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Hit2\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Zachowanie potworów gdy umierają",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"IsDeadTimer\"",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
               "events": []
             },
             {
@@ -31597,6 +34851,14 @@
               ]
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         },
         {
           "disabled": false,
@@ -31921,6 +35183,14 @@
           },
           "comment": "",
           "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
