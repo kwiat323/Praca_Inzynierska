@@ -8,12 +8,13 @@
   },
   "properties": {
     "adMobAppId": "",
+    "adaptGameResolutionAtRuntime": false,
     "folderProject": false,
     "linuxExecutableFilename": "",
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Karol\\Documents\\Pracainz\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -10057,6 +10058,13 @@
         "name": "Background\\2\\Background3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "enemy_hit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "enemy_hit.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -16187,6 +16195,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -16359,6 +16371,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -16627,6 +16643,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -16660,7 +16680,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.586
+        "zoomFactor": 0.178
       },
       "objectsGroups": [],
       "variables": [
@@ -17771,7 +17791,7 @@
           "customSize": true,
           "height": 1080,
           "layer": "BackgroundLayer1",
-          "locked": true,
+          "locked": false,
           "name": "BackgroundLayer1",
           "width": 18289,
           "x": -400,
@@ -17786,7 +17806,7 @@
           "customSize": true,
           "height": 1080,
           "layer": "BackgroundLayer2",
-          "locked": true,
+          "locked": false,
           "name": "BackgrounLayer2",
           "width": 17750,
           "x": -400,
@@ -17801,7 +17821,7 @@
           "customSize": true,
           "height": 1080,
           "layer": "BackgroundLayer0",
-          "locked": true,
+          "locked": false,
           "name": "BackgroundLayer0",
           "width": 18952,
           "x": -400,
@@ -17816,8 +17836,8 @@
           "customSize": true,
           "height": 1080,
           "layer": "BackgroundLayer3",
-          "locked": true,
-          "name": "NewObject",
+          "locked": false,
+          "name": "BackgroundLayer3",
           "width": 17126,
           "x": -400,
           "y": -490,
@@ -18369,6 +18389,16 @@
           "behaviors": []
         },
         {
+          "height": 1080,
+          "name": "BackgroundLayer3",
+          "tags": "",
+          "texture": "Ground.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1920,
+          "variables": [],
+          "behaviors": []
+        },
+        {
           "height": 32,
           "name": "Tile1",
           "tags": "",
@@ -18389,7 +18419,7 @@
         {
           "height": 32,
           "name": "Tile2",
-          "tags": "",
+          "tags": "Tile",
           "texture": "Tile1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -18407,7 +18437,7 @@
         {
           "height": 32,
           "name": "Tile3",
-          "tags": "",
+          "tags": "Tile",
           "texture": "Tile3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -18495,6 +18525,34 @@
           ]
         },
         {
+          "height": 32,
+          "name": "Tile9",
+          "tags": "",
+          "texture": "Tile9.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile10",
+          "tags": "",
+          "texture": "Tile10.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
           "name": "Stone",
           "tags": "",
           "type": "Sprite",
@@ -18573,24 +18631,6 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "height": 32,
-          "name": "Tile9",
-          "tags": "",
-          "texture": "Tile9.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
             }
           ]
         },
@@ -19041,16 +19081,6 @@
           ]
         },
         {
-          "height": 32,
-          "name": "Tile10",
-          "tags": "",
-          "texture": "Tile10.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
-        },
-        {
           "name": "Finish",
           "tags": "",
           "type": "Sprite",
@@ -19088,16 +19118,6 @@
               ]
             }
           ]
-        },
-        {
-          "height": 1080,
-          "name": "NewObject",
-          "tags": "",
-          "texture": "Ground.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 1920,
-          "variables": [],
-          "behaviors": []
         },
         {
           "name": "Slime",
@@ -34201,6 +34221,21 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Zabijanie poprzez upadanie na monstery",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34271,13 +34306,28 @@
                     "",
                     "jump.wav",
                     "",
-                    "",
+                    "15",
                     ""
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Poruszanie się monster",
+              "comment2": ""
             },
             {
               "disabled": false,
@@ -34658,6 +34708,21 @@
                         ""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "enemy_hit.wav",
+                        "25",
+                        "",
+                        "15",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -34754,6 +34819,21 @@
                         "hb",
                         "=",
                         "Bosses.Variable(Health)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "enemy_hit.wav",
+                        "25",
+                        "",
+                        "15",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -35044,7 +35124,7 @@
                                 "",
                                 "AddScore",
                                 "Monsters.X()",
-                                "Monsters.Y()",
+                                "Monsters.Y()-35",
                                 ""
                               ],
                               "subInstructions": []
@@ -35221,98 +35301,7 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": [
-                        {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Opacity"
-                              },
-                              "parameters": [
-                                "FlyingMonsters",
-                                "=",
-                                "0"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "FlyingMonsters",
-                                ""
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "events": [
-                            {
-                              "disabled": false,
-                              "folded": false,
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "inverted": false,
-                                    "value": "BuiltinCommonInstructions::Once"
-                                  },
-                                  "parameters": [],
-                                  "subInstructions": []
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "inverted": false,
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "AddScore",
-                                    "Fly.X()",
-                                    "Fly.Y()-50",
-                                    ""
-                                  ],
-                                  "subInstructions": []
-                                },
-                                {
-                                  "type": {
-                                    "inverted": false,
-                                    "value": "ChangeWidth"
-                                  },
-                                  "parameters": [
-                                    "AddScore",
-                                    "=",
-                                    "50"
-                                  ],
-                                  "subInstructions": []
-                                },
-                                {
-                                  "type": {
-                                    "inverted": false,
-                                    "value": "ChangeHeight"
-                                  },
-                                  "parameters": [
-                                    "AddScore",
-                                    "=",
-                                    "50"
-                                  ],
-                                  "subInstructions": []
-                                }
-                              ],
-                              "events": []
-                            }
-                          ]
-                        }
-                      ]
+                      "events": []
                     }
                   ]
                 }
@@ -35575,9 +35564,11 @@
           ],
           "effects": [
             {
-              "effectName": "",
+              "effectType": "",
               "name": "Effect",
-              "parameters": {}
+              "doubleParameters": {},
+              "stringParameters": {},
+              "booleanParameters": {}
             }
           ]
         },
@@ -35623,7 +35614,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.298
       },
       "objectsGroups": [],
       "variables": [
@@ -54534,9 +54525,11 @@
           ],
           "effects": [
             {
-              "effectName": "",
+              "effectType": "",
               "name": "Effect",
-              "parameters": {}
+              "doubleParameters": {},
+              "stringParameters": {},
+              "booleanParameters": {}
             }
           ]
         },
@@ -56648,6 +56641,82 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Toujours"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X()*0.1",
+                "\"BackgroundLayer0\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X()*0.2",
+                "\"BackgroundLayer1\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X()*0.3",
+                "\"BackgroundLayer2\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X()*0.4",
+                "\"BackgroundLayer3\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
     }
@@ -56773,6 +56842,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -56782,6 +56852,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -56791,6 +56862,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Value of the damage to do (will be removed from object health)",
+                  "longDescription": "",
                   "name": "DamageValue",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -56864,6 +56936,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -56873,6 +56946,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -56915,6 +56989,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -56924,6 +56999,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -56995,6 +57071,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -57004,6 +57081,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -57083,6 +57161,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -57092,6 +57171,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -57101,6 +57181,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "How much to heal (will be added to object health)",
+                  "longDescription": "",
                   "name": "HealValue",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -57180,6 +57261,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -57189,6 +57271,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -57198,6 +57281,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "New health value",
+                  "longDescription": "",
                   "name": "Value",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -57238,6 +57322,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -57247,6 +57332,7 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -57261,6 +57347,7 @@
               "value": "100",
               "type": "Number",
               "label": "Health",
+              "description": "",
               "extraInformation": [],
               "hidden": false,
               "name": "Health"
@@ -57269,6 +57356,7 @@
               "value": "0",
               "type": "Number",
               "label": "Damage cooldown (in seconds) (0 for no cooldown)",
+              "description": "",
               "extraInformation": [],
               "hidden": false,
               "name": "DamageCooldown"
@@ -57277,6 +57365,7 @@
               "value": "100",
               "type": "Number",
               "label": "Maximum health (0 for no maximum)",
+              "description": "",
               "extraInformation": [],
               "hidden": false,
               "name": "MaxHealth"
@@ -57285,6 +57374,7 @@
               "value": "",
               "type": "Boolean",
               "label": "",
+              "description": "",
               "extraInformation": [],
               "hidden": true,
               "name": "IsJustDamaged"
@@ -57293,6 +57383,7 @@
               "value": "",
               "type": "Boolean",
               "label": "",
+              "description": "",
               "extraInformation": [],
               "hidden": true,
               "name": "CooldownActive"
