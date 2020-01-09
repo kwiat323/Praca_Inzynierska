@@ -16703,6 +16703,10 @@
         {
           "name": "MonsterHealth",
           "value": ""
+        },
+        {
+          "name": "SceneName",
+          "value": "1"
         }
       ],
       "instances": [
@@ -35637,6 +35641,10 @@
         {
           "name": "MonsterHealth",
           "value": ""
+        },
+        {
+          "name": "SceneName",
+          "value": "2"
         }
       ],
       "instances": [
@@ -56504,6 +56512,66 @@
                 "Used",
                 "=",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"save\"",
+                "\"PlayerX",
+                "CheckpointX"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"save\"",
+                "\"PlayerY\"",
+                "CheckpointY"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"save\"",
+                "\"Score\"",
+                "GlobalVariable(score)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"save\"",
+                "\"Lives\"",
+                "GlobalVariable(lives)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"save\"",
+                "\"Score\"",
+                "Variable(SceneName)"
               ],
               "subInstructions": []
             }
