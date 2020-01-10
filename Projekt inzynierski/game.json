@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Kuban\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Users\\Kuba\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -58277,7 +58277,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Zachowanie arrow",
+          "comment": "Zachowanie arrow po kolizji z Tiles",
           "comment2": ""
         },
         {
@@ -58288,49 +58288,27 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "CollisionNP"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Arrow",
-                    "Tiles",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Arrow",
-                    "Enemy",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ]
+              "parameters": [
+                "Arrow",
+                "Tiles",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "Cache"
+                "value": "Delete"
               },
               "parameters": [
-                "Arrow"
+                "Arrow",
+                ""
               ],
               "subInstructions": []
             }
