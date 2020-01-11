@@ -8,13 +8,12 @@
   },
   "properties": {
     "adMobAppId": "",
-    "adaptGameResolutionAtRuntime": false,
     "folderProject": false,
     "linuxExecutableFilename": "",
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Kuba\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -36354,11 +36353,9 @@
           ],
           "effects": [
             {
-              "effectType": "",
+              "effectName": "",
               "name": "Effect",
-              "doubleParameters": {},
-              "stringParameters": {},
-              "booleanParameters": {}
+              "parameters": {}
             }
           ]
         },
@@ -55319,11 +55316,9 @@
           ],
           "effects": [
             {
-              "effectType": "",
+              "effectName": "",
               "name": "Effect",
-              "doubleParameters": {},
-              "stringParameters": {},
-              "booleanParameters": {}
+              "parameters": {}
             }
           ]
         },
@@ -58391,12 +58386,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "EcrireFichierExp"
+                "value": "FileSystem::SaveStringToFileSync"
               },
               "parameters": [
-                "\"save\"",
-                "\"PlayerX",
-                "CheckpointX"
+                "GlobalVariableString(CheckpointX)",
+                "\"main/progress.txt\"",
+                ""
               ],
               "subInstructions": []
             },
@@ -58783,7 +58778,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -58793,7 +58787,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -58803,7 +58796,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Value of the damage to do (will be removed from object health)",
-                  "longDescription": "",
                   "name": "DamageValue",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -58877,7 +58869,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -58887,7 +58878,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -58930,7 +58920,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -58940,7 +58929,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -59012,7 +59000,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -59022,7 +59009,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -59102,7 +59088,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -59112,7 +59097,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -59122,7 +59106,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "How much to heal (will be added to object health)",
-                  "longDescription": "",
                   "name": "HealValue",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -59202,7 +59185,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -59212,7 +59194,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -59222,7 +59203,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "New health value",
-                  "longDescription": "",
                   "name": "Value",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -59263,7 +59243,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
                   "optional": false,
                   "supplementaryInformation": "",
@@ -59273,7 +59252,6 @@
                   "codeOnly": false,
                   "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
                   "optional": false,
                   "supplementaryInformation": "Health::Health",
@@ -59288,7 +59266,6 @@
               "value": "100",
               "type": "Number",
               "label": "Health",
-              "description": "",
               "extraInformation": [],
               "hidden": false,
               "name": "Health"
@@ -59297,7 +59274,6 @@
               "value": "0",
               "type": "Number",
               "label": "Damage cooldown (in seconds) (0 for no cooldown)",
-              "description": "",
               "extraInformation": [],
               "hidden": false,
               "name": "DamageCooldown"
@@ -59306,7 +59282,6 @@
               "value": "100",
               "type": "Number",
               "label": "Maximum health (0 for no maximum)",
-              "description": "",
               "extraInformation": [],
               "hidden": false,
               "name": "MaxHealth"
@@ -59315,7 +59290,6 @@
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
               "extraInformation": [],
               "hidden": true,
               "name": "IsJustDamaged"
@@ -59324,7 +59298,6 @@
               "value": "",
               "type": "Boolean",
               "label": "",
-              "description": "",
               "extraInformation": [],
               "hidden": true,
               "name": "CooldownActive"
