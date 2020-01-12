@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Users\\Kuban\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -9557,6 +9557,31 @@
         "name": "NewFile-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "main menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "main menu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mainmenu-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mainmenu-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Czcionka/upheavtt.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Czcionka\\upheavtt.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -12956,7 +12981,7 @@
       "variables": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "Czcionka\\upheavtt.ttf",
       "characterSize": 50,
       "color": {
         "b": 255,
@@ -13162,7 +13187,7 @@
       "variables": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "Czcionka\\upheavtt.ttf",
       "characterSize": 50,
       "color": {
         "b": 255,
@@ -16850,7 +16875,7 @@
           "variables": [],
           "behaviors": [],
           "string": "None",
-          "font": "amatic\\Amatic-Bold.ttf",
+          "font": "Czcionka\\upheavtt.ttf",
           "characterSize": 20,
           "color": {
             "b": 52,
@@ -16885,7 +16910,7 @@
               "parameters": [
                 "TextVar",
                 "=",
-                "\"Przykładowy tekst fałuba zostanie dodana póżniej...Przykładowy tekst fabuła\"+NewLine()+\"zostanie dodana póżniej...\"+NewLine()+NewLine()+\"Naciśnij dowolny klawisz aby kontynuować...\""
+                "\"Dawno dawno temu w odległej galaktyce...pew pew pew\"+NewLine()+\"R2D2 was dojedzie\"+NewLine()+NewLine()+\"Naciśnij dowolny klawisz aby kontynuować...\""
               ],
               "subInstructions": []
             },
@@ -16916,7 +16941,7 @@
               },
               "parameters": [
                 "",
-                "0.05",
+                "0.07",
                 "\"Typing_Time\""
               ],
               "subInstructions": []
@@ -17582,7 +17607,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.61
+        "zoomFactor": 1
       },
       "objectsGroups": [],
       "variables": [],
@@ -17656,8 +17681,8 @@
           "name": "Button_gotomenu",
           "width": 150,
           "x": 325,
-          "y": 362,
-          "zOrder": 5,
+          "y": 360,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17722,45 +17747,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "button_resume-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Button_gotomenu",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "button_save",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "button_save-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17858,6 +17844,45 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Button_gotomenu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "mainmenu",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "mainmenu-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -17912,7 +17937,7 @@
                 "value": "Opacity"
               },
               "parameters": [
-                "Button_gotomenu",
+                "Button_exit",
                 "=",
                 "255"
               ],
@@ -17924,7 +17949,7 @@
                 "value": "Opacity"
               },
               "parameters": [
-                "Button_exit",
+                "Button_gotomenu",
                 "=",
                 "255"
               ],
@@ -18983,7 +19008,7 @@
           "name": "Lives",
           "width": 0,
           "x": 744,
-          "y": 5,
+          "y": 10,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -18998,7 +19023,7 @@
           "name": "Score",
           "width": 0,
           "x": 66,
-          "y": 5,
+          "y": 10,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -20392,7 +20417,7 @@
           "locked": false,
           "name": "hb",
           "width": 500,
-          "x": 168,
+          "x": 195,
           "y": 565,
           "zOrder": 97,
           "numberProperties": [],
@@ -35741,7 +35766,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Boss Health",
-          "font": "amatic\\Amatic-Bold.ttf",
+          "font": "Czcionka\\upheavtt.ttf",
           "characterSize": 28,
           "color": {
             "b": 0,
@@ -35809,7 +35834,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Stage I",
-          "font": "",
+          "font": "Czcionka\\upheavtt.ttf",
           "characterSize": 45,
           "color": {
             "b": 248,
@@ -37936,7 +37961,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.298
+        "zoomFactor": 1
       },
       "objectsGroups": [],
       "variables": [
@@ -38125,7 +38150,7 @@
           "name": "Lives",
           "width": 0,
           "x": 744,
-          "y": 5,
+          "y": 10,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -38140,7 +38165,7 @@
           "name": "Score",
           "width": 0,
           "x": 66,
-          "y": 5,
+          "y": 10,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -39519,8 +39544,8 @@
           "locked": false,
           "name": "hb",
           "width": 500,
-          "x": 168,
-          "y": 565,
+          "x": 195,
+          "y": 563,
           "zOrder": 97,
           "numberProperties": [],
           "stringProperties": [],
@@ -54838,7 +54863,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Boss Health",
-          "font": "amatic\\Amatic-Bold.ttf",
+          "font": "Czcionka\\upheavtt.ttf",
           "characterSize": 28,
           "color": {
             "b": 0,
