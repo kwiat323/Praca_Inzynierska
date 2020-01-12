@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Git\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -14800,6 +14800,14 @@
     {
       "name": "SceneName",
       "value": ""
+    },
+    {
+      "name": "CheckpointXPaused",
+      "value": ""
+    },
+    {
+      "name": "CheckpointYPaused",
+      "value": ""
     }
   ],
   "layouts": [
@@ -14934,11 +14942,71 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Test",
+          "name": "Scenename",
           "width": 0,
           "x": 686,
           "y": 32,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "X",
+          "width": 0,
+          "x": 707,
+          "y": 88,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Y",
+          "width": 0,
+          "x": 700,
+          "y": 151,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Scores",
+          "width": 0,
+          "x": 716,
+          "y": 203,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Live",
+          "width": 0,
+          "x": 689,
+          "y": 249,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15600,7 +15668,83 @@
         {
           "bold": false,
           "italic": false,
-          "name": "Test",
+          "name": "Live",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "1561",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Scores",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "1561",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Y",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "1561",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "X",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "1561",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Scenename",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -15637,7 +15781,18 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Toujours"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -15681,9 +15836,57 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "Test",
+                "Scenename",
+                "=",
+                "GlobalVariableString(SceneName)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "X",
                 "=",
                 "GlobalVariableString(CheckpointX)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Y",
+                "=",
+                "GlobalVariableString(CheckpointY)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Live",
+                "=",
+                "GlobalVariableString(Lives)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Scores",
+                "=",
+                "GlobalVariableString(Score)"
               ],
               "subInstructions": []
             }
@@ -15794,7 +15997,7 @@
                 "value": "LoadFile"
               },
               "parameters": [
-                "\"progress.txt\""
+                "\"progress\""
               ],
               "subInstructions": []
             }
@@ -16134,12 +16337,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "",
-                "\"Fabuła\"",
-                "yes"
+                "Lives",
+                "=",
+                "3"
               ],
               "subInstructions": []
             },
@@ -16149,9 +16352,21 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "Lives",
+                "Loaded",
                 "=",
-                "3"
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Story\"",
+                "yes"
               ],
               "subInstructions": []
             }
@@ -16213,29 +16428,7 @@
                     "value": "GroupExists"
                   },
                   "parameters": [
-                    "\"progress.txt\"",
-                    "\"game/Score\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress.txt\"",
-                    "\"game/SceneName\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress.txt\"",
+                    "\"progress\"",
                     "\"game/PlayerPositionX\""
                   ],
                   "subInstructions": []
@@ -16246,7 +16439,7 @@
                     "value": "GroupExists"
                   },
                   "parameters": [
-                    "\"progress.txt\"",
+                    "\"progress\"",
                     "\"game/PlayerPositionY\""
                   ],
                   "subInstructions": []
@@ -16257,8 +16450,30 @@
                     "value": "GroupExists"
                   },
                   "parameters": [
-                    "\"progress.txt\"",
+                    "\"progress\"",
+                    "\"game/SceneName\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"progress\"",
                     "\"game/Lives\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"progress\"",
+                    "\"game/Score\""
                   ],
                   "subInstructions": []
                 }
@@ -16270,46 +16485,7 @@
                     "value": "LireFichierExp"
                   },
                   "parameters": [
-                    "\"progress.txt\"",
-                    "\"game/PlayerPositionY\"",
-                    "",
-                    "CheckpointYLoaded"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "LireFichierExp"
-                  },
-                  "parameters": [
-                    "\"progress.txt\"",
-                    "\"game/SceneName\"",
-                    "",
-                    "SceneNameLoaded"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "LireFichierExp"
-                  },
-                  "parameters": [
-                    "\"progress.txt\"",
-                    "\"game/Lives\"",
-                    "",
-                    "LivesLoaded"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "LireFichierExp"
-                  },
-                  "parameters": [
-                    "\"progress.txt\"",
+                    "\"progress\"",
                     "\"game/PlayerPositionX\"",
                     "",
                     "CheckpointXLoaded"
@@ -16322,7 +16498,46 @@
                     "value": "LireFichierExp"
                   },
                   "parameters": [
-                    "\"progress.txt\"",
+                    "\"progress\"",
+                    "\"game/PlayerPositionY\"",
+                    "",
+                    "CheckpointYLoaded"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LireFichierExp"
+                  },
+                  "parameters": [
+                    "\"progress\"",
+                    "\"game/SceneName\"",
+                    "",
+                    "SceneNameLoaded"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LireFichierExp"
+                  },
+                  "parameters": [
+                    "\"progress\"",
+                    "\"game/Lives\"",
+                    "",
+                    "LivesLoaded"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LireFichierExp"
+                  },
+                  "parameters": [
+                    "\"progress\"",
                     "\"game/Score\"",
                     "",
                     "ScoreLoaded"
@@ -16347,9 +16562,9 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Score",
+                    "CheckpointY",
                     "=",
-                    "Variable(ScoreLoaded)"
+                    "Variable(CheckpointYLoaded)"
                   ],
                   "subInstructions": []
                 },
@@ -16359,9 +16574,9 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "CheckpointY",
+                    "Score",
                     "=",
-                    "Variable(CheckpointYLoaded)"
+                    "Variable(ScoreLoaded)"
                   ],
                   "subInstructions": []
                 },
@@ -16380,24 +16595,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SceneName",
-                    "=",
-                    "Variable(SceneNameLoaded)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Scene"
                   },
                   "parameters": [
                     "",
-                    "GlobalVariable(SceneName)",
-                    "yes"
+                    "ToString(Variable(SceneNameLoaded))",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -16415,7 +16618,7 @@
                     "value": "GroupExists"
                   },
                   "parameters": [
-                    "\"progress.txt\"",
+                    "\"progress\"",
                     "\"game/Score\""
                   ],
                   "subInstructions": []
@@ -16426,7 +16629,7 @@
                     "value": "GroupExists"
                   },
                   "parameters": [
-                    "\"progress.txt\"",
+                    "\"progress\"",
                     "\"game/SceneName\""
                   ],
                   "subInstructions": []
@@ -16437,7 +16640,7 @@
                     "value": "GroupExists"
                   },
                   "parameters": [
-                    "\"progress.txt\"",
+                    "\"progress\"",
                     "\"game/PlayerPositionX\""
                   ],
                   "subInstructions": []
@@ -16448,7 +16651,7 @@
                     "value": "GroupExists"
                   },
                   "parameters": [
-                    "\"progress.txt\"",
+                    "\"progress\"",
                     "\"game/PlayerPositionY\""
                   ],
                   "subInstructions": []
@@ -16459,7 +16662,7 @@
                     "value": "GroupExists"
                   },
                   "parameters": [
-                    "\"progress.txt\"",
+                    "\"progress\"",
                     "\"game/Lives\""
                   ],
                   "subInstructions": []
@@ -16473,7 +16676,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Fabuła\"",
+                    "\"Story\"",
                     "yes"
                   ],
                   "subInstructions": []
@@ -16584,8 +16787,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Fabu_322a",
-      "name": "Fabuła",
+      "mangledName": "Story",
+      "name": "Story",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -18246,7 +18449,7 @@
               },
               "parameters": [
                 "",
-                "1",
+                "0.1",
                 "\"Button_timer_resume\""
               ],
               "subInstructions": []
@@ -18313,9 +18516,9 @@
                 "value": "EcrireFichierExp"
               },
               "parameters": [
-                "\"progress.txt\"",
-                "\"game/playerPositionY\"",
-                "GlobalVariable(CheckpointY)"
+                "\"progress\"",
+                "\"game/PlayerPositionX\"",
+                "GlobalVariable(CheckpointXPaused)"
               ],
               "subInstructions": []
             },
@@ -18325,7 +18528,19 @@
                 "value": "EcrireFichierExp"
               },
               "parameters": [
-                "\"progress.txt\"",
+                "\"progress\"",
+                "\"game/PlayerPositionY\"",
+                "GlobalVariable(CheckpointYPaused)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"progress\"",
                 "\"game/SceneName\"",
                 "GlobalVariable(SceneName)"
               ],
@@ -18337,7 +18552,7 @@
                 "value": "EcrireFichierExp"
               },
               "parameters": [
-                "\"progress.txt\"",
+                "\"progress\"",
                 "\"game/Lives\"",
                 "GlobalVariable(Lives)"
               ],
@@ -18349,21 +18564,9 @@
                 "value": "EcrireFichierExp"
               },
               "parameters": [
-                "\"progress.txt\"",
+                "\"progress\"",
                 "\"game/Score\"",
                 "GlobalVariable(Score)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "EcrireFichierExp"
-              },
-              "parameters": [
-                "\"progress.txt\"",
-                "\"game/playerPositionY\"",
-                "GlobalVariable(CheckpointX)"
               ],
               "subInstructions": []
             }
@@ -18467,6 +18670,69 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CheckpointXPaused",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CheckpointYPaused",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -18523,7 +18789,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.178
+        "zoomFactor": 0.634
       },
       "objectsGroups": [],
       "variables": [
@@ -18546,10 +18812,6 @@
         {
           "name": "MonsterHealth",
           "value": ""
-        },
-        {
-          "name": "SceneName",
-          "value": "1"
         }
       ],
       "instances": [
@@ -35525,7 +35787,7 @@
               "include": {
                 "includeConfig": 0
               },
-              "target": "ExitGame"
+              "target": "PauseGame"
             }
           ],
           "parameters": []
@@ -35682,21 +35944,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "Jungle.mp3",
-                    "1",
-                    "yes",
-                    "2",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ResetObjectTimer"
                   },
                   "parameters": [
@@ -35719,11 +35966,37 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "Boss1",
+                    "\"Hit2\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "PauseObjectTimer"
                   },
                   "parameters": [
                     "Player",
                     "\"DownTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Jungle.mp3",
+                    "1",
+                    "yes",
+                    "2",
+                    ""
                   ],
                   "subInstructions": []
                 },
@@ -35744,31 +36017,6 @@
                   },
                   "parameters": [
                     "GoRight"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "Jungle.wav",
-                    "yes",
-                    "100",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "Boss1",
-                    "\"Hit2\""
                   ],
                   "subInstructions": []
                 },
@@ -35800,7 +36048,7 @@
                   "parameters": [
                     "SceneName",
                     "=",
-                    "Variable(SceneName)"
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -35825,6 +36073,20 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "153",
+                        "=",
+                        "501"
+                      ],
+                      "subInstructions": []
+                    },
                     {
                       "type": {
                         "inverted": false,
@@ -54530,7 +54792,7 @@
               "include": {
                 "includeConfig": 0
               },
-              "target": "ExitGame"
+              "target": "PauseGame"
             }
           ],
           "parameters": []
@@ -54687,21 +54949,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "Jungle.mp3",
-                    "1",
-                    "yes",
-                    "2",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ResetObjectTimer"
                   },
                   "parameters": [
@@ -54724,11 +54971,37 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "Boss1",
+                    "\"Hit2\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "PauseObjectTimer"
                   },
                   "parameters": [
                     "Player",
                     "\"DownTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Jungle.mp3",
+                    "1",
+                    "yes",
+                    "2",
+                    ""
                   ],
                   "subInstructions": []
                 },
@@ -54755,55 +55028,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "CheckpointX",
-                    "=",
-                    "Player.X()"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "CheckpointY",
-                    "=",
-                    "Player.Y()"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "Jungle.wav",
-                    "yes",
-                    "100",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "Boss1",
-                    "\"Hit2\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Cache"
                   },
                   "parameters": [
@@ -54820,9 +55044,118 @@
                     "BossHealth"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "SceneName",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Loaded",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "GlobalVariable(CheckpointX)",
+                        "=",
+                        "GlobalVariable(CheckpointY)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Loaded",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "153",
+                        "=",
+                        "501"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CheckpointX",
+                        "=",
+                        "Player.X()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CheckpointY",
+                        "=",
+                        "Player.Y()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -56478,7 +56811,7 @@
     {
       "associatedLayout": "Menu",
       "lastChangeTimeStamp": 0,
-      "name": "ExitGame",
+      "name": "PauseGame",
       "events": [
         {
           "disabled": false,
@@ -56488,12 +56821,20 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "KeyReleased"
               },
               "parameters": [
                 "",
                 "Escape"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -56501,60 +56842,24 @@
             {
               "type": {
                 "inverted": false,
-                "value": "EcrireFichierExp"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "\"progress.txt\"",
-                "\"game/playerPositionY\"",
-                "GlobalVariable(CheckpointY)"
+                "CheckpointXPaused",
+                "=",
+                "Player.X()"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "EcrireFichierExp"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "\"progress.txt\"",
-                "\"game/SceneName\"",
-                "GlobalVariable(SceneName)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "EcrireFichierExp"
-              },
-              "parameters": [
-                "\"progress.txt\"",
-                "\"game/Lives\"",
-                "GlobalVariable(Lives)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "EcrireFichierExp"
-              },
-              "parameters": [
-                "\"progress.txt\"",
-                "\"game/Score\"",
-                "GlobalVariable(Score)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "EcrireFichierExp"
-              },
-              "parameters": [
-                "\"progress.txt\"",
-                "\"game/playerPositionY\"",
-                "GlobalVariable(CheckpointX)"
+                "CheckpointYPaused",
+                "=",
+                "Player.Y()"
               ],
               "subInstructions": []
             },
@@ -58472,7 +58777,31 @@
                 "value": "EcrireFichierExp"
               },
               "parameters": [
-                "\"progress.txt\"",
+                "\"progress\"",
+                "\"game/PlayerPositionX\"",
+                "GlobalVariable(CheckpointX)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"progress\"",
+                "\"game/PlayerPositionY\"",
+                "GlobalVariable(CheckpointY)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"progress\"",
                 "\"game/SceneName\"",
                 "GlobalVariable(SceneName)"
               ],
@@ -58484,7 +58813,7 @@
                 "value": "EcrireFichierExp"
               },
               "parameters": [
-                "\"progress.txt\"",
+                "\"progress\"",
                 "\"game/Score\"",
                 "GlobalVariable(Score)"
               ],
@@ -58496,33 +58825,9 @@
                 "value": "EcrireFichierExp"
               },
               "parameters": [
-                "\"progress.txt\"",
+                "\"progress\"",
                 "\"game/Lives\"",
                 "GlobalVariable(Lives)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "EcrireFichierExp"
-              },
-              "parameters": [
-                "\"progress.txt\"",
-                "\"game/playerPositionY\"",
-                "GlobalVariable(CheckpointX)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "EcrireFichierExp"
-              },
-              "parameters": [
-                "\"progress.txt\"",
-                "\"game/playerPositionY\"",
-                "GlobalVariable(CheckpointY)"
               ],
               "subInstructions": []
             }
