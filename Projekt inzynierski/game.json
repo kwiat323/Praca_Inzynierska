@@ -9548,6 +9548,15 @@
         "metadata": "",
         "name": "Death.mp3",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -20461,6 +20470,36 @@
           "x": 9859,
           "y": 507,
           "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Black",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stage",
+          "width": 0,
+          "x": 331,
+          "y": 255,
+          "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -35748,6 +35787,35 @@
               ]
             }
           ]
+        },
+        {
+          "height": 600,
+          "name": "Black",
+          "tags": "",
+          "texture": "NewFile-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 800,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Stage",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Stage I",
+          "font": "",
+          "characterSize": 45,
+          "color": {
+            "b": 248,
+            "g": 248,
+            "r": 248
+          }
         }
       ],
       "events": [
@@ -35933,122 +36001,64 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ResetTimer"
+                    "value": "Cache"
                   },
                   "parameters": [
-                    "",
-                    "\"CzasGry\""
+                    "Heart"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ResetObjectTimer"
+                    "value": "Cache"
                   },
                   "parameters": [
-                    "Spike",
-                    "\"UpTimer\""
+                    "Coin"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ResetObjectTimer"
+                    "value": "Cache"
                   },
                   "parameters": [
-                    "Spike",
-                    "\"DownTimer\""
+                    "Score"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ResetTimer"
+                    "value": "Cache"
                   },
                   "parameters": [
-                    "Boss1",
-                    "\"Hit2\""
+                    "Lives"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PauseObjectTimer"
+                    "value": "ActivateBehavior"
                   },
                   "parameters": [
                     "Player",
-                    "\"DownTimer\""
+                    "PlatformerObject",
+                    "no"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySoundCanal"
+                    "value": "Opacity"
                   },
                   "parameters": [
-                    "",
-                    "Jungle.mp3",
-                    "1",
-                    "yes",
-                    "2",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "GoLeft"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "GoRight"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "hb"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "BossHealth"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SceneName",
-                    "=",
-                    "1"
+                    "F",
+                    "-",
+                    "95*TimeDelta()"
                   ],
                   "subInstructions": []
                 }
@@ -36058,32 +36068,115 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarGlobal"
-                      },
-                      "parameters": [
-                        "Loaded",
-                        "=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
                         "inverted": false,
-                        "value": "MettreXY"
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CzasGry\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Spike",
+                        "\"UpTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Spike",
+                        "\"DownTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "Boss1",
+                        "\"Hit2\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseObjectTimer"
                       },
                       "parameters": [
                         "Player",
-                        "=",
-                        "153",
-                        "=",
-                        "501"
+                        "\"DownTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Jungle.mp3",
+                        "1",
+                        "yes",
+                        "2",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "GoLeft"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "GoRight"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "hb"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "BossHealth"
                       ],
                       "subInstructions": []
                     },
@@ -36093,62 +36186,111 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "CheckpointX",
-                        "=",
-                        "Player.X()"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "CheckpointY",
-                        "=",
-                        "Player.Y()"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarGlobal"
-                      },
-                      "parameters": [
-                        "Loaded",
+                        "SceneName",
                         "=",
                         "1"
                       ],
                       "subInstructions": []
                     }
                   ],
-                  "actions": [
+                  "events": [
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "MettreXY"
-                      },
-                      "parameters": [
-                        "Player",
-                        "=",
-                        "GlobalVariable(CheckpointX)",
-                        "=",
-                        "GlobalVariable(CheckpointY)"
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Loaded",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "153",
+                            "=",
+                            "501"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CheckpointX",
+                            "=",
+                            "Player.X()"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CheckpointY",
+                            "=",
+                            "Player.Y()"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Loaded",
+                            "=",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "GlobalVariable(CheckpointX)",
+                            "=",
+                            "GlobalVariable(CheckpointY)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
@@ -37496,7 +37638,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Ruszająca się platforma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37656,7 +37798,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Zachowanie Wody",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -56957,18 +57099,6 @@
               "parameters": [
                 "Player",
                 "\"IsDeadTimer\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "yes"
               ],
               "subInstructions": []
             }
