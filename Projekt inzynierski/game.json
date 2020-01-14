@@ -13317,7 +13317,7 @@
               "timeBetweenFrames": 0.03,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_000.png",
                   "points": [],
                   "originPoint": {
@@ -13331,10 +13331,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_001.png",
                   "points": [],
                   "originPoint": {
@@ -13348,10 +13375,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_002.png",
                   "points": [],
                   "originPoint": {
@@ -13365,10 +13419,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_003.png",
                   "points": [],
                   "originPoint": {
@@ -13382,10 +13463,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_004.png",
                   "points": [],
                   "originPoint": {
@@ -13399,10 +13507,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_005.png",
                   "points": [],
                   "originPoint": {
@@ -13416,10 +13551,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_006.png",
                   "points": [],
                   "originPoint": {
@@ -13433,10 +13595,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_007.png",
                   "points": [],
                   "originPoint": {
@@ -13450,10 +13639,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_008.png",
                   "points": [],
                   "originPoint": {
@@ -13467,10 +13683,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_009.png",
                   "points": [],
                   "originPoint": {
@@ -13484,10 +13727,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_010.png",
                   "points": [],
                   "originPoint": {
@@ -13501,10 +13771,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_011.png",
                   "points": [],
                   "originPoint": {
@@ -13518,10 +13815,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_012.png",
                   "points": [],
                   "originPoint": {
@@ -13535,10 +13859,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_013.png",
                   "points": [],
                   "originPoint": {
@@ -13552,10 +13903,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_014.png",
                   "points": [],
                   "originPoint": {
@@ -13569,10 +13947,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_015.png",
                   "points": [],
                   "originPoint": {
@@ -13586,10 +13991,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_016.png",
                   "points": [],
                   "originPoint": {
@@ -13603,10 +14035,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_017.png",
                   "points": [],
                   "originPoint": {
@@ -13620,10 +14079,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_018.png",
                   "points": [],
                   "originPoint": {
@@ -13637,10 +14123,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_019.png",
                   "points": [],
                   "originPoint": {
@@ -13654,10 +14167,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_020.png",
                   "points": [],
                   "originPoint": {
@@ -13671,10 +14211,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_021.png",
                   "points": [],
                   "originPoint": {
@@ -13688,10 +14255,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_022.png",
                   "points": [],
                   "originPoint": {
@@ -13705,10 +14299,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Walking\\0_Fallen_Angels_Walking_023.png",
                   "points": [],
                   "originPoint": {
@@ -13722,7 +14343,34 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -13737,7 +14385,7 @@
               "timeBetweenFrames": 0.03,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_000.png",
                   "points": [],
                   "originPoint": {
@@ -13751,10 +14399,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_001.png",
                   "points": [],
                   "originPoint": {
@@ -13768,10 +14443,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_002.png",
                   "points": [],
                   "originPoint": {
@@ -13785,10 +14487,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_003.png",
                   "points": [],
                   "originPoint": {
@@ -13802,10 +14531,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_004.png",
                   "points": [],
                   "originPoint": {
@@ -13819,10 +14575,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_005.png",
                   "points": [],
                   "originPoint": {
@@ -13836,10 +14619,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_006.png",
                   "points": [],
                   "originPoint": {
@@ -13853,10 +14663,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_007.png",
                   "points": [],
                   "originPoint": {
@@ -13870,10 +14707,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_008.png",
                   "points": [],
                   "originPoint": {
@@ -13887,10 +14751,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_009.png",
                   "points": [],
                   "originPoint": {
@@ -13904,10 +14795,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_010.png",
                   "points": [],
                   "originPoint": {
@@ -13921,10 +14839,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_011.png",
                   "points": [],
                   "originPoint": {
@@ -13938,10 +14883,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_012.png",
                   "points": [],
                   "originPoint": {
@@ -13955,10 +14927,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_013.png",
                   "points": [],
                   "originPoint": {
@@ -13972,10 +14971,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Dying\\0_Fallen_Angels_Dying_014.png",
                   "points": [],
                   "originPoint": {
@@ -13989,7 +15015,34 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -14004,7 +15057,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_000.png",
                   "points": [],
                   "originPoint": {
@@ -14018,10 +15071,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 521.25,
+                        "y": 220
+                      },
+                      {
+                        "x": 581.25,
+                        "y": 340
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 221.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 296.25,
+                        "y": 252.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_001.png",
                   "points": [],
                   "originPoint": {
@@ -14035,10 +15115,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 521.25,
+                        "y": 220
+                      },
+                      {
+                        "x": 611.25,
+                        "y": 335
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 221.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 296.25,
+                        "y": 252.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_002.png",
                   "points": [],
                   "originPoint": {
@@ -14052,10 +15159,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 521.25,
+                        "y": 220
+                      },
+                      {
+                        "x": 653.75,
+                        "y": 322.5
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 263.75,
+                        "y": 435
+                      },
+                      {
+                        "x": 296.25,
+                        "y": 252.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_003.png",
                   "points": [],
                   "originPoint": {
@@ -14069,10 +15203,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 631.25,
+                        "y": 262.5
+                      },
+                      {
+                        "x": 736.25,
+                        "y": 400
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 321.25,
+                        "y": 372.5
+                      },
+                      {
+                        "x": 486.25,
+                        "y": 220
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_004.png",
                   "points": [],
                   "originPoint": {
@@ -14086,10 +15247,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 661.25,
+                        "y": 262.5
+                      },
+                      {
+                        "x": 751.25,
+                        "y": 412.5
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 338.75,
+                        "y": 395
+                      },
+                      {
+                        "x": 506.25,
+                        "y": 230
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_005.png",
                   "points": [],
                   "originPoint": {
@@ -14103,10 +15291,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 693.75,
+                        "y": 287.5
+                      },
+                      {
+                        "x": 741.25,
+                        "y": 405
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 348.75,
+                        "y": 377.5
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 222.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_006.png",
                   "points": [],
                   "originPoint": {
@@ -14120,10 +15335,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 521.25,
+                        "y": 220
+                      },
+                      {
+                        "x": 611.25,
+                        "y": 335
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 221.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 296.25,
+                        "y": 252.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_007.png",
                   "points": [],
                   "originPoint": {
@@ -14137,10 +15379,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 521.25,
+                        "y": 220
+                      },
+                      {
+                        "x": 611.25,
+                        "y": 335
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 221.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 296.25,
+                        "y": 252.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_008.png",
                   "points": [],
                   "originPoint": {
@@ -14154,10 +15423,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 521.25,
+                        "y": 220
+                      },
+                      {
+                        "x": 611.25,
+                        "y": 335
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 221.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 296.25,
+                        "y": 252.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_009.png",
                   "points": [],
                   "originPoint": {
@@ -14171,10 +15467,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 521.25,
+                        "y": 220
+                      },
+                      {
+                        "x": 611.25,
+                        "y": 335
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 221.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 296.25,
+                        "y": 252.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_010.png",
                   "points": [],
                   "originPoint": {
@@ -14188,10 +15511,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 521.25,
+                        "y": 220
+                      },
+                      {
+                        "x": 611.25,
+                        "y": 335
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 221.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 296.25,
+                        "y": 252.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Slashing\\0_Fallen_Angels_Slashing_011.png",
                   "points": [],
                   "originPoint": {
@@ -14205,7 +15555,34 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 521.25,
+                        "y": 220
+                      },
+                      {
+                        "x": 611.25,
+                        "y": 335
+                      },
+                      {
+                        "x": 523.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 371.25,
+                        "y": 755
+                      },
+                      {
+                        "x": 221.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 296.25,
+                        "y": 252.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -14220,7 +15597,7 @@
               "timeBetweenFrames": 0.03,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_000.png",
                   "points": [],
                   "originPoint": {
@@ -14234,10 +15611,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_001.png",
                   "points": [],
                   "originPoint": {
@@ -14251,10 +15655,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_002.png",
                   "points": [],
                   "originPoint": {
@@ -14268,10 +15699,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_003.png",
                   "points": [],
                   "originPoint": {
@@ -14285,10 +15743,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_004.png",
                   "points": [],
                   "originPoint": {
@@ -14302,10 +15787,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_005.png",
                   "points": [],
                   "originPoint": {
@@ -14319,10 +15831,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_006.png",
                   "points": [],
                   "originPoint": {
@@ -14336,10 +15875,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_007.png",
                   "points": [],
                   "originPoint": {
@@ -14353,10 +15919,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_008.png",
                   "points": [],
                   "originPoint": {
@@ -14370,10 +15963,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_009.png",
                   "points": [],
                   "originPoint": {
@@ -14387,10 +16007,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_010.png",
                   "points": [],
                   "originPoint": {
@@ -14404,10 +16051,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_011.png",
                   "points": [],
                   "originPoint": {
@@ -14421,7 +16095,34 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -14436,7 +16137,7 @@
               "timeBetweenFrames": 0.02,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_000.png",
                   "points": [],
                   "originPoint": {
@@ -14450,10 +16151,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_001.png",
                   "points": [],
                   "originPoint": {
@@ -14467,10 +16195,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_002.png",
                   "points": [],
                   "originPoint": {
@@ -14484,10 +16239,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_003.png",
                   "points": [],
                   "originPoint": {
@@ -14501,10 +16283,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_004.png",
                   "points": [],
                   "originPoint": {
@@ -14518,10 +16327,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_005.png",
                   "points": [],
                   "originPoint": {
@@ -14535,10 +16371,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_006.png",
                   "points": [],
                   "originPoint": {
@@ -14552,10 +16415,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_007.png",
                   "points": [],
                   "originPoint": {
@@ -14569,10 +16459,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_008.png",
                   "points": [],
                   "originPoint": {
@@ -14586,10 +16503,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_009.png",
                   "points": [],
                   "originPoint": {
@@ -14603,10 +16547,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_010.png",
                   "points": [],
                   "originPoint": {
@@ -14620,10 +16591,37 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_011.png",
                   "points": [],
                   "originPoint": {
@@ -14637,7 +16635,34 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 456.25,
+                        "y": 222.5
+                      },
+                      {
+                        "x": 651.25,
+                        "y": 300
+                      },
+                      {
+                        "x": 538.75,
+                        "y": 750
+                      },
+                      {
+                        "x": 358.75,
+                        "y": 757.5
+                      },
+                      {
+                        "x": 261.25,
+                        "y": 425
+                      },
+                      {
+                        "x": 293.75,
+                        "y": 315
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -16885,8 +18910,8 @@
           "locked": false,
           "name": "Information",
           "width": 0,
-          "x": 30,
-          "y": 38,
+          "x": 15,
+          "y": 85,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -16900,8 +18925,8 @@
           "locked": false,
           "name": "ChangeScene",
           "width": 0,
-          "x": 120,
-          "y": 550,
+          "x": 56,
+          "y": 558,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -16915,8 +18940,8 @@
           "locked": false,
           "name": "Background",
           "width": 0,
-          "x": -268,
-          "y": -105,
+          "x": -251,
+          "y": -118,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -16934,9 +18959,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Sterowanie\n\nPoruszanie się:\nA,D,Strzałka w lewo, Strzałka w prawo\n\nAtak:\nLewy przycisk myszy\n\nSkok:\nSpacja,Strzałka w górę",
-          "font": "",
-          "characterSize": 40,
+          "string": "Sterowanie\n\nPoruszanie sie:\nA,D,Strzalka w lewo, Strzalka w prawo\n\nAtak:\nLewy przycisk myszy\n\nSkok:\nSpacja,Strzalka w gore",
+          "font": "Czcionka\\upheavtt.ttf",
+          "characterSize": 38,
           "color": {
             "b": 0,
             "g": 0,
@@ -16953,8 +18978,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Naciśnij lewy przycisk myszy, aby przejść dalej...",
-          "font": "",
+          "string": "Nacisnij lewy przycisk myszy, aby przejsc dalej...",
+          "font": "Czcionka\\upheavtt.ttf",
           "characterSize": 25,
           "color": {
             "b": 0,
@@ -17177,8 +19202,8 @@
           "locked": false,
           "name": "Information",
           "width": 0,
-          "x": 12,
-          "y": 174,
+          "x": 35,
+          "y": 121,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -17192,8 +19217,8 @@
           "locked": false,
           "name": "Coin",
           "width": 80,
-          "x": 155,
-          "y": 155,
+          "x": 215,
+          "y": 100,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -17207,8 +19232,8 @@
           "locked": false,
           "name": "Information2",
           "width": 0,
-          "x": 120,
-          "y": 550,
+          "x": 56,
+          "y": 558,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -17222,8 +19247,8 @@
           "locked": false,
           "name": "Heart",
           "width": 80,
-          "x": 155,
-          "y": 295,
+          "x": 215,
+          "y": 313,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -17256,8 +19281,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Zbieraj         aby zwiększyć swój wynik\n\n\nZbieraj         aby zwiększyć swój limit żyć",
-          "font": "",
+          "string": "Zbieraj         \n\n\naby zwiekszyc swoj wynik\n\n\nZbieraj         \n\n\naby zwiekszyc swoj limit zyc",
+          "font": "Czcionka\\upheavtt.ttf",
           "characterSize": 40,
           "color": {
             "b": 0,
@@ -17275,8 +19300,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Naciśnij lewy przycisk myszy, aby przejść dalej...",
-          "font": "",
+          "string": "Nacisnij lewy przycisk myszy, aby przejsc dalej...",
+          "font": "Czcionka\\upheavtt.ttf",
           "characterSize": 25,
           "color": {
             "b": 0,
@@ -18725,7 +20750,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.13
+        "zoomFactor": 0.01
       },
       "objectsGroups": [],
       "variables": [
@@ -19644,7 +21669,7 @@
           "locked": false,
           "name": "Spike",
           "width": 0,
-          "x": 5715,
+          "x": 5609,
           "y": 431,
           "zOrder": 60,
           "numberProperties": [],
@@ -19824,7 +21849,7 @@
           "locked": false,
           "name": "Stone",
           "width": 0,
-          "x": 5853,
+          "x": 5790,
           "y": 494,
           "zOrder": 80,
           "numberProperties": [],
@@ -20244,23 +22269,8 @@
           "locked": false,
           "name": "AddScore",
           "width": 50,
-          "x": 8365,
-          "y": 503,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
           "x": 7979,
-          "y": 503,
+          "y": 447,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -20275,7 +22285,7 @@
           "name": "AddScore",
           "width": 50,
           "x": 8205,
-          "y": 503,
+          "y": 447,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -20397,6 +22407,96 @@
           "x": 9859,
           "y": 507,
           "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Tile4",
+          "width": 0,
+          "x": 10273,
+          "y": 294,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 745,
+          "layer": "",
+          "locked": false,
+          "name": "Tile4",
+          "width": 128,
+          "x": 10480,
+          "y": -200,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 10444,
+          "y": 501,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 745,
+          "layer": "",
+          "locked": false,
+          "name": "Tile5",
+          "width": 320,
+          "x": 10608,
+          "y": -200,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 8419,
+          "y": 501,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "width": 0,
+          "x": 7888,
+          "y": 480,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -35641,9 +37741,9 @@
           "font": "Czcionka\\upheavtt.ttf",
           "characterSize": 28,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -36414,7 +38514,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zachowanie monster",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36467,23 +38567,23 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeAnimation"
+                    "value": "PlatformBehavior::SetCanJump"
                   },
                   "parameters": [
-                    "1HitMonsters",
-                    "=",
-                    "1"
+                    "Player",
+                    "PlatformerObject"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlatformBehavior::SetCanJump"
+                    "value": "ChangeAnimation"
                   },
                   "parameters": [
-                    "Player",
-                    "PlatformerObject"
+                    "1HitMonsters",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 },
@@ -37647,7 +39747,7 @@
                   "parameters": [
                     "Ledge",
                     "180",
-                    "100",
+                    "150",
                     ""
                   ],
                   "subInstructions": []
@@ -37683,7 +39783,7 @@
                   "parameters": [
                     "Ledge",
                     "0",
-                    "100",
+                    "150",
                     ""
                   ],
                   "subInstructions": []
@@ -37886,7 +39986,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 1
+        "zoomFactor": 0.904
       },
       "objectsGroups": [],
       "variables": [
