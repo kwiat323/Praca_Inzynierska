@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Git\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -9591,6 +9591,24 @@
         "name": "Fadeout.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sign_checked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sign_checked.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sign_finish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sign_finish.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13256,7 +13274,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Sign_1 — kopia.png",
+                  "image": "Sign_checked.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20750,7 +20768,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.01
+        "zoomFactor": 0.682
       },
       "objectsGroups": [],
       "variables": [
@@ -37764,7 +37782,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Sign_2.png",
+                      "image": "Sign_finish.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
