@@ -13425,7 +13425,7 @@
               "timeBetweenFrames": 0.3333,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "flyFly1.png",
                   "points": [],
                   "originPoint": {
@@ -13439,29 +13439,10 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 20.5,
-                        "y": 8
-                      },
-                      {
-                        "x": 51.5,
-                        "y": 6
-                      },
-                      {
-                        "x": 57.5,
-                        "y": 33
-                      },
-                      {
-                        "x": 14.5,
-                        "y": 33
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "flyFly2.png",
                   "points": [],
                   "originPoint": {
@@ -13475,26 +13456,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 20.5,
-                        "y": 8
-                      },
-                      {
-                        "x": 51.5,
-                        "y": 6
-                      },
-                      {
-                        "x": 57.5,
-                        "y": 33
-                      },
-                      {
-                        "x": 14.5,
-                        "y": 33
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -13526,20 +13488,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 0
+                        "x": 13.5,
+                        "y": 0.5
                       },
                       {
-                        "x": 51,
-                        "y": 0
+                        "x": 45.5,
+                        "y": 0.5
                       },
                       {
-                        "x": 47,
-                        "y": 26
+                        "x": 45.5,
+                        "y": 32.5
                       },
                       {
-                        "x": 17,
-                        "y": 27
+                        "x": 13.5,
+                        "y": 32.5
                       }
                     ]
                   ]
@@ -38407,15 +38369,6 @@
                 "includeConfig": 0
               },
               "target": "FadeOut"
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "Checkpoint"
             }
           ],
           "parameters": []
@@ -38426,7 +38379,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Background i background sound",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39105,32 +39058,9 @@
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "Animation"
-                  },
-                  "parameters": [
-                    "1HitMonsters",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -39139,6 +39069,18 @@
                   "parameters": [
                     "Player",
                     "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "1HitMonsters",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 },
@@ -39155,21 +39097,43 @@
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "1HitMonsters",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "1HitMonsters",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -39538,18 +39502,6 @@
                         "",
                         "",
                         ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "Animation"
-                      },
-                      "parameters": [
-                        "1HitMonsters",
-                        "=",
-                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -40171,96 +40123,6 @@
                         }
                       ],
                       "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Opacity"
-                          },
-                          "parameters": [
-                            "FlyingMonsters",
-                            "=",
-                            "0"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "FlyingMonsters",
-                            ""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": [
-                        {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": [],
-                              "subInstructions": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "AddScore",
-                                "Fly.X()",
-                                "Fly.Y()-50",
-                                ""
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ChangeWidth"
-                              },
-                              "parameters": [
-                                "AddScore",
-                                "=",
-                                "50"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ChangeHeight"
-                              },
-                              "parameters": [
-                                "AddScore",
-                                "=",
-                                "50"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "events": []
-                        }
-                      ]
                     }
                   ]
                 }
@@ -40486,7 +40348,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zmiana sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40621,7 +40483,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.394
+        "zoomFactor": 0.418
       },
       "objectsGroups": [],
       "variables": [
@@ -40659,8 +40521,8 @@
           "locked": false,
           "name": "Player",
           "width": 150,
-          "x": 161,
-          "y": 498,
+          "x": 153,
+          "y": 501,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -42142,6 +42004,26 @@
           "height": 50,
           "layer": "",
           "locked": false,
+          "name": "LedgeUP",
+          "width": 200,
+          "x": 6335,
+          "y": 476,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "GoingUp",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
           "name": "AddScore",
           "width": 50,
           "x": 6413,
@@ -42342,21 +42224,6 @@
           "x": 6931,
           "y": 432,
           "zOrder": 60,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "LedgeUP",
-          "width": 150,
-          "x": 6357,
-          "y": 469,
-          "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -43170,8 +43037,8 @@
                             "y": 405
                           },
                           {
-                            "x": 77,
-                            "y": 400
+                            "x": 72.7734,
+                            "y": 395
                           },
                           {
                             "x": 7.77344,
@@ -43222,8 +43089,8 @@
                             "y": 405
                           },
                           {
-                            "x": 77,
-                            "y": 400
+                            "x": 72.7734,
+                            "y": 395
                           },
                           {
                             "x": 7.77344,
@@ -43274,8 +43141,8 @@
                             "y": 405
                           },
                           {
-                            "x": 77,
-                            "y": 400
+                            "x": 72.7734,
+                            "y": 395
                           },
                           {
                             "x": 7.77344,
@@ -43326,8 +43193,8 @@
                             "y": 405
                           },
                           {
-                            "x": 77,
-                            "y": 400
+                            "x": 72.7734,
+                            "y": 395
                           },
                           {
                             "x": 7.77344,
@@ -43378,8 +43245,8 @@
                             "y": 405
                           },
                           {
-                            "x": 77,
-                            "y": 400
+                            "x": 72.7734,
+                            "y": 395
                           },
                           {
                             "x": 7.77344,
@@ -43430,8 +43297,8 @@
                             "y": 405
                           },
                           {
-                            "x": 77,
-                            "y": 400
+                            "x": 72.7734,
+                            "y": 395
                           },
                           {
                             "x": 7.77344,
@@ -43482,8 +43349,8 @@
                             "y": 405
                           },
                           {
-                            "x": 77,
-                            "y": 400
+                            "x": 72.7734,
+                            "y": 395
                           },
                           {
                             "x": 7.77344,
@@ -43534,8 +43401,8 @@
                             "y": 405
                           },
                           {
-                            "x": 77,
-                            "y": 400
+                            "x": 72.7734,
+                            "y": 395
                           },
                           {
                             "x": 7.77344,
@@ -43594,12 +43461,12 @@
                             "y": 337.5
                           },
                           {
-                            "x": 525,
-                            "y": 452
+                            "x": 462.773,
+                            "y": 405
                           },
                           {
-                            "x": 55,
-                            "y": 454
+                            "x": 72.7734,
+                            "y": 395
                           },
                           {
                             "x": 7.77344,
@@ -43646,12 +43513,12 @@
                             "y": 337.5
                           },
                           {
-                            "x": 525,
-                            "y": 452
+                            "x": 462.773,
+                            "y": 405
                           },
                           {
-                            "x": 55,
-                            "y": 454
+                            "x": 72.7734,
+                            "y": 395
                           },
                           {
                             "x": 7.77344,
@@ -59751,7 +59618,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Linki z zachowaniem",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -59791,15 +59658,6 @@
                 "includeConfig": 0
               },
               "target": "FadeOut"
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "Checkpoint"
             }
           ],
           "parameters": []
@@ -59810,7 +59668,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Background i background sound",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -60170,6 +60028,42 @@
                       "parameters": [
                         "Loaded",
                         "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "=",
+                        "GlobalVariable(CheckpointX)",
+                        "=",
+                        "GlobalVariable(CheckpointY)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Loaded",
+                        "=",
                         "0"
                       ],
                       "subInstructions": []
@@ -60211,42 +60105,6 @@
                         "CheckpointY",
                         "=",
                         "Player.Y()"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarGlobal"
-                      },
-                      "parameters": [
-                        "Loaded",
-                        "=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MettreXY"
-                      },
-                      "parameters": [
-                        "Player",
-                        "=",
-                        "GlobalVariable(CheckpointX)",
-                        "=",
-                        "GlobalVariable(CheckpointY)"
                       ],
                       "subInstructions": []
                     }
@@ -60462,26 +60320,11 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zachowanie monster",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Zabijanie poprzez upadanie na monstery",
-              "comment2": ""
-            },
             {
               "disabled": false,
               "folded": false,
@@ -60507,18 +60350,6 @@
                     "Player",
                     "1HitMonsters",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "Animation"
-                  },
-                  "parameters": [
-                    "1HitMonsters",
-                    "=",
-                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -60567,28 +60398,13 @@
                     "",
                     "jump.wav",
                     "",
-                    "15",
+                    "",
                     ""
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Poruszanie się monster",
-              "comment2": ""
             },
             {
               "disabled": false,
@@ -60809,6 +60625,21 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Health Bar dla bossów",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -60827,21 +60658,6 @@
               ],
               "actions": [],
               "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Health Bar dla bossów",
-                  "comment2": ""
-                },
                 {
                   "disabled": false,
                   "folded": false,
@@ -60981,21 +60797,6 @@
                         ""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "enemy_hit.wav",
-                        "25",
-                        "",
-                        "15",
-                        ""
-                      ],
-                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -61057,7 +60858,7 @@
                         "Bosses",
                         "Health",
                         "-",
-                        "50"
+                        "550"
                       ],
                       "subInstructions": []
                     },
@@ -61104,21 +60905,6 @@
                         "hb",
                         "=",
                         "Bosses.Variable(Health)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "enemy_hit.wav",
-                        "25",
-                        "",
-                        "15",
-                        ""
                       ],
                       "subInstructions": []
                     }
@@ -61409,7 +61195,7 @@
                                 "",
                                 "AddScore",
                                 "Monsters.X()",
-                                "Monsters.Y()-15",
+                                "Monsters.Y()",
                                 ""
                               ],
                               "subInstructions": []
@@ -61586,39 +61372,6 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Opacity"
-                          },
-                          "parameters": [
-                            "FlyingMonsters",
-                            "=",
-                            "0"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "FlyingMonsters",
-                            ""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
                       "events": [
                         {
                           "disabled": false,
@@ -61628,9 +61381,13 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "BuiltinCommonInstructions::Once"
+                                "value": "Opacity"
                               },
-                              "parameters": [],
+                              "parameters": [
+                                "FlyingMonsters",
+                                "=",
+                                "0"
+                              ],
                               "subInstructions": []
                             }
                           ],
@@ -61638,43 +61395,73 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "Create"
+                                "value": "Delete"
                               },
                               "parameters": [
-                                "",
-                                "AddScore",
-                                "Fly.X()",
-                                "Fly.Y()-50",
+                                "FlyingMonsters",
                                 ""
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ChangeWidth"
-                              },
-                              "parameters": [
-                                "AddScore",
-                                "=",
-                                "50"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ChangeHeight"
-                              },
-                              "parameters": [
-                                "AddScore",
-                                "=",
-                                "50"
                               ],
                               "subInstructions": []
                             }
                           ],
-                          "events": []
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "AddScore",
+                                    "Fly.X()",
+                                    "Fly.Y()-50",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ChangeWidth"
+                                  },
+                                  "parameters": [
+                                    "AddScore",
+                                    "=",
+                                    "50"
+                                  ],
+                                  "subInstructions": []
+                                },
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ChangeHeight"
+                                  },
+                                  "parameters": [
+                                    "AddScore",
+                                    "=",
+                                    "50"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
                         }
                       ]
                     }
@@ -61943,7 +61730,7 @@
                   },
                   "parameters": [
                     "LedgeUP",
-                    "270",
+                    "90",
                     "100",
                     ""
                   ],
@@ -61979,7 +61766,7 @@
                   },
                   "parameters": [
                     "LedgeUP",
-                    "90",
+                    "270",
                     "100",
                     ""
                   ],
@@ -62043,52 +61830,38 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Zmiana sceny",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": true,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Stone",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Stone",
+                ""
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"2\"",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
           ],
-          "parameters": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"2\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -62145,67 +61918,6 @@
           "name": "Grid",
           "visibility": true,
           "cameras": [],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        }
-      ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "_51",
-      "name": "3",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridB": 255,
-        "gridG": 180,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridR": 158,
-        "gridWidth": 32,
-        "snap": true,
-        "windowMask": false,
-        "zoomFactor": 0.232
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
-      "layers": [
-        {
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
           "effects": []
         }
       ],
@@ -62427,19 +62139,6 @@
                   "subInstructions": []
                 }
               ]
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Player",
-                "IsDead",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -62505,19 +62204,6 @@
                   "subInstructions": []
                 }
               ]
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Player",
-                "IsDead",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -63650,19 +63336,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Player",
-                "IsDead",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Create"
               },
               "parameters": [
@@ -63879,7 +63552,7 @@
               },
               "parameters": [
                 "Player",
-                "Enemy",
+                "Spike",
                 "",
                 "",
                 ""
@@ -64133,6 +63806,235 @@
               "parameters": [
                 "Arrow",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Checkpoint",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Checkpoint",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CheckpointX",
+                "=",
+                "Checkpoint.X()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CheckpointY",
+                "=",
+                "Checkpoint.Y()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Checkpoint",
+                "Used",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Lives",
+                    ">=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"progress\"",
+                    "\"game/PlayerPositionX\"",
+                    "GlobalVariable(CheckpointX)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"progress\"",
+                    "\"game/PlayerPositionY\"",
+                    "GlobalVariable(CheckpointY)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"progress\"",
+                    "\"game/SceneName\"",
+                    "GlobalVariable(SceneName)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"progress\"",
+                    "\"game/Score\"",
+                    "GlobalVariable(Score)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"progress\"",
+                    "\"game/Lives\"",
+                    "GlobalVariable(Lives)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Checkpoint",
+                "Used",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Checkpoint",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Checkpoint",
+                "Used",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Checkpoint",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -64570,227 +64472,6 @@
               "events": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "associatedLayout": "1",
-      "lastChangeTimeStamp": 0,
-      "name": "Checkpoint",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Checkpoint",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CheckpointX",
-                "=",
-                "Checkpoint.X()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CheckpointY",
-                "=",
-                "Checkpoint.Y()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Checkpoint",
-                "Used",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Lives",
-                    ">=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "EcrireFichierExp"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/PlayerPositionX\"",
-                    "GlobalVariable(CheckpointX)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "EcrireFichierExp"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/PlayerPositionY\"",
-                    "GlobalVariable(CheckpointY)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "EcrireFichierExp"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/SceneName\"",
-                    "GlobalVariable(SceneName)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "EcrireFichierExp"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/Score\"",
-                    "GlobalVariable(Score)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "EcrireFichierExp"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/Lives\"",
-                    "GlobalVariable(Lives)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Checkpoint",
-                "Used",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Checkpoint",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Checkpoint",
-                "Used",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Checkpoint",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         }
       ]
     }
