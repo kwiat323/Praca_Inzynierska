@@ -9609,6 +9609,393 @@
         "name": "Sign_finish.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frame-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-walking_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-walking_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-defeated_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-defeated_17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Up.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Down.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13126,6 +13513,84 @@
       ]
     },
     {
+      "name": "GoUp",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Up.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GoDown",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Down.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "GoLeft",
       "tags": "",
       "type": "Sprite",
@@ -13324,7 +13789,24 @@
           "value": "500"
         }
       ],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "acceleration": 1500,
+          "canGrabPlatforms": false,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
+          "roundCoordinates": true,
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "walk",
@@ -16687,6 +17169,45 @@
           ]
         }
       ]
+    },
+    {
+      "name": "EndOfScene",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sign_finish.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [
@@ -16733,6 +17254,12 @@
         },
         {
           "name": "Fly"
+        },
+        {
+          "name": "Slime"
+        },
+        {
+          "name": "Spider"
         }
       ]
     },
@@ -16780,6 +17307,9 @@
         },
         {
           "name": "Reaper3"
+        },
+        {
+          "name": "Spider"
         }
       ]
     },
@@ -16854,6 +17384,9 @@
         },
         {
           "name": "Slime"
+        },
+        {
+          "name": "Spider"
         }
       ]
     }
@@ -20768,7 +21301,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.682
+        "zoomFactor": 0.322
       },
       "objectsGroups": [],
       "variables": [
@@ -20794,21 +21327,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 150,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "width": 150,
-          "x": 153,
-          "y": 501,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -22387,7 +22905,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 196,
+          "height": 195,
           "layer": "",
           "locked": false,
           "name": "Boss3",
@@ -22407,8 +22925,8 @@
           "locked": false,
           "name": "GoRight",
           "width": 0,
-          "x": 8928,
-          "y": 494,
+          "x": 9050,
+          "y": 501,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -22422,24 +22940,9 @@
           "locked": false,
           "name": "GoLeft",
           "width": 0,
-          "x": 9859,
-          "y": 507,
+          "x": 10187,
+          "y": 502,
           "zOrder": 101,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Tile4",
-          "width": 0,
-          "x": 10273,
-          "y": 294,
-          "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22515,6 +23018,21 @@
           "x": 7888,
           "y": 480,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "",
+          "locked": false,
+          "name": "Player",
+          "width": 150,
+          "x": 7670,
+          "y": 491,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37765,45 +38283,6 @@
           }
         },
         {
-          "name": "EndOfScene",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sign_finish.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "FadeOut",
           "tags": "",
           "type": "Sprite",
@@ -37900,7 +38379,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Background i background sound",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40004,7 +40483,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.904
+        "zoomFactor": 0.418
       },
       "objectsGroups": [],
       "variables": [
@@ -40053,21 +40532,6 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
-          "x": 999,
-          "y": 468,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
           "layer": "Grid",
           "locked": true,
           "name": "Coin",
@@ -40086,8 +40550,8 @@
           "layer": "",
           "locked": false,
           "name": "Tile1",
-          "width": 3473,
-          "x": -273,
+          "width": 1500,
+          "x": 140,
           "y": 545,
           "zOrder": 1,
           "numberProperties": [],
@@ -40102,7 +40566,7 @@
           "locked": false,
           "name": "Tile2",
           "width": 128,
-          "x": -400,
+          "x": 13,
           "y": 545,
           "zOrder": 1,
           "numberProperties": [],
@@ -40117,7 +40581,7 @@
           "locked": false,
           "name": "Tile4",
           "width": 128,
-          "x": -400,
+          "x": 13,
           "y": 669,
           "zOrder": 1,
           "numberProperties": [],
@@ -40131,40 +40595,10 @@
           "layer": "",
           "locked": false,
           "name": "Tile5",
-          "width": 3473,
-          "x": -273,
+          "width": 1500,
+          "x": 140,
           "y": 672,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 745,
-          "layer": "",
-          "locked": false,
-          "name": "Tile6",
-          "width": 128,
-          "x": -83,
-          "y": -200,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 745,
-          "layer": "",
-          "locked": false,
-          "name": "Tile5",
-          "width": 320,
-          "x": -400,
-          "y": -200,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -40177,8 +40611,8 @@
           "locked": false,
           "name": "Stone",
           "width": 0,
-          "x": -4,
-          "y": 492,
+          "x": 20,
+          "y": 495,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -40189,7 +40623,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Grid",
-          "locked": false,
+          "locked": true,
           "name": "Lives",
           "width": 0,
           "x": 744,
@@ -40204,7 +40638,7 @@
           "customSize": false,
           "height": 0,
           "layer": "Grid",
-          "locked": false,
+          "locked": true,
           "name": "Score",
           "width": 0,
           "x": 66,
@@ -40217,299 +40651,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "Tile7",
-          "width": 128,
-          "x": 735,
-          "y": 358,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "Tile8",
-          "width": 138,
-          "x": 863,
-          "y": 358,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "Tile9",
-          "width": 128,
-          "x": 1000,
-          "y": 358,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Sign",
-          "width": 0,
-          "x": 544,
-          "y": 480,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
-          "x": 834,
-          "y": 280,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
-          "x": 1013,
-          "y": 280,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 50,
           "layer": "Grid",
-          "locked": false,
+          "locked": true,
           "name": "Heart",
           "width": 50,
           "x": 685,
           "y": 10,
           "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Spike",
-          "width": 0,
-          "x": 874,
-          "y": 438,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Fly",
-          "width": 0,
-          "x": 1856,
-          "y": 480,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Fly",
-          "width": 0,
-          "x": 1395,
-          "y": 256,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "width": 0,
-          "x": 1952,
-          "y": 480,
-          "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 1536,
-          "y": 480,
-          "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Spike",
-          "width": 0,
-          "x": 2375,
-          "y": 427,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Spike",
-          "width": 0,
-          "x": 2444,
-          "y": 427,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Spike",
-          "width": 0,
-          "x": 2509,
-          "y": 427,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
-          "x": 2615,
-          "y": 447,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
-          "x": 2826,
-          "y": 447,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
-          "x": 2721,
-          "y": 447,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 1139,
-          "y": 260,
-          "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "width": 0,
-          "x": 1508,
-          "y": 258,
-          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -40522,7 +40671,7 @@
           "locked": false,
           "name": "Tile3",
           "width": 128,
-          "x": 3200,
+          "x": 1639,
           "y": 545,
           "zOrder": 1,
           "numberProperties": [],
@@ -40537,7 +40686,7 @@
           "locked": false,
           "name": "Tile6",
           "width": 127,
-          "x": 3200,
+          "x": 1639,
           "y": 672,
           "zOrder": 1,
           "numberProperties": [],
@@ -40552,7 +40701,7 @@
           "locked": false,
           "name": "Tile2",
           "width": 128,
-          "x": 4128,
+          "x": 4873,
           "y": 545,
           "zOrder": 1,
           "numberProperties": [],
@@ -40567,8 +40716,8 @@
           "locked": false,
           "name": "Tile4",
           "width": 128,
-          "x": 4128,
-          "y": 666,
+          "x": 4873,
+          "y": 672,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -40577,12 +40726,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 122,
+          "height": 128,
           "layer": "",
           "locked": false,
           "name": "Tile1",
-          "width": 12205,
-          "x": 4256,
+          "width": 7260,
+          "x": 5000,
           "y": 545,
           "zOrder": 1,
           "numberProperties": [],
@@ -40595,25 +40744,10 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 2796,
-          "y": 518,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "GoLeft",
           "width": 0,
-          "x": 4096,
-          "y": 480,
+          "x": 2319,
+          "y": 490,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -40627,24 +40761,9 @@
           "locked": false,
           "name": "Ledge",
           "width": 150,
-          "x": 3552,
+          "x": 1845,
           "y": 480,
           "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Checkpoint",
-          "width": 0,
-          "x": 2144,
-          "y": 480,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -40656,9 +40775,9 @@
           "layer": "",
           "locked": false,
           "name": "Tile10",
-          "width": 864,
-          "x": 3296,
-          "y": 564,
+          "width": 3197,
+          "x": 1738,
+          "y": 551,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -40666,255 +40785,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddHeart",
-          "width": 50,
-          "x": 4932,
-          "y": 478,
-          "zOrder": 51,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 4402,
-          "y": 480,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "locked": false,
           "name": "GoLeft",
           "width": 0,
-          "x": 5477,
-          "y": 480,
+          "x": 5713,
+          "y": 490,
           "zOrder": 53,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Fly",
-          "width": 0,
-          "x": 5400,
-          "y": 480,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Fly",
-          "width": 0,
-          "x": 4914,
-          "y": 480,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Fly",
-          "width": 0,
-          "x": 4568,
-          "y": 480,
-          "zOrder": 56,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "Tile7",
-          "width": 128,
-          "x": 5933,
-          "y": 358,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "Tile8",
-          "width": 138,
-          "x": 6061,
-          "y": 358,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "Tile9",
-          "width": 128,
-          "x": 6198,
-          "y": 358,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
-          "x": 6032,
-          "y": 280,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
-          "x": 6211,
-          "y": 280,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "Tile7",
-          "width": 128,
-          "x": 6418,
-          "y": 218,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "Tile8",
-          "width": 138,
-          "x": 6546,
-          "y": 218,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "Tile9",
-          "width": 128,
-          "x": 6683,
-          "y": 218,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 6425,
-          "y": 164,
-          "zOrder": 57,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "width": 0,
-          "x": 6779,
-          "y": 160,
-          "zOrder": 58,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Fly",
-          "width": 0,
-          "x": 6682,
-          "y": 157,
-          "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -40927,8 +40806,8 @@
           "locked": false,
           "name": "Spike",
           "width": 0,
-          "x": 5715,
-          "y": 431,
+          "x": 5206,
+          "y": 430,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -40942,144 +40821,9 @@
           "locked": false,
           "name": "Checkpoint",
           "width": 0,
-          "x": 4242,
+          "x": 6121,
           "y": 480,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Spike",
-          "width": 0,
-          "x": 7072,
-          "y": 431,
-          "zOrder": 61,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Spike",
-          "width": 0,
-          "x": 6989,
-          "y": 431,
-          "zOrder": 61,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Stone",
-          "width": 0,
-          "x": 6862,
-          "y": 498,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Stone",
-          "width": 0,
-          "x": 6862,
-          "y": 494,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Stone",
-          "width": 0,
-          "x": 6862,
-          "y": 500,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Stone",
-          "width": 0,
-          "x": 7243,
-          "y": 502,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Fly",
-          "width": 0,
-          "x": 6099,
-          "y": 294,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 5963,
-          "y": 302,
-          "zOrder": 57,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "width": 0,
-          "x": 6279,
-          "y": 300,
-          "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -41091,55 +40835,10 @@
           "layer": "",
           "locked": false,
           "name": "Tile5",
-          "width": 12381,
-          "x": 4255,
-          "y": 666,
+          "width": 7260,
+          "x": 5000,
+          "y": 672,
           "zOrder": 79,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Stone",
-          "width": 0,
-          "x": 5853,
-          "y": 494,
-          "zOrder": 80,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 90,
-          "layer": "",
-          "locked": false,
-          "name": "Slime",
-          "width": 90,
-          "x": 3060,
-          "y": 469,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "width": 0,
-          "x": 3199,
-          "y": 509,
-          "zOrder": 89,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -41152,8 +40851,8 @@
           "locked": false,
           "name": "GoRight",
           "width": 0,
-          "x": 3263,
-          "y": 502,
+          "x": 1755,
+          "y": 490,
           "zOrder": 90,
           "numberProperties": [],
           "stringProperties": [],
@@ -41168,7 +40867,7 @@
           "name": "Slime",
           "width": 90,
           "x": 7777,
-          "y": 467,
+          "y": 455,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -41183,7 +40882,7 @@
           "name": "Slime",
           "width": 90,
           "x": 8097,
-          "y": 467,
+          "y": 455,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -41198,7 +40897,7 @@
           "name": "GoLeft",
           "width": 0,
           "x": 8310,
-          "y": 510,
+          "y": 490,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -41213,7 +40912,7 @@
           "name": "GoRight",
           "width": 0,
           "x": 7681,
-          "y": 504,
+          "y": 490,
           "zOrder": 92,
           "numberProperties": [],
           "stringProperties": [],
@@ -41422,36 +41121,6 @@
           "locked": false,
           "name": "AddScore",
           "width": 50,
-          "x": 6505,
-          "y": 151,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
-          "x": 6611,
-          "y": 148,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "AddScore",
-          "width": 50,
           "x": 7468,
           "y": 269,
           "zOrder": 3,
@@ -41468,7 +41137,7 @@
           "name": "AddScore",
           "width": 50,
           "x": 8365,
-          "y": 503,
+          "y": 463,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -41483,7 +41152,7 @@
           "name": "AddScore",
           "width": 50,
           "x": 7979,
-          "y": 503,
+          "y": 463,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -41498,7 +41167,7 @@
           "name": "AddScore",
           "width": 50,
           "x": 8205,
-          "y": 503,
+          "y": 463,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -41530,51 +41199,6 @@
           "x": 8577,
           "y": 221,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "width": 0,
-          "x": 1459,
-          "y": 504,
-          "zOrder": 94,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 1095,
-          "y": 516,
-          "zOrder": 95,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 196,
-          "layer": "",
-          "locked": false,
-          "name": "Boss3",
-          "width": 200,
-          "x": 1188,
-          "y": 392,
-          "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -41616,8 +41240,8 @@
           "layer": "BackgroundLayer0",
           "locked": true,
           "name": "00",
-          "width": 16701,
-          "x": -400,
+          "width": 13000,
+          "x": -740,
           "y": -420,
           "zOrder": 99,
           "numberProperties": [],
@@ -41631,8 +41255,8 @@
           "layer": "BackgroundLayer1",
           "locked": true,
           "name": "0",
-          "width": 15995,
-          "x": -400,
+          "width": 13000,
+          "x": -740,
           "y": -420,
           "zOrder": 100,
           "numberProperties": [],
@@ -41646,8 +41270,8 @@
           "layer": "BackgroundLayer2",
           "locked": true,
           "name": "1",
-          "width": 15215,
-          "x": -400,
+          "width": 13000,
+          "x": -740,
           "y": -420,
           "zOrder": 101,
           "numberProperties": [],
@@ -41661,10 +41285,945 @@
           "layer": "BackgroundLayer3",
           "locked": true,
           "name": "3",
-          "width": 14799,
-          "x": -400,
+          "width": 13000,
+          "x": -740,
           "y": -510,
           "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "locked": false,
+          "name": "Tile10",
+          "width": 775,
+          "x": -740,
+          "y": 565,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Sign",
+          "width": 0,
+          "x": 44,
+          "y": 435,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile7",
+          "width": 128,
+          "x": 2379,
+          "y": 387,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile8",
+          "width": 138,
+          "x": 2507,
+          "y": 387,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile9",
+          "width": 128,
+          "x": 2644,
+          "y": 387,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 2646,
+          "y": 324,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fly",
+          "width": 0,
+          "x": 2534,
+          "y": 338,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 2398,
+          "y": 345,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 2714,
+          "y": 345,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile7",
+          "width": 128,
+          "x": 2829,
+          "y": 262,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile8",
+          "width": 138,
+          "x": 2957,
+          "y": 262,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile9",
+          "width": 128,
+          "x": 3094,
+          "y": 262,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 3086,
+          "y": 199,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 2848,
+          "y": 220,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 3164,
+          "y": 220,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile7",
+          "width": 128,
+          "x": 3243,
+          "y": 98,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile8",
+          "width": 138,
+          "x": 3371,
+          "y": 98,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile9",
+          "width": 128,
+          "x": 3508,
+          "y": 98,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 3331,
+          "y": 35,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fly",
+          "width": 0,
+          "x": 3398,
+          "y": 49,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 3262,
+          "y": 60,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 3578,
+          "y": 60,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "width": 0,
+          "x": 3404,
+          "y": 39,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddHeart",
+          "width": 50,
+          "x": 3521,
+          "y": 35,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile7",
+          "width": 128,
+          "x": 3712,
+          "y": 301,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile8",
+          "width": 138,
+          "x": 3840,
+          "y": 301,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "locked": false,
+          "name": "Tile9",
+          "width": 128,
+          "x": 3977,
+          "y": 301,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 3969,
+          "y": 238,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fly",
+          "width": 0,
+          "x": 3867,
+          "y": 252,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 3731,
+          "y": 260,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 4047,
+          "y": 260,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 4097,
+          "y": 490,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 4838,
+          "y": 490,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Ledge",
+          "width": 150,
+          "x": 4208,
+          "y": 476,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 90,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "width": 90,
+          "x": 5609,
+          "y": 455,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 1674,
+          "y": 490,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 753,
+          "y": 490,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 90,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "width": 100,
+          "x": 897,
+          "y": 455,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 90,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "width": 100,
+          "x": 1422,
+          "y": 455,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "Spider",
+          "width": 100,
+          "x": 1191,
+          "y": 469,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "Spider",
+          "width": 100,
+          "x": 2989,
+          "y": 184,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 5359,
+          "y": 490,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Spike",
+          "width": 0,
+          "x": 5885,
+          "y": 430,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Spike",
+          "width": 0,
+          "x": 5817,
+          "y": 430,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Spike",
+          "width": 0,
+          "x": 5959,
+          "y": 430,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoUp",
+          "width": 0,
+          "x": 6425,
+          "y": 536,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoDown",
+          "width": 0,
+          "x": 6425,
+          "y": 180,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "LedgeUP",
+          "width": 200,
+          "x": 6335,
+          "y": 476,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "GoingUp",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 6413,
+          "y": 122,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Spike",
+          "width": 0,
+          "x": 7000,
+          "y": 430,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Stone",
+          "width": 0,
+          "x": 8406,
+          "y": 497,
+          "zOrder": 117,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Ledge",
+          "width": 150,
+          "x": 7853,
+          "y": 270,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 7821,
+          "y": 270,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 8488,
+          "y": 270,
+          "zOrder": 120,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Coin",
+          "width": 50,
+          "x": 8217,
+          "y": 190,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "width": 0,
+          "x": 9119,
+          "y": 490,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "width": 0,
+          "x": 10327,
+          "y": 490,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "EndOfScene",
+          "width": 0,
+          "x": 10966,
+          "y": 480,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 195,
+          "layer": "",
+          "locked": false,
+          "name": "Boss2",
+          "width": 200,
+          "x": 9676,
+          "y": 382,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Spike",
+          "width": 0,
+          "x": 7082,
+          "y": 428,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Spike",
+          "width": 0,
+          "x": 6857,
+          "y": 430,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Spike",
+          "width": 0,
+          "x": 6931,
+          "y": 432,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -42449,8 +43008,8 @@
                   "timeBetweenFrames": 0.13,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-move-0.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42463,11 +43022,46 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-move-1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42480,11 +43074,46 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-move-2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42497,11 +43126,46 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-move-3.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42514,7 +43178,250 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -42529,8 +43436,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-die-0.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-9.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42543,11 +43450,46 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-die-1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-10.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42560,11 +43502,124 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spider",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Move",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.05,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-die-2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42577,11 +43632,50 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-die-3.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42594,14 +43688,613 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "name": "Attack",
+              "name": "Death",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -42609,8 +44302,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-attack-0.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42623,11 +44316,50 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-attack-1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42640,11 +44372,50 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-attack-2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42657,11 +44428,50 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-attack-3.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42674,11 +44484,50 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slime\\slime-attack-4.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -42691,7 +44540,718 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -57002,6 +59562,53 @@
               ]
             }
           ]
+        },
+        {
+          "name": "LedgeUP",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "short1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -57061,7 +59668,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Background i background sound",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -57300,6 +59907,26 @@
                   },
                   "parameters": [
                     "GoLeft"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "GoUp"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "GoDown"
                   ],
                   "subInstructions": []
                 },
@@ -57693,7 +60320,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zachowanie monster",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -58133,6 +60760,18 @@
                         ""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "1HitMonsters",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -58193,6 +60832,18 @@
                         "",
                         "",
                         ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "Monsters",
+                        "=",
+                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -58914,6 +61565,80 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoDown",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoingUp",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoUp",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoingUp",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "VarObjet"
                   },
                   "parameters": [
@@ -58970,6 +61695,78 @@
                   "parameters": [
                     "Ledge",
                     "0",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoingUp",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "90",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoingUp",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "270",
                     "100",
                     ""
                   ],
@@ -61609,6 +64406,72 @@
             }
           ],
           "events": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "1",
+      "lastChangeTimeStamp": 0,
+      "name": "BossBehavior",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Bosses",
+                "600",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EstTourne"
+                  },
+                  "parameters": [
+                    "Bosses",
+                    "Player",
+                    "20",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Bosses",
+                    "400",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ]
     }
