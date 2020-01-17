@@ -37900,7 +37900,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Background i background sound",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40004,7 +40004,11 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
+<<<<<<< HEAD
         "zoomFactor": 0.904
+=======
+        "zoomFactor": 0.418
+>>>>>>> parent of 349d2ad... Kilka poprawek w mechanice gry
       },
       "objectsGroups": [],
       "variables": [
@@ -41405,6 +41409,26 @@
           "height": 50,
           "layer": "",
           "locked": false,
+          "name": "LedgeUP",
+          "width": 200,
+          "x": 6335,
+          "y": 476,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "GoingUp",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
           "name": "AddScore",
           "width": 50,
           "x": 7583,
@@ -41623,6 +41647,7 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< HEAD
         },
         {
           "angle": 0,
@@ -41668,6 +41693,8 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+=======
+>>>>>>> parent of 349d2ad... Kilka poprawek w mechanice gry
         }
       ],
       "objects": [
@@ -42399,6 +42426,1520 @@
                   "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
+<<<<<<< HEAD
+=======
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 1080,
+          "name": "NewObject",
+          "tags": "",
+          "texture": "Ground.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1920,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "Slime",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Move",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.13,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "frame-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 535.273,
+                            "y": 190
+                          },
+                          {
+                            "x": 542.773,
+                            "y": 337.5
+                          },
+                          {
+                            "x": 462.773,
+                            "y": 405
+                          },
+                          {
+                            "x": 72.7734,
+                            "y": 395
+                          },
+                          {
+                            "x": 7.77344,
+                            "y": 325
+                          },
+                          {
+                            "x": 50.2734,
+                            "y": 135
+                          },
+                          {
+                            "x": 260.273,
+                            "y": 5
+                          },
+                          {
+                            "x": 455.273,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spider",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Move",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.05,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-walking_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "skeleton-defeated_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 487.839,
+                            "y": 125
+                          },
+                          {
+                            "x": 574.505,
+                            "y": 290
+                          },
+                          {
+                            "x": 519.505,
+                            "y": 436.667
+                          },
+                          {
+                            "x": 341.172,
+                            "y": 486.667
+                          },
+                          {
+                            "x": 144.505,
+                            "y": 441.667
+                          },
+                          {
+                            "x": 87.8385,
+                            "y": 343.333
+                          },
+                          {
+                            "x": 124.505,
+                            "y": 205
+                          },
+                          {
+                            "x": 217.839,
+                            "y": 105
+                          },
+                          {
+                            "x": 379.505,
+                            "y": 86.6667
+                          }
+                        ]
+                      ]
+                    },
+>>>>>>> parent of 349d2ad... Kilka poprawek w mechanice gry
                     {
                       "hasCustomCollisionMask": false,
                       "image": "NewObject-1-0.png",
@@ -57061,7 +58602,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Background i background sound",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -57693,7 +59234,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zachowanie monster",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -58977,6 +60518,81 @@
                 }
               ],
               "events": []
+<<<<<<< HEAD
+=======
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoingUp",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "90",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoingUp",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "270",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+>>>>>>> parent of 349d2ad... Kilka poprawek w mechanice gry
             }
           ],
           "parameters": []
@@ -61611,6 +63227,75 @@
           "events": []
         }
       ]
+<<<<<<< HEAD
+=======
+    },
+    {
+      "associatedLayout": "1",
+      "lastChangeTimeStamp": 0,
+      "name": "BossBehavior",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Bosses",
+                "600",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EstTourne"
+                  },
+                  "parameters": [
+                    "Bosses",
+                    "Player",
+                    "20",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Bosses",
+                    "400",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ]
+>>>>>>> parent of 349d2ad... Kilka poprawek w mechanice gry
     }
   ],
   "eventsFunctionsExtensions": [
