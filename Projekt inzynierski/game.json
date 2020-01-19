@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Kuban\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Users\\Kuba\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -14207,13 +14207,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14257,13 +14257,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14307,13 +14307,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14357,13 +14357,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14407,13 +14407,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14457,13 +14457,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14507,13 +14507,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14557,13 +14557,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14607,13 +14607,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14657,13 +14657,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14707,13 +14707,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14757,13 +14757,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14807,13 +14807,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14857,13 +14857,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14907,13 +14907,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14957,13 +14957,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15007,13 +15007,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15057,13 +15057,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15107,13 +15107,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15157,13 +15157,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15207,13 +15207,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15257,13 +15257,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15307,13 +15307,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15357,13 +15357,13 @@
                     {
                       "name": "Point",
                       "x": 630,
-                      "y": 600
+                      "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15424,8 +15424,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15474,8 +15474,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15524,8 +15524,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15574,8 +15574,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15624,8 +15624,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15674,8 +15674,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15724,8 +15724,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15774,8 +15774,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15824,8 +15824,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15874,8 +15874,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15924,8 +15924,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -15974,8 +15974,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16024,8 +16024,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16074,8 +16074,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16124,8 +16124,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16186,8 +16186,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16236,8 +16236,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16286,8 +16286,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16329,15 +16329,15 @@
                   "image": "Boss3\\Throwing\\0_Fallen_Angels_Throwing_003.png",
                   "points": [
                     {
-                      "name": "ShurikenThrow",
+                      "name": "Point",
                       "x": 630,
                       "y": 600.5
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16386,8 +16386,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16436,8 +16436,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16486,8 +16486,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16536,8 +16536,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16586,8 +16586,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16636,8 +16636,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16686,8 +16686,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16736,8 +16736,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16798,8 +16798,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16848,8 +16848,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16898,8 +16898,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16948,8 +16948,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16998,8 +16998,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17048,8 +17048,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17098,8 +17098,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17148,8 +17148,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17198,8 +17198,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17248,8 +17248,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17298,8 +17298,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17348,8 +17348,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 448.353,
+                    "y": 450.118
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -26978,8 +26978,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 31.8,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -30878,7 +30878,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.826
+        "zoomFactor": 0.226
       },
       "objectsGroups": [],
       "variables": [
@@ -31842,8 +31842,8 @@
           "locked": false,
           "name": "Stone",
           "width": 0,
-          "x": 6862,
-          "y": 498,
+          "x": 6882,
+          "y": 496,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -31857,38 +31857,8 @@
           "locked": false,
           "name": "Stone",
           "width": 0,
-          "x": 6862,
-          "y": 494,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Stone",
-          "width": 0,
-          "x": 6862,
-          "y": 500,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Stone",
-          "width": 0,
-          "x": 7243,
-          "y": 502,
+          "x": 7224,
+          "y": 496,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -32607,8 +32577,8 @@
           "locked": false,
           "name": "Boss3",
           "width": 200,
-          "x": 1694,
-          "y": 380,
+          "x": 1736,
+          "y": 479,
           "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
@@ -84416,7 +84386,7 @@
       "name": "BossBehavior",
       "events": [
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -84447,6 +84417,39 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "3",
+                "\"ShootNow\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"ShootNow\""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -84456,17 +84459,119 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Timer"
+                    "value": "NbObjet"
                   },
                   "parameters": [
-                    "",
-                    "2",
-                    "\"ShootNow\""
+                    "Boss3",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShootingTime\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Hit2",
+                    "Player.X()",
+                    "Player.Y()",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "Hit2",
+                    "=",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "Hit2",
+                    "=",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Boss3",
+                    "\"throw\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Shuriken",
+                    "Boss3.PointX(\"ShurikenPoint\")",
+                    "Boss3.PointY(\"ShurikenPoint\")",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RotateTowardPosition"
+                  },
+                  "parameters": [
+                    "Shuriken",
+                    "Hit2.X()",
+                    "Hit2.Y()",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceVers"
+                  },
+                  "parameters": [
+                    "Shuriken",
+                    "Hit2",
+                    "200",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": [
                 {
                   "disabled": false,
@@ -84476,12 +84581,14 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "NbObjet"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Boss3",
-                        "=",
-                        "1"
+                        "Player",
+                        "Shuriken",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -84490,340 +84597,23 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ResetTimer"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "",
-                        "\"ShootingTime\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Hit2",
-                        "Player.X()",
-                        "Player.Y()",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeHeight"
-                      },
-                      "parameters": [
-                        "Hit2",
-                        "=",
-                        "10"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeWidth"
-                      },
-                      "parameters": [
-                        "Hit2",
-                        "=",
-                        "10"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Shuriken",
-                        "Boss3.PointX(\"ShurikenThrow\")",
-                        "Boss3.PointX(\"ShurikenThrow\")",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Boss3",
-                        "\"throw\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Rotate"
-                      },
-                      "parameters": [
-                        "Shuriken",
-                        "15",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "AddForceVers"
-                      },
-                      "parameters": [
-                        "Shuriken",
-                        "Hit2",
-                        "200",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "NbObjet"
-                      },
-                      "parameters": [
-                        "Boss2",
+                        "Player",
+                        "IsDead",
                         "=",
                         "1"
                       ],
                       "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"ShootingTime\""
-                      ],
-                      "subInstructions": []
                     },
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Hit2",
-                        "Player.X()",
-                        "Player.Y()",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeHeight"
+                        "value": "Delete"
                       },
                       "parameters": [
                         "Hit2",
-                        "=",
-                        "10"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeWidth"
-                      },
-                      "parameters": [
-                        "Hit2",
-                        "=",
-                        "10"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Shuriken",
-                        "Boss2.PointX(\"ShurikenThrow\")",
-                        "Boss2.PointX(\"ShurikenThrow\")",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Boss2",
-                        "\"throw\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Rotate"
-                      },
-                      "parameters": [
-                        "Shuriken",
-                        "15",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "AddForceVers"
-                      },
-                      "parameters": [
-                        "Shuriken",
-                        "Hit2",
-                        "200",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "NbObjet"
-                      },
-                      "parameters": [
-                        "Boss1",
-                        "=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"ShootingTime\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Hit2",
-                        "Player.X()",
-                        "Player.Y()",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeHeight"
-                      },
-                      "parameters": [
-                        "Hit2",
-                        "=",
-                        "10"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeWidth"
-                      },
-                      "parameters": [
-                        "Hit2",
-                        "=",
-                        "10"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Shuriken",
-                        "Boss1.PointX(\"ShurikenThrow\")",
-                        "Boss1.PointX(\"ShurikenThrow\")",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Boss1",
-                        "\"throw\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Rotate"
-                      },
-                      "parameters": [
-                        "Shuriken",
-                        "15",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "AddForceVers"
-                      },
-                      "parameters": [
-                        "Shuriken",
-                        "Hit2",
-                        "200",
                         ""
                       ],
                       "subInstructions": []
@@ -84832,6 +84622,248 @@
                   "events": []
                 }
               ]
+            },
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NbObjet"
+                  },
+                  "parameters": [
+                    "Boss2",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShootingTime\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Hit2",
+                    "Player.X()",
+                    "Player.Y()",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "Hit2",
+                    "=",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "Hit2",
+                    "=",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Boss2",
+                    "\"throw\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Shuriken",
+                    "Boss2.PointX(\"ShurikenThrow\")",
+                    "Boss2.PointX(\"ShurikenThrow\")",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "Shuriken",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceVers"
+                  },
+                  "parameters": [
+                    "Shuriken",
+                    "Hit2",
+                    "200",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NbObjet"
+                  },
+                  "parameters": [
+                    "Boss1",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShootingTime\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Hit2",
+                    "Player.X()",
+                    "Player.Y()",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "Hit2",
+                    "=",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "Hit2",
+                    "=",
+                    "10"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Boss1",
+                    "\"throw\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Shuriken",
+                    "Boss1.PointX(\"ShurikenThrow\")",
+                    "Boss1.PointX(\"ShurikenThrow\")",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "Shuriken",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceVers"
+                  },
+                  "parameters": [
+                    "Shuriken",
+                    "Hit2",
+                    "200",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
               "disabled": false,
