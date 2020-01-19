@@ -10392,6 +10392,132 @@
         "name": "Background\\Background_3\\plant.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/slice02_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\slice02_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/slice03_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\slice03_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/slice04_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\slice04_04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/castleHalfLeft.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\castleHalfLeft.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/castleHalfMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\castleHalfMid.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/castleHalfRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\castleHalfRight.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/slice23_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\slice23_23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/slice19_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\slice19_19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/slice20_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\slice20_20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/slice24_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\slice24_24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/slice06_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\slice06_06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/slice07_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\slice07_07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/castleHalf.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\castleHalf.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AssetsScene3/PNG Castle/slice33_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AssetsScene3\\PNG Castle\\slice33_33.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -32650,7 +32776,7 @@
           "locked": false,
           "name": "Boss3",
           "width": 200,
-          "x": 1736,
+          "x": 9630,
           "y": 479,
           "zOrder": 96,
           "numberProperties": [],
@@ -37207,7 +37333,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Linki z zachowaniem",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38580,7 +38706,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.706
+        "zoomFactor": 0.73
       },
       "objectsGroups": [],
       "variables": [
@@ -38605,8 +38731,8 @@
           "value": ""
         },
         {
-          "name": "Win",
-          "value": "0"
+          "name": "SceneName",
+          "value": "2"
         }
       ],
       "instances": [
@@ -38636,6 +38762,66 @@
           "x": 10,
           "y": 10,
           "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Tile1",
+          "width": 1500,
+          "x": 140,
+          "y": 545,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Tile2",
+          "width": 128,
+          "x": 13,
+          "y": 545,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 164,
+          "layer": "",
+          "locked": false,
+          "name": "Tile4",
+          "width": 128,
+          "x": 13,
+          "y": 669,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "locked": false,
+          "name": "Tile5",
+          "width": 1500,
+          "x": 140,
+          "y": 672,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38681,6 +38867,36 @@
           "x": 685,
           "y": 10,
           "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Tile3",
+          "width": 128,
+          "x": 1639,
+          "y": 545,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "Tile6",
+          "width": 127,
+          "x": 1639,
+          "y": 672,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38748,6 +38964,21 @@
         {
           "angle": 0,
           "customSize": true,
+          "height": 95,
+          "layer": "",
+          "locked": false,
+          "name": "Tile10",
+          "width": 775,
+          "x": -740,
+          "y": 550,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "height": 1080,
           "layer": "BackgroundLayer3",
           "locked": true,
@@ -38755,67 +38986,7 @@
           "width": 13000,
           "x": -740,
           "y": -420,
-          "zOrder": 103,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1080,
-          "layer": "BackgroundLayer5",
-          "locked": true,
-          "name": "Background36",
-          "width": 13000,
-          "x": -740,
-          "y": -420,
-          "zOrder": 104,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1080,
-          "layer": "BackgroundLayer6",
-          "locked": true,
-          "name": "Background37",
-          "width": 13000,
-          "x": -740,
-          "y": -420,
-          "zOrder": 105,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1080,
-          "layer": "BackgroundLayer7",
-          "locked": true,
-          "name": "Background38",
-          "width": 13000,
-          "x": -740,
-          "y": -420,
-          "zOrder": 106,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Grid",
-          "locked": true,
-          "name": "BossHealth",
-          "width": 0,
-          "x": 48,
-          "y": 561,
-          "zOrder": 107,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38830,7 +39001,37 @@
           "width": 500,
           "x": 230,
           "y": 565,
-          "zOrder": 108,
+          "zOrder": 130,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Grid",
+          "locked": true,
+          "name": "BossHealth",
+          "width": 0,
+          "x": 48,
+          "y": 561,
+          "zOrder": 131,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Tile32",
+          "width": 0,
+          "x": 53,
+          "y": 545,
+          "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38914,6 +39115,178 @@
           "texture": "Background\\Background_3\\plant.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 1920,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "Tile31",
+          "tags": "",
+          "texture": "AssetsScene3\\PNG Castle\\slice03_03.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile32",
+          "tags": "",
+          "texture": "AssetsScene3\\PNG Castle\\slice19_19.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile33",
+          "tags": "",
+          "texture": "AssetsScene3\\PNG Castle\\slice20_20.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile34",
+          "tags": "",
+          "texture": "AssetsScene3\\PNG Castle\\slice23_23.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile35",
+          "tags": "",
+          "texture": "AssetsScene3\\PNG Castle\\slice33_33.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile36",
+          "tags": "",
+          "texture": "AssetsScene3\\PNG Castle\\slice24_24.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile37",
+          "tags": "",
+          "texture": "AssetsScene3\\PNG Castle\\castleHalfLeft.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile310",
+          "tags": "",
+          "texture": "AssetsScene3\\PNG Castle\\castleHalfMid.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile39",
+          "tags": "",
+          "texture": "AssetsScene3\\PNG Castle\\castleHalfRight.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Tile10",
+          "tags": "",
+          "texture": "Tile10.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
           "variables": [],
           "behaviors": []
         },
@@ -39102,6 +39475,298 @@
           ]
         },
         {
+          "name": "Spike",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "small_wood_spike_04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33,
+                            "y": 7.40001
+                          },
+                          {
+                            "x": 55.4,
+                            "y": 58.6
+                          },
+                          {
+                            "x": 55.4,
+                            "y": 126.6
+                          },
+                          {
+                            "x": 18.6,
+                            "y": 128.2
+                          },
+                          {
+                            "x": 16.2,
+                            "y": 61.8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "small_wood_spike_03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31.4,
+                            "y": 45.8
+                          },
+                          {
+                            "x": 54.6,
+                            "y": 99.4
+                          },
+                          {
+                            "x": 55.4,
+                            "y": 128.2
+                          },
+                          {
+                            "x": 18.6,
+                            "y": 128.2
+                          },
+                          {
+                            "x": 15.4,
+                            "y": 99.4
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "small_wood_spike_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16.2,
+                            "y": 127.4
+                          },
+                          {
+                            "x": 31.4,
+                            "y": 86.6
+                          },
+                          {
+                            "x": 49.8,
+                            "y": 128.2
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "small_wood_spike_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.05,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "small_wood_spike_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "small_wood_spike_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 49,
+                            "y": 128.2
+                          },
+                          {
+                            "x": 18.6,
+                            "y": 128.2
+                          },
+                          {
+                            "x": 33,
+                            "y": 86.6
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "small_wood_spike_03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 33,
+                            "y": 45
+                          },
+                          {
+                            "x": 52.2,
+                            "y": 99.4
+                          },
+                          {
+                            "x": 55.4,
+                            "y": 126.6
+                          },
+                          {
+                            "x": 14.6,
+                            "y": 125.8
+                          },
+                          {
+                            "x": 15.4,
+                            "y": 99.4
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "small_wood_spike_04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32.2,
+                            "y": 5
+                          },
+                          {
+                            "x": 53.8,
+                            "y": 61
+                          },
+                          {
+                            "x": 55.4,
+                            "y": 126.6
+                          },
+                          {
+                            "x": 18.6,
+                            "y": 128.2
+                          },
+                          {
+                            "x": 17,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Ledge",
           "tags": "",
           "type": "Sprite",
@@ -39259,6 +39924,15 @@
               "include": {
                 "includeConfig": 0
               },
+              "target": "PlayerBehavior"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
               "target": "Camera"
             },
             {
@@ -39277,15 +39951,6 @@
               "include": {
                 "includeConfig": 0
               },
-              "target": "PlayerBehavior"
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
               "target": "BossBehavior"
             },
             {
@@ -39295,7 +39960,7 @@
               "include": {
                 "includeConfig": 0
               },
-              "target": "MonsterBehavior"
+              "target": "Checkpoint"
             },
             {
               "disabled": false,
@@ -39304,7 +39969,7 @@
               "include": {
                 "includeConfig": 0
               },
-              "target": "Checkpoint"
+              "target": "MonsterBehavior"
             }
           ],
           "parameters": []
@@ -39410,6 +40075,28 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"UpTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"DownTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ResetTimer"
                   },
                   "parameters": [
@@ -39490,7 +40177,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "hb"
+                    "BossHealth"
                   ],
                   "subInstructions": []
                 },
@@ -39500,7 +40187,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "BossHealth"
+                    "hb"
                   ],
                   "subInstructions": []
                 },
@@ -39903,6 +40590,204 @@
           "creationTime": 0,
           "disabled": false,
           "folded": true,
+          "name": "Zachowanie spike",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"UpTimer\"",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"UpTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"UpTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"DownTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "UnPauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"DownTimer\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Spike",
+                        "600",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Spike.wav",
+                        "4",
+                        "",
+                        "5",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"DownTimer\"",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"DownTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"DownTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "UnPauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"UpTimer\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
           "name": "Ruszająca się platforma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40217,7 +41102,22 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Tile10",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -40257,12 +41157,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarScene"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Win",
-                    "=",
-                    "1"
+                    "Player",
+                    "EndOfScene",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -40275,7 +41175,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Win\"",
+                    "\"3\"",
                     "yes"
                   ],
                   "subInstructions": []
@@ -40354,7 +41254,7 @@
           "effects": [
             {
               "effectType": "",
-              "name": "Effect",
+              "name": "",
               "doubleParameters": {},
               "stringParameters": {},
               "booleanParameters": {}
@@ -40570,7 +41470,7 @@
               },
               "parameters": [
                 "",
-                "2",
+                "4",
                 "\"Change\""
               ],
               "subInstructions": []
@@ -40817,97 +41717,13 @@
               },
               "parameters": [
                 "",
-                "2",
+                "4",
                 "\"Change\""
               ],
               "subInstructions": []
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Lives",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Score",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CheckpointX",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CheckpointY",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "SceneName",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CheckpointXPaused",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CheckpointYPaused",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -42605,7 +43421,22 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Spike",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -43270,10 +44101,10 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "NbObjet"
+                        "value": "VarGlobal"
                       },
                       "parameters": [
-                        "Boss3",
+                        "SceneName",
                         "=",
                         "1"
                       ],
