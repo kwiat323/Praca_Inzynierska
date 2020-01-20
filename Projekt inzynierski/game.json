@@ -25680,21 +25680,6 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Test1",
-          "width": 0,
-          "x": 642,
-          "y": 164,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "NewObject",
           "width": 0,
           "x": 679,
@@ -25715,51 +25700,6 @@
           "x": 649,
           "y": 229,
           "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Test12",
-          "width": 0,
-          "x": 645,
-          "y": 207,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Test13",
-          "width": 0,
-          "x": 645,
-          "y": 241,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Test14",
-          "width": 0,
-          "x": 646,
-          "y": 273,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26300,82 +26240,6 @@
               ]
             }
           ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Test12",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Test13",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Test14",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Test1",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
         }
       ],
       "events": [
@@ -26444,54 +26308,6 @@
                 "Button_exit",
                 "=",
                 "255"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Test1",
-                "=",
-                "GlobalVariableString(Lives)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Test12",
-                "=",
-                "GlobalVariableString(SceneName)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Test13",
-                "=",
-                "GlobalVariableString(CheckpointX)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Test14",
-                "=",
-                "GlobalVariableString(CheckpointY)"
               ],
               "subInstructions": []
             }
@@ -27223,81 +27039,6 @@
               "events": []
             }
           ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "GroupExists"
-              },
-              "parameters": [
-                "\"progress\"",
-                "\"game/Score\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "GroupExists"
-              },
-              "parameters": [
-                "\"progress\"",
-                "\"game/SceneName\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "GroupExists"
-              },
-              "parameters": [
-                "\"progress\"",
-                "\"game/PlayerPositionX\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "GroupExists"
-              },
-              "parameters": [
-                "\"progress\"",
-                "\"game/PlayerPositionY\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "GroupExists"
-              },
-              "parameters": [
-                "\"progress\"",
-                "\"game/Lives\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "Button_load_game"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         },
         {
           "disabled": false,
@@ -30948,7 +30689,7 @@
           "name": "Player",
           "width": 150,
           "x": 153,
-          "y": 500,
+          "y": 501,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -32146,9 +31887,9 @@
                       "parameters": [
                         "Player",
                         "=",
-                        "GlobalVariable(CheckpointX)",
+                        "GlobalVariable(CheckpointX)-5",
                         "=",
-                        "GlobalVariable(CheckpointY)"
+                        "GlobalVariable(CheckpointY)-5"
                       ],
                       "subInstructions": []
                     }
@@ -32402,7 +32143,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zachowanie spike",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -32600,7 +32341,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Ruszająca się platforma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -32760,7 +32501,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zachowanie Wody",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40530,7 +40271,7 @@
               "parameters": [
                 "CheckpointXPaused",
                 "=",
-                "Player.X()"
+                "round(Player.X())"
               ],
               "subInstructions": []
             },
@@ -40542,7 +40283,7 @@
               "parameters": [
                 "CheckpointYPaused",
                 "=",
-                "Player.Y()"
+                "round(Player.Y())"
               ],
               "subInstructions": []
             },
@@ -41810,6 +41551,18 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Lives",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -41907,31 +41660,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Lives",
-                "-",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Player",
-                "IsDead",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Create"
               },
               "parameters": [
@@ -41976,6 +41704,19 @@
                 "Player",
                 "=",
                 "10"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "IsDead",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
