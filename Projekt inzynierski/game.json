@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -10525,6 +10525,34 @@
         "metadata": "",
         "name": "Jungle2.wav",
         "userAdded": true
+      },
+      {
+        "file": "Jungle3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jungle3.mp3",
+        "userAdded": false
+      },
+      {
+        "file": "ShurikenThrow.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ShurikenThrow.wav",
+        "userAdded": true
+      },
+      {
+        "file": "water.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "water.wav",
+        "userAdded": true
+      },
+      {
+        "file": "confirm.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "confirm.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14374,7 +14402,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "Death",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -14580,7 +14608,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "Death",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -16780,7 +16808,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "walk",
+          "name": "Walk",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -17992,7 +18020,7 @@
           ]
         },
         {
-          "name": "death",
+          "name": "Death",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -18754,7 +18782,7 @@
           ]
         },
         {
-          "name": "throw",
+          "name": "Throw",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -19364,618 +19392,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "hit",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.02,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_000.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 521,
-                        "y": 227
-                      },
-                      {
-                        "x": 616,
-                        "y": 315
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 261.25,
-                        "y": 425
-                      },
-                      {
-                        "x": 298,
-                        "y": 284
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_001.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 521,
-                        "y": 227
-                      },
-                      {
-                        "x": 670,
-                        "y": 354
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 261.25,
-                        "y": 425
-                      },
-                      {
-                        "x": 337,
-                        "y": 281
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_002.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 561,
-                        "y": 237
-                      },
-                      {
-                        "x": 670,
-                        "y": 354
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 261.25,
-                        "y": 425
-                      },
-                      {
-                        "x": 361,
-                        "y": 247
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_003.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 429,
-                        "y": 208
-                      },
-                      {
-                        "x": 592,
-                        "y": 301
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 236,
-                        "y": 430
-                      },
-                      {
-                        "x": 272,
-                        "y": 264
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_004.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 349,
-                        "y": 214
-                      },
-                      {
-                        "x": 532,
-                        "y": 318
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 190,
-                        "y": 460
-                      },
-                      {
-                        "x": 215,
-                        "y": 283
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_005.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 356,
-                        "y": 219
-                      },
-                      {
-                        "x": 496,
-                        "y": 320
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 140,
-                        "y": 413
-                      },
-                      {
-                        "x": 221,
-                        "y": 276
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_006.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 373,
-                        "y": 223
-                      },
-                      {
-                        "x": 512,
-                        "y": 318
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 151,
-                        "y": 400
-                      },
-                      {
-                        "x": 250,
-                        "y": 260
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_007.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 421,
-                        "y": 225
-                      },
-                      {
-                        "x": 526,
-                        "y": 345
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 174,
-                        "y": 380
-                      },
-                      {
-                        "x": 257,
-                        "y": 258
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_008.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 435,
-                        "y": 227
-                      },
-                      {
-                        "x": 545,
-                        "y": 347
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 187,
-                        "y": 373
-                      },
-                      {
-                        "x": 284,
-                        "y": 251
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_009.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 470,
-                        "y": 232
-                      },
-                      {
-                        "x": 559,
-                        "y": 348
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 206,
-                        "y": 363
-                      },
-                      {
-                        "x": 300,
-                        "y": 245
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_010.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 428,
-                        "y": 214
-                      },
-                      {
-                        "x": 575,
-                        "y": 314
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 225,
-                        "y": 422
-                      },
-                      {
-                        "x": 281,
-                        "y": 269
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_011.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600.5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 446,
-                        "y": 223
-                      },
-                      {
-                        "x": 593,
-                        "y": 317
-                      },
-                      {
-                        "x": 538.75,
-                        "y": 750
-                      },
-                      {
-                        "x": 358.75,
-                        "y": 757.5
-                      },
-                      {
-                        "x": 241,
-                        "y": 425
-                      },
-                      {
-                        "x": 290,
-                        "y": 268
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -19993,7 +19409,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "walk",
+          "name": "Walk",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -21397,7 +20813,7 @@
           ]
         },
         {
-          "name": "death",
+          "name": "Death",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -22279,7 +21695,7 @@
           ]
         },
         {
-          "name": "throw",
+          "name": "Throw",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -22985,714 +22401,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "hit",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_000.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 663,
-                        "y": 469
-                      },
-                      {
-                        "x": 566.25,
-                        "y": 595
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 223,
-                        "y": 475
-                      },
-                      {
-                        "x": 233,
-                        "y": 284
-                      },
-                      {
-                        "x": 407,
-                        "y": 175
-                      },
-                      {
-                        "x": 600,
-                        "y": 243
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_001.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 703,
-                        "y": 451
-                      },
-                      {
-                        "x": 566.25,
-                        "y": 595
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 257,
-                        "y": 464
-                      },
-                      {
-                        "x": 301,
-                        "y": 256
-                      },
-                      {
-                        "x": 507,
-                        "y": 172
-                      },
-                      {
-                        "x": 667,
-                        "y": 250
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_002.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 691,
-                        "y": 475
-                      },
-                      {
-                        "x": 566.25,
-                        "y": 595
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 247,
-                        "y": 446
-                      },
-                      {
-                        "x": 298,
-                        "y": 238
-                      },
-                      {
-                        "x": 501,
-                        "y": 168
-                      },
-                      {
-                        "x": 671,
-                        "y": 266
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_003.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 641,
-                        "y": 439
-                      },
-                      {
-                        "x": 566.25,
-                        "y": 595
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 223,
-                        "y": 475
-                      },
-                      {
-                        "x": 223,
-                        "y": 254
-                      },
-                      {
-                        "x": 414,
-                        "y": 156
-                      },
-                      {
-                        "x": 600,
-                        "y": 243
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_004.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 593,
-                        "y": 418
-                      },
-                      {
-                        "x": 521,
-                        "y": 559
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 177,
-                        "y": 515
-                      },
-                      {
-                        "x": 159,
-                        "y": 292
-                      },
-                      {
-                        "x": 310,
-                        "y": 169
-                      },
-                      {
-                        "x": 508,
-                        "y": 218
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_005.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 568,
-                        "y": 406
-                      },
-                      {
-                        "x": 559,
-                        "y": 595
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 167,
-                        "y": 514
-                      },
-                      {
-                        "x": 126,
-                        "y": 320
-                      },
-                      {
-                        "x": 268,
-                        "y": 187
-                      },
-                      {
-                        "x": 440,
-                        "y": 200
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_006.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 566,
-                        "y": 461
-                      },
-                      {
-                        "x": 566.25,
-                        "y": 595
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 174,
-                        "y": 517
-                      },
-                      {
-                        "x": 137,
-                        "y": 310
-                      },
-                      {
-                        "x": 256,
-                        "y": 187
-                      },
-                      {
-                        "x": 477,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_007.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 590,
-                        "y": 413
-                      },
-                      {
-                        "x": 573,
-                        "y": 600
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 177,
-                        "y": 518
-                      },
-                      {
-                        "x": 155,
-                        "y": 302
-                      },
-                      {
-                        "x": 314,
-                        "y": 173
-                      },
-                      {
-                        "x": 526,
-                        "y": 245
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_008.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 590,
-                        "y": 461
-                      },
-                      {
-                        "x": 566.25,
-                        "y": 595
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 186,
-                        "y": 493
-                      },
-                      {
-                        "x": 177,
-                        "y": 285
-                      },
-                      {
-                        "x": 307,
-                        "y": 181
-                      },
-                      {
-                        "x": 533,
-                        "y": 236
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_009.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 617,
-                        "y": 424
-                      },
-                      {
-                        "x": 566.25,
-                        "y": 595
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 196,
-                        "y": 509
-                      },
-                      {
-                        "x": 180,
-                        "y": 303
-                      },
-                      {
-                        "x": 330,
-                        "y": 179
-                      },
-                      {
-                        "x": 542,
-                        "y": 225
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_010.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 619,
-                        "y": 465
-                      },
-                      {
-                        "x": 566.25,
-                        "y": 595
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 202,
-                        "y": 491
-                      },
-                      {
-                        "x": 211,
-                        "y": 272
-                      },
-                      {
-                        "x": 378,
-                        "y": 180
-                      },
-                      {
-                        "x": 583,
-                        "y": 247
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_011.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 644,
-                        "y": 460
-                      },
-                      {
-                        "x": 566.25,
-                        "y": 595
-                      },
-                      {
-                        "x": 556.25,
-                        "y": 752.5
-                      },
-                      {
-                        "x": 351.25,
-                        "y": 750
-                      },
-                      {
-                        "x": 223,
-                        "y": 475
-                      },
-                      {
-                        "x": 220,
-                        "y": 281
-                      },
-                      {
-                        "x": 407,
-                        "y": 175
-                      },
-                      {
-                        "x": 600,
-                        "y": 243
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -23710,7 +22418,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "walk",
+          "name": "Walk",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -25018,7 +23726,7 @@
           ]
         },
         {
-          "name": "death",
+          "name": "Death",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -25840,7 +24548,7 @@
           ]
         },
         {
-          "name": "throw",
+          "name": "Throw",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -26498,666 +25206,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "hit",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.03,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_000.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 625.833,
-                        "y": 288.333
-                      },
-                      {
-                        "x": 630.833,
-                        "y": 515
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 264.167,
-                        "y": 506.667
-                      },
-                      {
-                        "x": 242.5,
-                        "y": 333.333
-                      },
-                      {
-                        "x": 402.5,
-                        "y": 186.667
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_001.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 665.833,
-                        "y": 341.667
-                      },
-                      {
-                        "x": 630.833,
-                        "y": 515
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 265.833,
-                        "y": 393.333
-                      },
-                      {
-                        "x": 360.833,
-                        "y": 216.667
-                      },
-                      {
-                        "x": 530.833,
-                        "y": 195
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_002.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 655.833,
-                        "y": 335
-                      },
-                      {
-                        "x": 630.833,
-                        "y": 515
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 267.5,
-                        "y": 453.333
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 213.333
-                      },
-                      {
-                        "x": 532.5,
-                        "y": 193.333
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_003.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 559.167,
-                        "y": 235
-                      },
-                      {
-                        "x": 612.5,
-                        "y": 461.667
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 245.833,
-                        "y": 508.333
-                      },
-                      {
-                        "x": 219.167,
-                        "y": 346.667
-                      },
-                      {
-                        "x": 315.833,
-                        "y": 198.333
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_004.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 500.833,
-                        "y": 251.667
-                      },
-                      {
-                        "x": 579.167,
-                        "y": 445
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 199.167,
-                        "y": 521.667
-                      },
-                      {
-                        "x": 170.833,
-                        "y": 300
-                      },
-                      {
-                        "x": 314.167,
-                        "y": 183.333
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_005.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 497.5,
-                        "y": 288.333
-                      },
-                      {
-                        "x": 557.5,
-                        "y": 466.667
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 139.167,
-                        "y": 438.333
-                      },
-                      {
-                        "x": 159.167,
-                        "y": 275
-                      },
-                      {
-                        "x": 315.833,
-                        "y": 193.333
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_006.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 470.833,
-                        "y": 248.333
-                      },
-                      {
-                        "x": 559.167,
-                        "y": 441.667
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 189.167,
-                        "y": 513.333
-                      },
-                      {
-                        "x": 150.833,
-                        "y": 316.667
-                      },
-                      {
-                        "x": 259.167,
-                        "y": 198.333
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_007.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 519.167,
-                        "y": 290
-                      },
-                      {
-                        "x": 564.167,
-                        "y": 461.667
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 192.5,
-                        "y": 488.333
-                      },
-                      {
-                        "x": 182.5,
-                        "y": 281.667
-                      },
-                      {
-                        "x": 339.167,
-                        "y": 195
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_008.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 530.833,
-                        "y": 281.667
-                      },
-                      {
-                        "x": 577.5,
-                        "y": 453.333
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 200.833,
-                        "y": 468.333
-                      },
-                      {
-                        "x": 187.5,
-                        "y": 263.333
-                      },
-                      {
-                        "x": 344.167,
-                        "y": 191.667
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_009.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 575.833,
-                        "y": 331.667
-                      },
-                      {
-                        "x": 585.833,
-                        "y": 478.333
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 202.5,
-                        "y": 436.667
-                      },
-                      {
-                        "x": 250.833,
-                        "y": 246.667
-                      },
-                      {
-                        "x": 430.833,
-                        "y": 201.667
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_010.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 570.833,
-                        "y": 306.667
-                      },
-                      {
-                        "x": 605.833,
-                        "y": 485
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 205.833,
-                        "y": 458.333
-                      },
-                      {
-                        "x": 225.833,
-                        "y": 276.667
-                      },
-                      {
-                        "x": 457.5,
-                        "y": 205
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_011.png",
-                  "points": [
-                    {
-                      "name": "ShurikenPoint",
-                      "x": 630,
-                      "y": 600
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 574.167,
-                        "y": 263.333
-                      },
-                      {
-                        "x": 615.833,
-                        "y": 496.667
-                      },
-                      {
-                        "x": 575.833,
-                        "y": 750
-                      },
-                      {
-                        "x": 347.5,
-                        "y": 746.667
-                      },
-                      {
-                        "x": 244.167,
-                        "y": 496.667
-                      },
-                      {
-                        "x": 230.833,
-                        "y": 318.333
-                      },
-                      {
-                        "x": 382.5,
-                        "y": 201.667
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -27377,6 +25425,12 @@
           "name": "Fly"
         },
         {
+          "name": "Spider"
+        },
+        {
+          "name": "Slime2"
+        },
+        {
           "name": "Boss1"
         },
         {
@@ -27384,12 +25438,6 @@
         },
         {
           "name": "Boss3"
-        },
-        {
-          "name": "Spider"
-        },
-        {
-          "name": "Slime2"
         }
       ]
     },
@@ -27484,10 +25532,6 @@
       "value": ""
     },
     {
-      "name": "healthbar",
-      "value": ""
-    },
-    {
       "name": "Loaded",
       "value": "0"
     },
@@ -27506,18 +25550,18 @@
   ],
   "layouts": [
     {
-      "b": 209,
+      "b": 255,
       "disableInputWhenNotFocused": true,
       "mangledName": "Menu",
       "name": "Menu",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": false,
       "title": "Menu",
-      "v": 209,
+      "v": 255,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -27529,7 +25573,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.904
       },
       "objectsGroups": [],
       "variables": [
@@ -27559,8 +25603,8 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
-          "locked": false,
+          "layer": "Layer2",
+          "locked": true,
           "name": "Background",
           "width": 0,
           "x": -389,
@@ -27575,7 +25619,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "logo_menu",
           "width": 0,
           "x": 158,
@@ -27590,7 +25634,7 @@
           "customSize": true,
           "height": 50,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "Button_new_game",
           "width": 150,
           "x": 320,
@@ -27605,7 +25649,7 @@
           "customSize": true,
           "height": 50,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "Button_load_game",
           "width": 150,
           "x": 321,
@@ -27620,12 +25664,102 @@
           "customSize": true,
           "height": 50,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "Button_exit",
           "width": 150,
           "x": 320,
           "y": 470,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Test1",
+          "width": 0,
+          "x": 642,
+          "y": 164,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "width": 0,
+          "x": 679,
+          "y": 262,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "width": 0,
+          "x": 649,
+          "y": 229,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Test12",
+          "width": 0,
+          "x": 645,
+          "y": 207,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Test13",
+          "width": 0,
+          "x": 645,
+          "y": 241,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Test14",
+          "width": 0,
+          "x": 646,
+          "y": 273,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28166,6 +26300,82 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Test12",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Test13",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Test14",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Test1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -28234,6 +26444,54 @@
                 "Button_exit",
                 "=",
                 "255"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Test1",
+                "=",
+                "GlobalVariableString(Lives)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Test12",
+                "=",
+                "GlobalVariableString(SceneName)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Test13",
+                "=",
+                "GlobalVariableString(CheckpointX)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Test14",
+                "=",
+                "GlobalVariableString(CheckpointY)"
               ],
               "subInstructions": []
             }
@@ -28673,6 +26931,16 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DeleteFichier"
+              },
+              "parameters": [
+                "\"progress\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "RemoveTimer"
               },
               "parameters": [
@@ -28953,83 +27221,6 @@
                 }
               ],
               "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/Score\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/SceneName\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/PlayerPositionX\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/PlayerPositionY\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/Lives\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Story\"",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
             }
           ]
         },
@@ -29037,8 +27228,75 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"progress\"",
+                "\"game/Score\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"progress\"",
+                "\"game/SceneName\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"progress\"",
+                "\"game/PlayerPositionX\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"progress\"",
+                "\"game/PlayerPositionY\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"progress\"",
+                "\"game/Lives\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Button_load_game"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
@@ -29097,6 +27355,12 @@
       ],
       "layers": [
         {
+          "name": "Layer2",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
           "name": "",
           "visibility": true,
           "cameras": [
@@ -29142,7 +27406,7 @@
       "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
+      "title": "Story",
       "v": 0,
       "uiSettings": {
         "grid": false,
@@ -29383,18 +27647,18 @@
       ]
     },
     {
-      "b": 209,
+      "b": 255,
       "disableInputWhenNotFocused": true,
       "mangledName": "Info",
       "name": "Info",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
+      "title": "Info",
+      "v": 255,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -29752,18 +28016,18 @@
       ]
     },
     {
-      "b": 209,
+      "b": 255,
       "disableInputWhenNotFocused": true,
       "mangledName": "Menu_95in_95game_95esc",
       "name": "Menu_in_game_esc",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
+      "title": "Pause",
+      "v": 255,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -30991,18 +29255,18 @@
       ]
     },
     {
-      "b": 218,
+      "b": 255,
       "disableInputWhenNotFocused": true,
       "mangledName": "_49",
       "name": "1",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 232,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 218,
+      "title": "Stage 1",
+      "v": 255,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -31014,7 +29278,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.658
+        "zoomFactor": 0.394
       },
       "objectsGroups": [],
       "variables": [
@@ -31508,12 +29772,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 127,
           "layer": "",
           "locked": false,
           "name": "Tile3",
           "width": 128,
-          "x": 3200,
+          "x": 3199,
           "y": 545,
           "zOrder": 1,
           "numberProperties": [],
@@ -31528,8 +29792,8 @@
           "locked": false,
           "name": "Tile6",
           "width": 127,
-          "x": 3200,
-          "y": 672,
+          "x": 3199,
+          "y": 670,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -31633,8 +29897,8 @@
           "locked": false,
           "name": "Checkpoint",
           "width": 0,
-          "x": 2144,
-          "y": 480,
+          "x": 3233,
+          "y": 481,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -31921,21 +30185,6 @@
           "x": 5609,
           "y": 431,
           "zOrder": 60,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Checkpoint",
-          "width": 0,
-          "x": 4242,
-          "y": 480,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -33564,7 +31813,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Background i background sound, co się dzieje po załadowniu sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33766,32 +32015,6 @@
                     "1"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModGlobalVolume"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "FadeOut",
-                    "Player.X()-400",
-                    "Player.Y()-502",
-                    ""
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": [
@@ -33866,6 +32089,32 @@
                         "Player.Y()"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "FadeOut",
+                        "Player.X()-400",
+                        "Player.Y()-502",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModGlobalVolume"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -33917,7 +32166,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "FadeOut",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34524,6 +32773,44 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Tile10",
+                    "150",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "water.wav",
+                    "16",
+                    "yes",
+                    "5",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -34595,6 +32882,18 @@
                     "",
                     "\"2\"",
                     "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Loaded",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -34674,18 +32973,18 @@
       ]
     },
     {
-      "b": 218,
+      "b": 255,
       "disableInputWhenNotFocused": true,
       "mangledName": "_50",
       "name": "2",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 232,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 218,
+      "title": "Stage 2",
+      "v": 255,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -34697,7 +32996,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.346
+        "zoomFactor": 0.394
       },
       "objectsGroups": [],
       "variables": [
@@ -35728,21 +34027,6 @@
           "x": 3331,
           "y": 35,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Fly",
-          "width": 0,
-          "x": 3398,
-          "y": 49,
-          "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37270,7 +35554,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Linki z zachowaniem",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37560,32 +35844,6 @@
                     "2"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModGlobalVolume"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "FadeOut2",
-                    "Player.X()-400",
-                    "Player.Y()-502",
-                    ""
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": [
@@ -37660,6 +35918,32 @@
                         "Player.Y()"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "FadeOut2",
+                        "Player.X()-400",
+                        "Player.Y()-502",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModGlobalVolume"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -37711,7 +35995,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "FadeOut",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38529,6 +36813,18 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Loaded",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "Scene"
                   },
                   "parameters": [
@@ -38620,18 +36916,18 @@
       ]
     },
     {
-      "b": 218,
+      "b": 255,
       "disableInputWhenNotFocused": true,
       "mangledName": "_51",
       "name": "3",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 232,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 218,
+      "title": "Stage 3",
+      "v": 255,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -39350,7 +37646,12 @@
           "zOrder": 148,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Health",
+              "value": "150"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -40501,7 +38802,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Background i background sound, co się dzieje po załadowniu sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40644,7 +38945,7 @@
                   },
                   "parameters": [
                     "",
-                    "Jungle.mp3",
+                    "Jungle3.mp3",
                     "1",
                     "yes",
                     "2",
@@ -40723,32 +39024,6 @@
                     "3"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModGlobalVolume"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "FadeOut3",
-                    "Player.X()-400",
-                    "Player.Y()-502",
-                    ""
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": [
@@ -40823,6 +39098,32 @@
                         "Player.Y()"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "FadeOut3",
+                        "Player.X()-400",
+                        "Player.Y()-502",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModGlobalVolume"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -40874,7 +39175,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "FadeOut",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41110,11 +39411,49 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zachowanie Wody",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Tile10",
+                    "150",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "water.wav",
+                    "16",
+                    "yes",
+                    "5",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "disabled": false,
               "folded": false,
@@ -41146,54 +39485,6 @@
                     "IsDead",
                     "=",
                     "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Zmiana sceny",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "EndOfScene",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"3\"",
-                    "yes"
                   ],
                   "subInstructions": []
                 }
@@ -41362,8 +39653,8 @@
                   "parameters": [
                     "",
                     "Boss3",
-                    "666",
-                    "380",
+                    "400",
+                    "475",
                     ""
                   ],
                   "subInstructions": []
@@ -41457,6 +39748,21 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pokonany ostatni Boss",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -41473,6 +39779,18 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Loaded",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -41595,7 +39913,7 @@
       "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
+      "title": "GameOver",
       "v": 0,
       "uiSettings": {
         "grid": false,
@@ -42022,13 +40340,109 @@
               },
               "parameters": [
                 "",
-                "4",
+                "5",
                 "\"Change\""
               ],
               "subInstructions": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Lives",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CheckpointX",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CheckpointY",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Loaded",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "SceneName",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CheckpointXPaused",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CheckpointYPaused",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -43851,7 +42265,7 @@
               },
               "parameters": [
                 "Player",
-                "Shuriken",
+                "Weapon",
                 "",
                 "",
                 ""
@@ -43892,6 +42306,29 @@
                 "IsDead",
                 "=",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Weapon",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "no"
               ],
               "subInstructions": []
             }
@@ -44135,7 +42572,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "DepartScene"
+                "value": "Toujours"
               },
               "parameters": [
                 ""
@@ -44143,27 +42580,6 @@
               "subInstructions": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "AddHeart",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
           "actions": [
             {
               "type": {
@@ -44178,27 +42594,7 @@
                 ""
               ],
               "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Toujours"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "inverted": false,
@@ -44329,67 +42725,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Player",
-                "IsDead",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "Weapon",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"ShootNow\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"ShootNow\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
                 "value": "Timer"
               },
               "parameters": [
                 "",
-                "4",
+                "3",
                 "\"ShootNow\""
               ],
               "subInstructions": []
@@ -44456,6 +42796,17 @@
                         "Boss3",
                         "=",
                         "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Boss3",
+                        "\"Death\""
                       ],
                       "subInstructions": []
                     }
@@ -44557,6 +42908,44 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "ShurikenThrow.wav",
+                        "25",
+                        "",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Rotate"
+                      },
+                      "parameters": [
+                        "Shuriken",
+                        "25",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Hit2",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -44575,6 +42964,17 @@
                         "Boss2",
                         "=",
                         "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Boss2",
+                        "\"Death\""
                       ],
                       "subInstructions": []
                     }
@@ -44626,16 +43026,6 @@
                         "Hit2",
                         "=",
                         "10"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Hit2"
                       ],
                       "subInstructions": []
                     },
@@ -44676,6 +43066,44 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "ShurikenThrow.wav",
+                        "25",
+                        "",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Rotate"
+                      },
+                      "parameters": [
+                        "Shuriken",
+                        "25",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Hit2",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -44694,6 +43122,17 @@
                         "Boss1",
                         "=",
                         "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Boss1",
+                        "\"Death\""
                       ],
                       "subInstructions": []
                     }
@@ -44751,16 +43190,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Hit2"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "SetAnimationName"
                       },
                       "parameters": [
@@ -44795,48 +43224,31 @@
                         "1"
                       ],
                       "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Timer"
+                        "value": "PlaySoundCanal"
                       },
                       "parameters": [
                         "",
-                        "1",
-                        "\"ShootingTime\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
+                        "ShurikenThrow.wav",
+                        "25",
                         "",
-                        "\"ShootingTime\""
+                        "10",
+                        ""
                       ],
                       "subInstructions": []
                     },
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PauseTimer"
+                        "value": "Rotate"
                       },
                       "parameters": [
-                        "",
-                        "\"ShootingTime\""
+                        "Shuriken",
+                        "25",
+                        ""
                       ],
                       "subInstructions": []
                     },
@@ -44850,22 +43262,66 @@
                         ""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"ShootNow\""
-                      ],
-                      "subInstructions": []
                     }
                   ],
                   "events": []
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"ShootingTime\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShootingTime\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShootingTime\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShootNow\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         },
@@ -44997,8 +43453,8 @@
                   },
                   "parameters": [
                     "\"progress\"",
-                    "\"game/PlayerPositionX\"",
-                    "GlobalVariable(CheckpointX)"
+                    "\"game/Score\"",
+                    "GlobalVariable(Score)"
                   ],
                   "subInstructions": []
                 },
@@ -45009,8 +43465,8 @@
                   },
                   "parameters": [
                     "\"progress\"",
-                    "\"game/PlayerPositionY\"",
-                    "GlobalVariable(CheckpointY)"
+                    "\"game/Lives\"",
+                    "GlobalVariable(Lives)"
                   ],
                   "subInstructions": []
                 },
@@ -45033,8 +43489,8 @@
                   },
                   "parameters": [
                     "\"progress\"",
-                    "\"game/Score\"",
-                    "GlobalVariable(Score)"
+                    "\"game/PlayerPositionX\"",
+                    "GlobalVariable(CheckpointX)"
                   ],
                   "subInstructions": []
                 },
@@ -45045,8 +43501,8 @@
                   },
                   "parameters": [
                     "\"progress\"",
-                    "\"game/Lives\"",
-                    "GlobalVariable(Lives)"
+                    "\"game/PlayerPositionY\"",
+                    "GlobalVariable(CheckpointY)"
                   ],
                   "subInstructions": []
                 }
@@ -45088,7 +43544,41 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "confirm.wav",
+                    "30",
+                    "",
+                    "5",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -45785,12 +44275,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Animation"
+                    "value": "AnimationName"
                   },
                   "parameters": [
                     "Monsters",
-                    "=",
-                    "1"
+                    "\"Death\""
                   ],
                   "subInstructions": []
                 }
@@ -45884,44 +44373,6 @@
                         ""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "AddScore",
-                        "Monsters.X()",
-                        "Monsters.Y()-35",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeWidth"
-                      },
-                      "parameters": [
-                        "AddScore",
-                        "=",
-                        "50"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeHeight"
-                      },
-                      "parameters": [
-                        "AddScore",
-                        "=",
-                        "50"
-                      ],
-                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -45968,8 +44419,8 @@
                       "parameters": [
                         "",
                         "AddHeart",
-                        "Bosses.X()-50",
-                        "Bosses.Y()-100",
+                        "Player.X()+30",
+                        "Bosses.Y()-25",
                         ""
                       ],
                       "subInstructions": []
@@ -46061,776 +44512,15 @@
                     }
                   ],
                   "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Opacity"
-                      },
-                      "parameters": [
-                        "FlyingMonsters",
-                        "=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "FlyingMonsters",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
                 }
               ]
             }
           ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Bosses",
-                "600",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "hb",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeWidth"
-              },
-              "parameters": [
-                "hb",
-                "=",
-                "Bosses.Variable(Health)*3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "BossHealth",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         }
       ]
     }
   ],
-  "eventsFunctionsExtensions": [
-    {
-      "author": "@4ian",
-      "description": "Add actions and conditions to manage the life of the object. Object can get damages, lose some health and you can check with a condition if it's dead.",
-      "extensionNamespace": "",
-      "fullName": "Health (life points and damages for objects)",
-      "name": "Health",
-      "shortDescription": "Add actions and conditions to manage the life of the object. Object can get damages, lose some health and you can check with a condition if it's dead.",
-      "tags": "health, life, damage, hit, heal",
-      "version": "0.0.1",
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": [
-        {
-          "description": "Add actions and conditions to manage the life of the object. Object can get damages, lose some health and you can check with a condition if it's dead.",
-          "fullName": "Health",
-          "name": "Health",
-          "objectType": "",
-          "eventsFunctions": [
-            {
-              "description": "Add some damage to the object, decreasing its life.",
-              "fullName": "Damage the object",
-              "functionType": "Action",
-              "name": "Hit",
-              "sentence": "Damage _PARAM0_, removing _PARAM2_ from its health",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"DamageCooldown\"",
-                            "Object.Behavior::PropertyDamageCooldown()"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Health::Health::PropertyCooldownActive"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior"
-                          ],
-                          "subInstructions": []
-                        }
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::SetPropertyHealth"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "-",
-                        "GetArgumentAsNumber(\"DamageValue\")"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"DamageCooldown\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::SetPropertyCooldownActive"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::SetPropertyIsJustDamaged"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Health::Health",
-                  "type": "behavior"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Value of the damage to do (will be removed from object health)",
-                  "longDescription": "",
-                  "name": "DamageValue",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "expression"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Check if the object is considered dead (no more health)",
-              "fullName": "Is dead",
-              "functionType": "Condition",
-              "name": "IsDead",
-              "sentence": "_PARAM0_ is dead",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "False"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::PropertyHealth"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "<=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Health::Health",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "",
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPreEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::SetPropertyIsJustDamaged"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Health::Health",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Check if the object was just damaged previously in the events.",
-              "fullName": "Is just damaged",
-              "functionType": "Condition",
-              "name": "IsJustDamaged",
-              "sentence": "_PARAM0_ has just been damaged",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "False"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::PropertyIsJustDamaged"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Health::Health",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Heal the object, incrasing its life.",
-              "fullName": "Heal the object",
-              "functionType": "Action",
-              "name": "Heal",
-              "sentence": "Heal _PARAM0_, adding _PARAM2_ to its health",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::SetPropertyHealth"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "+",
-                        "GetArgumentAsNumber(\"HealValue\")"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::PropertyMaxHealth"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ">",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::SetPropertyHealth"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "min(Object.Behavior::PropertyHealth(), Object.Behavior::PropertyMaxHealth())"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Health::Health",
-                  "type": "behavior"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "How much to heal (will be added to object health)",
-                  "longDescription": "",
-                  "name": "HealValue",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "expression"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Change the object health to set it to a specific value (check if the actions to damage or heal the object are not better suited to your use case before using this one).",
-              "fullName": "Change object health",
-              "functionType": "Action",
-              "name": "SetHealth",
-              "sentence": "Set health of _PARAM0_ to _PARAM2_",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::SetPropertyHealth"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::PropertyMaxHealth"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ">",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::SetPropertyHealth"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "min(Object.Behavior::PropertyHealth(), Object.Behavior::PropertyMaxHealth())"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Health::Health",
-                  "type": "behavior"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "New health value",
-                  "longDescription": "",
-                  "name": "Value",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "expression"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "The health of the object",
-              "fullName": "Health",
-              "functionType": "Expression",
-              "name": "Health",
-              "sentence": "",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyHealth()"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Health::Health",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "100",
-              "type": "Number",
-              "label": "Health",
-              "description": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "Health"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "label": "Damage cooldown (in seconds) (0 for no cooldown)",
-              "description": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "DamageCooldown"
-            },
-            {
-              "value": "100",
-              "type": "Number",
-              "label": "Maximum health (0 for no maximum)",
-              "description": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "MaxHealth"
-            },
-            {
-              "value": "",
-              "type": "Boolean",
-              "label": "",
-              "description": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "IsJustDamaged"
-            },
-            {
-              "value": "",
-              "type": "Boolean",
-              "label": "",
-              "description": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "CooldownActive"
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
