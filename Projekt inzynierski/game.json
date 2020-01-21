@@ -3917,6 +3917,344 @@
         "metadata": "",
         "name": "Memoraphile - Spooky Dungeon.mp3",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss3/Hurt/0_Fallen_Angels_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss2/Hurt/0_Fallen_Angels_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss1/Hurt/0_Fallen_Angels_Hurt_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "youlose.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "youlose.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "youwin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "youwin.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7677,7 +8015,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Move",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -7819,7 +8157,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Move",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -13280,6 +13618,294 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss3\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -16289,6 +16915,294 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss2\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -19094,6 +20008,294 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_000.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_001.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_002.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_003.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_004.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_005.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_006.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_007.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_008.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_009.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_010.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss1\\Hurt\\0_Fallen_Angels_Hurt_011.png",
+                  "points": [
+                    {
+                      "name": "ShurikenPoint",
+                      "x": 630,
+                      "y": 600
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -19583,7 +20785,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.904
+        "zoomFactor": 0.472
       },
       "objectsGroups": [],
       "variables": [
@@ -20387,7 +21589,7 @@
                 "BackgroundMusicMenu.mp3",
                 "1",
                 "",
-                "5",
+                "15",
                 ""
               ],
               "subInstructions": []
@@ -20483,12 +21685,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlayMusic"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "menu_click.wav",
-                    "",
+                    "30",
+                    "50",
                     "50",
                     ""
                   ],
@@ -20573,12 +21776,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlayMusic"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "menu_click.wav",
-                    "",
+                    "30",
+                    "50",
                     "50",
                     ""
                   ],
@@ -20663,12 +21867,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlayMusic"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "menu_click.wav",
-                    "",
+                    "30",
+                    "50",
                     "50",
                     ""
                   ],
@@ -22367,7 +23572,7 @@
                 "BackgroundMusicMenu.mp3",
                 "1",
                 "",
-                "5",
+                "15",
                 ""
               ],
               "subInstructions": []
@@ -22463,12 +23668,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlayMusic"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "menu_click.wav",
-                    "",
+                    "30",
+                    "50",
                     "50",
                     ""
                   ],
@@ -22553,12 +23759,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlayMusic"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "menu_click.wav",
-                    "",
+                    "30",
+                    "50",
                     "50",
                     ""
                   ],
@@ -22643,12 +23850,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlayMusic"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "menu_click.wav",
-                    "",
+                    "30",
+                    "50",
                     "50",
                     ""
                   ],
@@ -22733,12 +23941,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlayMusic"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "menu_click.wav",
-                    "",
+                    "30",
+                    "50",
                     "50",
                     ""
                   ],
@@ -23231,7 +24440,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.334
+        "zoomFactor": 0.166
       },
       "objectsGroups": [],
       "variables": [
@@ -25698,7 +26907,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Linki z zachowaniem",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25711,6 +26920,33 @@
                 "includeConfig": 0
               },
               "target": "Camera"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Spike"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Water"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "MovingPlatform"
             },
             {
               "disabled": false,
@@ -25883,22 +27119,22 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ResetTimer"
+                    "value": "PauseObjectTimer"
                   },
                   "parameters": [
-                    "",
-                    "\"Hit2\""
+                    "Spike",
+                    "\"DownTimer\""
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PauseObjectTimer"
+                    "value": "ResetTimer"
                   },
                   "parameters": [
-                    "Player",
-                    "\"DownTimer\""
+                    "",
+                    "\"Hit2\""
                   ],
                   "subInstructions": []
                 },
@@ -25912,7 +27148,7 @@
                     "Jungle.mp3",
                     "1",
                     "yes",
-                    "10",
+                    "20",
                     ""
                   ],
                   "subInstructions": []
@@ -26119,7 +27355,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "FadeOut",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26355,415 +27591,6 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
-          "name": "Zachowanie spike",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"UpTimer\"",
-                    "3"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"UpTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PauseObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"UpTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "UnPauseObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Spike",
-                        "600",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "Spike.wav",
-                        "4",
-                        "",
-                        "5",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\"",
-                    "3"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PauseObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "UnPauseObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"UpTimer\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Ruszająca się platforma",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoRight",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoingLeft",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoLeft",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoingLeft",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoingLeft",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "180",
-                    "150",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoingLeft",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "0",
-                    "150",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Zachowanie Wody",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Tile10",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Player",
-                    "IsDead",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
           "folded": false,
           "name": "Zmiana sceny",
           "source": "",
@@ -26911,7 +27738,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.034
+        "zoomFactor": 0.514
       },
       "objectsGroups": [],
       "variables": [
@@ -27243,21 +28070,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Checkpoint",
-          "width": 0,
-          "x": 6121,
-          "y": 480,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 167,
           "layer": "",
@@ -27504,8 +28316,8 @@
           "locked": false,
           "name": "AddScore",
           "width": 50,
-          "x": 7583,
-          "y": 269,
+          "x": 7687,
+          "y": 262,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -27519,8 +28331,8 @@
           "locked": false,
           "name": "AddScore",
           "width": 50,
-          "x": 7468,
-          "y": 269,
+          "x": 7478,
+          "y": 266,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -27579,8 +28391,8 @@
           "locked": false,
           "name": "AddScore",
           "width": 50,
-          "x": 8685,
-          "y": 221,
+          "x": 8823,
+          "y": 218,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -27594,8 +28406,8 @@
           "locked": false,
           "name": "AddScore",
           "width": 50,
-          "x": 8577,
-          "y": 221,
+          "x": 8600,
+          "y": 218,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -28640,6 +29452,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint",
+          "width": 0,
+          "x": 6100,
+          "y": 478,
+          "zOrder": 132,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -29469,7 +30296,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Linki z zachowaniem",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29491,6 +30318,33 @@
                 "includeConfig": 0
               },
               "target": "Camera"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Water"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "MovingPlatform"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Spike"
             },
             {
               "disabled": false,
@@ -29537,7 +30391,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Background i background sound, co się dzieje po załadowniu sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29668,7 +30522,7 @@
                     "value": "PauseObjectTimer"
                   },
                   "parameters": [
-                    "Player",
+                    "Spike",
                     "\"DownTimer\""
                   ],
                   "subInstructions": []
@@ -29683,7 +30537,7 @@
                     "Jungle2.wav",
                     "1",
                     "yes",
-                    "2",
+                    "10",
                     ""
                   ],
                   "subInstructions": []
@@ -30147,561 +31001,6 @@
           "creationTime": 0,
           "disabled": false,
           "folded": true,
-          "name": "Zachowanie spike",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"UpTimer\"",
-                    "3"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"UpTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PauseObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"UpTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "UnPauseObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Spike",
-                        "600",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "Spike.wav",
-                        "4",
-                        "",
-                        "5",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\"",
-                    "3"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PauseObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "UnPauseObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"UpTimer\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Ruszająca się platforma",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoRight",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoingLeft",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoLeft",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoingLeft",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "LedgeUP",
-                    "GoDown",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "LedgeUP",
-                    "GoingUp",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "LedgeUP",
-                    "GoUp",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "LedgeUP",
-                    "GoingUp",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoingLeft",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "180",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "GoingLeft",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "Ledge",
-                    "0",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "LedgeUP",
-                    "GoingUp",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "LedgeUP",
-                    "270",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "LedgeUP",
-                    "GoingUp",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "LedgeUP",
-                    "90",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "Zachowanie Wody",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Tile10",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Player",
-                    "IsDead",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
           "name": "Zmiana sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30854,7 +31153,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.208
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [
@@ -31556,7 +31855,7 @@
           "locked": false,
           "name": "Boss1",
           "width": 200,
-          "x": 666,
+          "x": 665,
           "y": 380,
           "zOrder": 148,
           "numberProperties": [],
@@ -32679,6 +32978,15 @@
               "include": {
                 "includeConfig": 0
               },
+              "target": "Water"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
               "target": "Checkpoint"
             },
             {
@@ -32823,32 +33131,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PauseObjectTimer"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"DownTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "Memoraphile - Spooky Dungeon.mp3",
-                    "1",
-                    "yes",
-                    "10",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Cache"
                   },
                   "parameters": [
@@ -32883,6 +33165,21 @@
                   },
                   "parameters": [
                     "hb"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Memoraphile - Spooky Dungeon.mp3",
+                    "1",
+                    "yes",
+                    "10",
+                    ""
                   ],
                   "subInstructions": []
                 },
@@ -33084,7 +33381,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "FadeOut",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33320,58 +33617,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
-          "name": "Zachowanie Wody",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Tile10",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Player",
-                    "IsDead",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Walka z Bossami ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33948,6 +34194,21 @@
                 "GlobalVariableString(Score)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "youlose.mp3",
+                "1",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -33964,7 +34225,7 @@
               },
               "parameters": [
                 "",
-                "4",
+                "6",
                 "\"Change\""
               ],
               "subInstructions": []
@@ -34053,7 +34314,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.298
       },
       "objectsGroups": [],
       "variables": [],
@@ -34132,6 +34393,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Layer",
+          "locked": true,
+          "name": "BackgroundWin",
+          "width": 0,
+          "x": -646,
+          "y": -34,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -34153,6 +34429,45 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "name": "BackgroundWin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bg.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -34207,6 +34522,21 @@
                 "GlobalVariableString(Lives)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "youwin.wav",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -34223,7 +34553,7 @@
               },
               "parameters": [
                 "",
-                "5",
+                "8",
                 "\"Change\""
               ],
               "subInstructions": []
@@ -34238,7 +34568,7 @@
               "parameters": [
                 "Lives",
                 "=",
-                "0"
+                "3"
               ],
               "subInstructions": []
             },
@@ -34353,6 +34683,12 @@
         }
       ],
       "layers": [
+        {
+          "name": "Layer",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
         {
           "name": "",
           "visibility": true,
@@ -34908,8 +35244,8 @@
                   "parameters": [
                     "",
                     "Jump.wav",
-                    "",
-                    "",
+                    "3",
+                    "no",
                     "15",
                     ""
                   ],
@@ -34922,7 +35258,7 @@
                   },
                   "parameters": [
                     "",
-                    "3"
+                    "2"
                   ],
                   "subInstructions": []
                 }
@@ -35075,7 +35411,7 @@
                           "parameters": [
                             "",
                             "Run.wav",
-                            "3",
+                            "2",
                             "yes",
                             "5",
                             "0.8"
@@ -35123,7 +35459,7 @@
                       },
                       "parameters": [
                         "",
-                        "3"
+                        "2"
                       ],
                       "subInstructions": []
                     }
@@ -35238,7 +35574,7 @@
                           },
                           "parameters": [
                             "",
-                            "3"
+                            "2"
                           ],
                           "subInstructions": []
                         }
@@ -35361,7 +35697,7 @@
                           "parameters": [
                             "",
                             "ArrowShoot.wav",
-                            "2",
+                            "4",
                             "",
                             "15",
                             "3"
@@ -35487,7 +35823,7 @@
                           "parameters": [
                             "",
                             "ArrowShoot.wav",
-                            "2",
+                            "4",
                             "",
                             "15",
                             "3"
@@ -35645,7 +35981,7 @@
               },
               "parameters": [
                 "",
-                "3"
+                "2"
               ],
               "subInstructions": []
             },
@@ -35742,7 +36078,7 @@
                   "parameters": [
                     "",
                     "Death.wav",
-                    "6",
+                    "5",
                     "",
                     "15",
                     "1"
@@ -35809,6 +36145,17 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Weapon",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -35919,7 +36266,7 @@
               "parameters": [
                 "",
                 "PickHeart.wav",
-                "2",
+                "6",
                 "",
                 "15",
                 "1"
@@ -35981,7 +36328,7 @@
               "parameters": [
                 "",
                 "PickCoin.wav",
-                "2",
+                "6",
                 "",
                 "15",
                 "1"
@@ -36397,12 +36744,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySound"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
-                "jump.wav",
-                "",
+                "Jump.wav",
+                "3",
+                "15",
                 "15",
                 ""
               ],
@@ -36428,9 +36776,9 @@
               "parameters": [
                 "",
                 "enemy_hit.wav",
-                "25",
+                "10",
                 "",
-                "15",
+                "40",
                 ""
               ],
               "subInstructions": []
@@ -36798,9 +37146,9 @@
                       "parameters": [
                         "",
                         "ShurikenThrow.wav",
-                        "25",
+                        "11",
                         "",
-                        "10",
+                        "15",
                         ""
                       ],
                       "subInstructions": []
@@ -36944,9 +37292,9 @@
                       "parameters": [
                         "",
                         "ShurikenThrow.wav",
-                        "25",
+                        "11",
                         "",
-                        "10",
+                        "15",
                         ""
                       ],
                       "subInstructions": []
@@ -37090,9 +37438,9 @@
                       "parameters": [
                         "",
                         "ShurikenThrow.wav",
-                        "25",
+                        "11",
                         "",
-                        "10",
+                        "15",
                         ""
                       ],
                       "subInstructions": []
@@ -37181,6 +37529,160 @@
                 "value": "CollisionNP"
               },
               "parameters": [
+                "Arrow",
+                "Bosses",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Bosses",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Bosses",
+                "Health",
+                "-",
+                "15"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Arrow",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Bosses",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "Boss1",
+                "\"Hit2\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "enemy_hit.wav",
+                "10",
+                "",
+                "40",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "Boss1",
+                "0.5",
+                "\"Hit2\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Bosses",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Hit2\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "Boss1",
+                "\"Hit2\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
                 "Weapon",
                 "Tiles",
                 "",
@@ -37204,6 +37706,130 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Bosses",
+                "600",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "BossHealth",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "hb",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "hb",
+                "=",
+                "Bosses.Variable(Health)*3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Bosses",
+                    "Health",
+                    "<",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Bosses",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "Boss1",
+                    "\"Hit2\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "hb"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "BossHealth"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ]
     },
@@ -37413,7 +38039,7 @@
                   "parameters": [
                     "",
                     "confirm.wav",
-                    "30",
+                    "7",
                     "",
                     "5",
                     ""
@@ -37723,78 +38349,6 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Health Bar dla bossów",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Bosses",
-                    "600",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "hb",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeWidth"
-                  },
-                  "parameters": [
-                    "hb",
-                    "=",
-                    "Bosses.Variable(Health)*3"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "BossHealth",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
               "comment": "Zachowanie potworów jednostrzałowych po trafieniu strzałą",
               "comment2": ""
             },
@@ -37820,12 +38374,11 @@
                 {
                   "type": {
                     "inverted": true,
-                    "value": "Animation"
+                    "value": "AnimationName"
                   },
                   "parameters": [
                     "1HitMonsters",
-                    "=",
-                    "1"
+                    "\"Death\""
                   ],
                   "subInstructions": []
                 }
@@ -37834,12 +38387,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeAnimation"
+                    "value": "SetAnimationName"
                   },
                   "parameters": [
                     "1HitMonsters",
-                    "=",
-                    "1"
+                    "\"Death\""
                   ],
                   "subInstructions": []
                 },
@@ -37862,235 +38414,10 @@
                   "parameters": [
                     "",
                     "enemy_hit.wav",
-                    "25",
+                    "10",
                     "",
-                    "15",
+                    "40",
                     ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Zachowanie po trafieniu potwora",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Arrow",
-                    "Monsters",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "Animation"
-                  },
-                  "parameters": [
-                    "Monsters",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Bosses",
-                    "Health",
-                    "-",
-                    "15"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Arrow",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Monsters",
-                    "=",
-                    "4"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "UnPauseTimer"
-                  },
-                  "parameters": [
-                    "Boss1",
-                    "\"Hit2\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "enemy_hit.wav",
-                    "25",
-                    "",
-                    "15",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Bosses",
-                        "Health",
-                        "<=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "Monsters",
-                        "=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PauseTimer"
-                      },
-                      "parameters": [
-                        "Boss1",
-                        "\"Hit2\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "hb"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "BossHealth"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Timer"
-                  },
-                  "parameters": [
-                    "Boss1",
-                    "0.5",
-                    "\"Hit2\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Monsters",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Hit2\""
                   ],
                   "subInstructions": []
                 }
@@ -38133,17 +38460,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PauseTimer"
-                  },
-                  "parameters": [
-                    "Boss1",
-                    "\"Hit2\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Arreter"
                   },
                   "parameters": [
@@ -38161,17 +38477,6 @@
                     "90",
                     "250",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PauseSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "10"
                   ],
                   "subInstructions": []
                 },
@@ -38200,54 +38505,6 @@
                         "value": "Opacity"
                       },
                       "parameters": [
-                        "Monsters",
-                        "=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Monsters",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Nagroda za zabicie bossa",
-                  "comment2": ""
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Opacity"
-                      },
-                      "parameters": [
                         "Bosses",
                         "=",
                         "0"
@@ -38264,8 +38521,8 @@
                       "parameters": [
                         "",
                         "AddHeart",
-                        "Player.X()+30",
-                        "Bosses.Y()-25",
+                        "Bosses.X()+100",
+                        "Bosses.Y()+100",
                         ""
                       ],
                       "subInstructions": []
@@ -38291,6 +38548,39 @@
                         "AddHeart",
                         "=",
                         "50"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "Monsters",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Monsters",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -38342,18 +38632,6 @@
                         "FlyingMonsters"
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Opacity"
-                      },
-                      "parameters": [
-                        "Fly",
-                        "-",
-                        "95*TimeDelta()"
-                      ],
-                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -38361,6 +38639,557 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "1",
+      "lastChangeTimeStamp": 0,
+      "name": "Water",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Tile10",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "IsDead",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "1",
+      "lastChangeTimeStamp": 0,
+      "name": "Spike",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Zachowanie spike",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"UpTimer\"",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"UpTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"UpTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "UnPauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"DownTimer\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Spike",
+                        "600",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Spike.wav",
+                        "12",
+                        "",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"DownTimer\"",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"DownTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"DownTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "UnPauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Spike",
+                    "\"UpTimer\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "1",
+      "lastChangeTimeStamp": 0,
+      "name": "MovingPlatform",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Ruszająca się platforma",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Ledge",
+                    "GoRight",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Ledge",
+                    "GoingLeft",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Ledge",
+                    "GoLeft",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Ledge",
+                    "GoingLeft",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoDown",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoingUp",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoUp",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoingUp",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Ledge",
+                    "GoingLeft",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Ledge",
+                    "180",
+                    "150",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Ledge",
+                    "GoingLeft",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Ledge",
+                    "0",
+                    "150",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoingUp",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "270",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "GoingUp",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "LedgeUP",
+                    "90",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
         }
       ]
     }
