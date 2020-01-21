@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Git\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -10553,6 +10553,24 @@
         "metadata": "",
         "name": "confirm.wav",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shuriken_green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shuriken_green.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shuriken_red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shuriken_red.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -16827,8 +16845,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16877,8 +16895,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16927,8 +16945,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -16977,8 +16995,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17027,8 +17045,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17077,8 +17095,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17127,8 +17145,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17177,8 +17195,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17227,8 +17245,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17277,8 +17295,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17327,8 +17345,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17377,8 +17395,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17427,8 +17445,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17477,8 +17495,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17527,8 +17545,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17577,8 +17595,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17627,8 +17645,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17677,8 +17695,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17727,8 +17745,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17777,8 +17795,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17827,8 +17845,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17877,8 +17895,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17927,8 +17945,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17977,8 +17995,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18039,8 +18057,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18089,8 +18107,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18139,8 +18157,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18189,8 +18207,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18239,8 +18257,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18289,8 +18307,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18339,8 +18357,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18389,8 +18407,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18439,8 +18457,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18489,8 +18507,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18539,8 +18557,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18589,8 +18607,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18639,8 +18657,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18689,8 +18707,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18739,8 +18757,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18801,8 +18819,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18851,8 +18869,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18901,8 +18919,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -18951,8 +18969,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -19001,8 +19019,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -19051,8 +19069,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -19101,8 +19119,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -19151,8 +19169,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -19201,8 +19219,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -19251,8 +19269,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -19301,8 +19319,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -19351,8 +19369,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 448.353,
-                    "y": 450.118
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -25210,6 +25228,122 @@
       ]
     },
     {
+      "name": "Shuriken_green",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "shuriken_green.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.8,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 26
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 37
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 39
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shuriken_red",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "shuriken_red.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.8,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 26
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 37
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 39
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Shuriken",
       "tags": "",
       "type": "Sprite",
@@ -25496,6 +25630,12 @@
       "objects": [
         {
           "name": "Shuriken"
+        },
+        {
+          "name": "Shuriken_red"
+        },
+        {
+          "name": "Shuriken_green"
         }
       ]
     },
@@ -27789,7 +27929,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Layer",
           "locked": false,
           "name": "Bacground_menu_two",
           "width": 0,
@@ -27856,6 +27996,21 @@
           "x": 325,
           "y": 360,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Saved",
+          "width": 0,
+          "x": 324,
+          "y": 108,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28056,6 +28211,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Saved",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Saved",
+          "font": "Czcionka\\upheavtt.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -28248,6 +28422,16 @@
                 "",
                 "5",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Saved"
               ],
               "subInstructions": []
             }
@@ -28705,19 +28889,7 @@
               "subInstructions": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "RemoveTimer"
-              },
-              "parameters": [
-                "",
-                "\"Button_timer_save_game\""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "disabled": false,
@@ -28795,6 +28967,93 @@
                     "\"progress\"",
                     "\"game/PlayerPositionY\"",
                     "GlobalVariable(CheckpointYPaused)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Saved\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Saved",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "\"Saved\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Saved"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Saved\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Button_timer_save_game\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Button_timer_save_game\""
                   ],
                   "subInstructions": []
                 }
@@ -28967,6 +29226,12 @@
       ],
       "layers": [
         {
+          "name": "Layer",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
           "name": "",
           "visibility": true,
           "cameras": [
@@ -29019,7 +29284,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.394
+        "zoomFactor": 0.226
       },
       "objectsGroups": [],
       "variables": [
@@ -29938,8 +30203,8 @@
           "locked": false,
           "name": "Spike",
           "width": 0,
-          "x": 7072,
-          "y": 431,
+          "x": 7168,
+          "y": 428,
           "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
@@ -29953,8 +30218,8 @@
           "locked": false,
           "name": "Spike",
           "width": 0,
-          "x": 6989,
-          "y": 431,
+          "x": 6941,
+          "y": 429,
           "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
@@ -29968,7 +30233,7 @@
           "locked": false,
           "name": "Stone",
           "width": 0,
-          "x": 6882,
+          "x": 6796,
           "y": 496,
           "zOrder": 62,
           "numberProperties": [],
@@ -29983,8 +30248,8 @@
           "locked": false,
           "name": "Stone",
           "width": 0,
-          "x": 7224,
-          "y": 496,
+          "x": 7267,
+          "y": 493,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -34209,21 +34474,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 50,
-          "x": 8217,
-          "y": 190,
-          "zOrder": 121,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -34283,7 +34533,7 @@
           "initialVariables": [
             {
               "name": "Health",
-              "value": "2000"
+              "value": "150"
             }
           ]
         },
@@ -34463,6 +34713,21 @@
           "x": 48,
           "y": 561,
           "zOrder": 131,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "AddScore",
+          "width": 50,
+          "x": 8210,
+          "y": 194,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38765,6 +39030,42 @@
                     "3"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CheckpointX",
+                    "=",
+                    "Player.X()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CheckpointY",
+                    "=",
+                    "Player.Y()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"progress\"",
+                    "\"game/SceneName\"",
+                    "GlobalVariable(SceneName)"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": [
@@ -38916,7 +39217,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "FadeOut",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39152,7 +39453,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Zachowanie Wody",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39241,7 +39542,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Walka z Bossami ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39394,8 +39695,8 @@
                   "parameters": [
                     "",
                     "Boss3",
-                    "400",
-                    "475",
+                    "666",
+                    "380",
                     ""
                   ],
                   "subInstructions": []
@@ -40181,6 +40482,16 @@
                 "CheckpointYPaused",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DeleteFichier"
+              },
+              "parameters": [
+                "\"progress\""
               ],
               "subInstructions": []
             },
@@ -42668,18 +42979,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Rotate"
-                      },
-                      "parameters": [
-                        "Shuriken",
-                        "25",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "Delete"
                       },
                       "parameters": [
@@ -42788,7 +43087,7 @@
                       },
                       "parameters": [
                         "",
-                        "Shuriken",
+                        "Shuriken_red",
                         "Boss2.PointX(\"ShurikenPoint\")",
                         "Boss2.PointY(\"ShurikenPoint\")",
                         ""
@@ -42801,7 +43100,7 @@
                         "value": "AddForceVers"
                       },
                       "parameters": [
-                        "Shuriken",
+                        "Shuriken_red",
                         "Hit2",
                         "200",
                         "1"
@@ -42819,18 +43118,6 @@
                         "25",
                         "",
                         "10",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Rotate"
-                      },
-                      "parameters": [
-                        "Shuriken",
-                        "25",
                         ""
                       ],
                       "subInstructions": []
@@ -42946,7 +43233,7 @@
                       },
                       "parameters": [
                         "",
-                        "Shuriken",
+                        "Shuriken_green",
                         "Boss1.PointX(\"ShurikenPoint\")",
                         "Boss1.PointY(\"ShurikenPoint\")",
                         ""
@@ -42959,7 +43246,7 @@
                         "value": "AddForceVers"
                       },
                       "parameters": [
-                        "Shuriken",
+                        "Shuriken_green",
                         "Hit2",
                         "200",
                         "1"
@@ -42977,18 +43264,6 @@
                         "25",
                         "",
                         "10",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Rotate"
-                      },
-                      "parameters": [
-                        "Shuriken",
-                        "25",
                         ""
                       ],
                       "subInstructions": []
@@ -43077,7 +43352,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Shuriken",
+                "Weapon",
                 "Tiles",
                 "",
                 "",
@@ -43093,7 +43368,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Shuriken",
+                "Weapon",
                 ""
               ],
               "subInstructions": []
