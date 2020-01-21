@@ -19683,36 +19683,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject",
-          "width": 0,
-          "x": 679,
-          "y": 262,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject",
-          "width": 0,
-          "x": 649,
-          "y": 229,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -20843,18 +20813,6 @@
                 "\"Button_timer_load\""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Loaded",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
             }
           ],
           "events": [
@@ -20866,57 +20824,66 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "GroupExists"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/PlayerPositionX\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/PlayerPositionY\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/SceneName\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/Lives\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"progress\"",
-                    "\"game/Score\""
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"progress\"",
+                        "\"game/Score\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"progress\"",
+                        "\"game/Lives\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"progress\"",
+                        "\"game/PlayerPositionY\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"progress\"",
+                        "\"game/SceneName\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"progress\"",
+                        "\"game/PlayerPositionX\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ],
               "actions": [
@@ -21036,12 +21003,122 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Loaded",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "Scene"
                   },
                   "parameters": [
                     "",
                     "ToString(Variable(SceneNameLoaded))",
-                    ""
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"progress\"",
+                        "\"game/PlayerPositionX\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"progress\"",
+                        "\"game/Lives\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"progress\"",
+                        "\"game/SceneName\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"progress\"",
+                        "\"game/PlayerPositionY\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"progress\"",
+                        "\"game/Score\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Loaded",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Story\"",
+                    "yes"
                   ],
                   "subInstructions": []
                 }
@@ -21086,7 +21163,7 @@
                 "value": "UnloadFile"
               },
               "parameters": [
-                ""
+                "\"progress\""
               ],
               "subInstructions": []
             },
@@ -21359,7 +21436,7 @@
               "parameters": [
                 "",
                 "\"Info\"",
-                ""
+                "yes"
               ],
               "subInstructions": []
             }
@@ -23154,7 +23231,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.526
+        "zoomFactor": 0.334
       },
       "objectsGroups": [],
       "variables": [
@@ -25689,7 +25766,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Background i background sound, co się dzieje po załadowniu sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26476,7 +26553,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Ruszająca się platforma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26636,7 +26713,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Zachowanie Wody",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26687,7 +26764,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zmiana sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26834,7 +26911,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.226
+        "zoomFactor": 0.034
       },
       "objectsGroups": [],
       "variables": [
@@ -30624,7 +30701,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zmiana sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30777,7 +30854,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.232
+        "zoomFactor": 0.208
       },
       "objectsGroups": [],
       "variables": [
@@ -33894,6 +33971,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Loaded",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
