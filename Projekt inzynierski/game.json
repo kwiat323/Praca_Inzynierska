@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Kuba\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -813,15 +813,6 @@
         "kind": "image",
         "metadata": "",
         "name": "bg.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "play.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "play.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -10605,11 +10596,6 @@
           "slopeMaxAngle": 60,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
-        },
-        {
-          "name": "ZniszczPoza",
-          "type": "DestroyOutsideBehavior::DestroyOutside",
-          "extraBorder": 10
         }
       ],
       "animations": [
@@ -29820,7 +29806,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.646
+        "zoomFactor": 0.526
       },
       "objectsGroups": [],
       "variables": [
@@ -32688,9 +32674,9 @@
                       "parameters": [
                         "Player",
                         "=",
-                        "GlobalVariable(CheckpointX)-5",
+                        "GlobalVariable(CheckpointX)",
                         "=",
-                        "GlobalVariable(CheckpointY)-5"
+                        "GlobalVariable(CheckpointY)"
                       ],
                       "subInstructions": []
                     }
@@ -32708,7 +32694,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "FadeOut",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -32859,7 +32845,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "FadeOuts",
+                    "FadeOut",
                     ""
                   ],
                   "subInstructions": []
@@ -33538,7 +33524,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.394
+        "zoomFactor": 0.226
       },
       "objectsGroups": [],
       "variables": [
@@ -36537,7 +36523,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "FadeOut",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36688,7 +36674,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "FadeOuts",
+                    "FadeOut2",
                     ""
                   ],
                   "subInstructions": []
@@ -37481,7 +37467,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.88
+        "zoomFactor": 0.232
       },
       "objectsGroups": [],
       "variables": [
@@ -37795,7 +37781,7 @@
           "width": 1230,
           "x": 97,
           "y": 545,
-          "zOrder": 136,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37810,7 +37796,7 @@
           "width": 1230,
           "x": 97,
           "y": 614,
-          "zOrder": 137,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37825,7 +37811,7 @@
           "width": 70,
           "x": 27,
           "y": 615,
-          "zOrder": 138,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37855,7 +37841,7 @@
           "width": 70,
           "x": 27,
           "y": 545,
-          "zOrder": 141,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38168,9 +38154,9 @@
           "locked": false,
           "name": "Tile10",
           "width": 723,
-          "x": 1449,
-          "y": 551,
-          "zOrder": 0,
+          "x": 1346,
+          "y": 555,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38205,7 +38191,7 @@
           "width": 723,
           "x": -652,
           "y": 551,
-          "zOrder": 0,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38220,7 +38206,7 @@
           "width": 70,
           "x": 1327,
           "y": 545,
-          "zOrder": 149,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38235,7 +38221,7 @@
           "width": 70,
           "x": 1327,
           "y": 614,
-          "zOrder": 150,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -39288,15 +39274,6 @@
               "include": {
                 "includeConfig": 0
               },
-              "target": "Camera"
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
               "target": "PauseGame"
             },
             {
@@ -39334,6 +39311,15 @@
                 "includeConfig": 0
               },
               "target": "PlayerBehavior"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Camera"
             }
           ],
           "parameters": []
@@ -39711,7 +39697,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "FadeOut",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39862,7 +39848,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "FadeOuts",
+                    "FadeOut3",
                     ""
                   ],
                   "subInstructions": []
@@ -39947,49 +39933,11 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zachowanie Wody",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Tile10",
-                    "150",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "water.wav",
-                    "16",
-                    "yes",
-                    "5",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
             {
               "disabled": false,
               "folded": false,
