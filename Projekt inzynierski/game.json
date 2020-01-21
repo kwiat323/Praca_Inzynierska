@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Users\\Kuba\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -10571,6 +10571,13 @@
         "name": "shuriken_red.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Memoraphile - Spooky Dungeon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Memoraphile - Spooky Dungeon.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13472,7 +13479,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.1,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -16404,7 +16411,7 @@
               "timeBetweenFrames": 0.13,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_00.png",
                   "points": [],
                   "originPoint": {
@@ -16418,10 +16425,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_01.png",
                   "points": [],
                   "originPoint": {
@@ -16435,10 +16465,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_02.png",
                   "points": [],
                   "originPoint": {
@@ -16452,10 +16505,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_03.png",
                   "points": [],
                   "originPoint": {
@@ -16469,10 +16545,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_04.png",
                   "points": [],
                   "originPoint": {
@@ -16486,10 +16585,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_05.png",
                   "points": [],
                   "originPoint": {
@@ -16503,10 +16625,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_06.png",
                   "points": [],
                   "originPoint": {
@@ -16520,10 +16665,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_07.png",
                   "points": [],
                   "originPoint": {
@@ -16537,10 +16705,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_08.png",
                   "points": [],
                   "originPoint": {
@@ -16554,10 +16745,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_09.png",
                   "points": [],
                   "originPoint": {
@@ -16571,10 +16785,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_10.png",
                   "points": [],
                   "originPoint": {
@@ -16588,10 +16825,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_11.png",
                   "points": [],
                   "originPoint": {
@@ -16605,10 +16865,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_12.png",
                   "points": [],
                   "originPoint": {
@@ -16622,10 +16905,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_13.png",
                   "points": [],
                   "originPoint": {
@@ -16639,10 +16945,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_14.png",
                   "points": [],
                   "originPoint": {
@@ -16656,10 +16985,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_15.png",
                   "points": [],
                   "originPoint": {
@@ -16673,10 +17025,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\idle\\skeleton-idle_16.png",
                   "points": [],
                   "originPoint": {
@@ -16690,7 +17065,30 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -16705,7 +17103,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\get_hit\\skeleton-get_hit_0.png",
                   "points": [],
                   "originPoint": {
@@ -16719,10 +17117,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\get_hit\\skeleton-get_hit_1.png",
                   "points": [],
                   "originPoint": {
@@ -16736,10 +17157,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\get_hit\\skeleton-get_hit_2.png",
                   "points": [],
                   "originPoint": {
@@ -16753,10 +17197,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\get_hit\\skeleton-get_hit_3.png",
                   "points": [],
                   "originPoint": {
@@ -16770,10 +17237,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\get_hit\\skeleton-get_hit_4.png",
                   "points": [],
                   "originPoint": {
@@ -16787,10 +17277,33 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Pink\\get_hit\\skeleton-get_hit_5.png",
                   "points": [],
                   "originPoint": {
@@ -16804,7 +17317,30 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 616.429,
+                        "y": 286.286
+                      },
+                      {
+                        "x": 662.143,
+                        "y": 606.286
+                      },
+                      {
+                        "x": 24.4286,
+                        "y": 601.714
+                      },
+                      {
+                        "x": 31.2858,
+                        "y": 309.143
+                      },
+                      {
+                        "x": 296.429,
+                        "y": 103.429
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -29284,7 +29820,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.226
+        "zoomFactor": 0.646
       },
       "objectsGroups": [],
       "variables": [
@@ -30773,8 +31309,8 @@
           "locked": false,
           "name": "AddScore",
           "width": 50,
-          "x": 8685,
-          "y": 221,
+          "x": 8715,
+          "y": 211,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -30788,8 +31324,8 @@
           "locked": false,
           "name": "AddScore",
           "width": 50,
-          "x": 8577,
-          "y": 221,
+          "x": 8716,
+          "y": 106,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -30969,7 +31505,7 @@
           "name": "Boss3",
           "width": 200,
           "x": 9630,
-          "y": 479,
+          "y": 381,
           "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
@@ -31939,7 +32475,7 @@
                     "value": "ResetTimer"
                   },
                   "parameters": [
-                    "Boss1",
+                    "",
                     "\"Hit2\""
                   ],
                   "subInstructions": []
@@ -31965,7 +32501,7 @@
                     "Jungle.mp3",
                     "1",
                     "yes",
-                    "2",
+                    "10",
                     ""
                   ],
                   "subInstructions": []
@@ -36945,7 +37481,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": true,
-        "zoomFactor": 0.37
+        "zoomFactor": 0.88
       },
       "objectsGroups": [],
       "variables": [
@@ -37327,7 +37863,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 40,
           "layer": "",
           "locked": false,
           "name": "Tile39",
@@ -37342,7 +37878,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 40,
           "layer": "",
           "locked": false,
           "name": "Tile310",
@@ -37357,7 +37893,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 42,
           "layer": "",
           "locked": false,
           "name": "Tile37",
@@ -37372,7 +37908,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 40,
           "layer": "",
           "locked": false,
           "name": "Tile39",
@@ -37387,7 +37923,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 41,
           "layer": "",
           "locked": false,
           "name": "Tile310",
@@ -37402,7 +37938,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 42,
           "layer": "",
           "locked": false,
           "name": "Tile37",
@@ -37417,7 +37953,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 40,
           "layer": "",
           "locked": false,
           "name": "Tile39",
@@ -37432,7 +37968,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 41,
           "layer": "",
           "locked": false,
           "name": "Tile310",
@@ -37447,7 +37983,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 40,
           "layer": "",
           "locked": false,
           "name": "Tile37",
@@ -37462,7 +37998,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 39,
           "layer": "",
           "locked": false,
           "name": "Tile39",
@@ -37477,7 +38013,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 40,
           "layer": "",
           "locked": false,
           "name": "Tile310",
@@ -37492,7 +38028,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 40,
           "layer": "",
           "locked": false,
           "name": "Tile37",
@@ -37507,7 +38043,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 40,
           "layer": "",
           "locked": false,
           "name": "Tile39",
@@ -37522,7 +38058,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 41,
           "layer": "",
           "locked": false,
           "name": "Tile310",
@@ -37537,7 +38073,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 42,
           "layer": "",
           "locked": false,
           "name": "Tile37",
@@ -37552,7 +38088,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 40,
           "layer": "",
           "locked": false,
           "name": "Tile39",
@@ -37567,7 +38103,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 43,
           "layer": "",
           "locked": false,
           "name": "Tile310",
@@ -37582,7 +38118,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 41,
           "layer": "",
           "locked": false,
           "name": "Tile37",
@@ -38740,20 +39276,11 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Linki z zachowaniem",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "PlayerBehavior"
-            },
             {
               "disabled": false,
               "folded": false,
@@ -38798,6 +39325,15 @@
                 "includeConfig": 0
               },
               "target": "MonsterBehavior"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "PlayerBehavior"
             }
           ],
           "parameters": []
@@ -38903,28 +39439,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"UpTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spike",
-                    "\"DownTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ResetTimer"
                   },
                   "parameters": [
@@ -38951,10 +39465,10 @@
                   },
                   "parameters": [
                     "",
-                    "Jungle3.mp3",
+                    "Memoraphile - Spooky Dungeon.mp3",
                     "1",
                     "yes",
-                    "2",
+                    "10",
                     ""
                   ],
                   "subInstructions": []
@@ -38966,26 +39480,6 @@
                   },
                   "parameters": [
                     "GoLeft"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "GoUp"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "GoDown"
                   ],
                   "subInstructions": []
                 },
@@ -39542,7 +40036,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Walka z Bossami ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -42369,18 +42863,6 @@
               "parameters": [
                 "Weapon",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "no"
               ],
               "subInstructions": []
             }
