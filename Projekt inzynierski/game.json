@@ -21588,7 +21588,7 @@
                 "",
                 "BackgroundMusicMenu.mp3",
                 "1",
-                "",
+                "yes",
                 "15",
                 ""
               ],
@@ -23003,6 +23003,18 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Lives",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "Scene"
                   },
                   "parameters": [
@@ -23072,7 +23084,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.664
       },
       "objectsGroups": [],
       "variables": [],
@@ -23404,7 +23416,18 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Toujours"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -24017,15 +24040,162 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CheckpointYPaused",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CheckpointXPaused",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "PopScene"
               },
               "parameters": [
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SceneName",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Jungle.mp3",
+                    "1",
+                    "",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SceneName",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Jungle2.wav",
+                    "1",
+                    "",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SceneName",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Memoraphile - Spooky Dungeon.mp3",
+                    "1",
+                    "",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -24369,6 +24539,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "PopScene"
               },
               "parameters": [
@@ -24377,7 +24558,119 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SceneName",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Jungle.mp3",
+                    "1",
+                    "",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SceneName",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Jungle2.wav",
+                    "1",
+                    "",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SceneName",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Memoraphile - Spooky Dungeon.mp3",
+                    "1",
+                    "",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
@@ -27130,17 +27423,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Hit2\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -27150,6 +27432,17 @@
                     "yes",
                     "20",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Hit2\""
                   ],
                   "subInstructions": []
                 },
@@ -34778,6 +35071,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "PushScene"
               },
               "parameters": [
@@ -37830,6 +38134,49 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Bosses",
+                "600",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "hb"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "BossHealth"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
     },
