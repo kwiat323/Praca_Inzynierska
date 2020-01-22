@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Users\\Kuban\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -4254,6 +4254,22 @@
         "kind": "audio",
         "metadata": "",
         "name": "youwin.wav",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "puste.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "puste.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "QuiteMagicalRegular-8VA2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "QuiteMagicalRegular-8VA2.ttf",
         "userAdded": true
       }
     ],
@@ -22460,11 +22476,26 @@
           "height": 0,
           "layer": "",
           "locked": false,
+          "name": "bg_story",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
           "name": "Text",
           "width": 0,
-          "x": 8,
-          "y": 13,
-          "zOrder": 1,
+          "x": 15,
+          "y": 10,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22482,13 +22513,52 @@
           "variables": [],
           "behaviors": [],
           "string": "None",
-          "font": "Czcionka\\upheavtt.ttf",
-          "characterSize": 20,
+          "font": "QuiteMagicalRegular-8VA2.ttf",
+          "characterSize": 30,
           "color": {
             "b": 52,
             "g": 148,
             "r": 196
           }
+        },
+        {
+          "name": "bg_story",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "puste.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -22528,7 +22598,7 @@
                   "parameters": [
                     "TextVar",
                     "=",
-                    "\"Dawno dawno temu w odległej galaktyce...pew pew pew\"+NewLine()+\"R2D2 was dojedzie\"+NewLine()+NewLine()+\"Naciśnij dowolny klawisz aby kontynuować...\""
+                    "\"Królestwo Caseden jedna z najpiękniejszych krain tego świata wszystko i wszyscy\"\n+NewLine()\n+\"żyją ze sobą w harmonii i spokoju. Gotan jeden z mieszkańców tej krainy niczym\"\n+NewLine()\n+\"się nie wyróżnia od pozostałych żyje w szczęściu z ukochaną do czasu aż jego\"\n+NewLine()\n+\"żona umiera a za śmierć obwinia króla Caseden. Próbując go zabić zostaje \"\n+NewLine()\n+\"schwytany przez straże i wygnany poza granice królestwa. Przeklina krainę, w \"\n+NewLine()\n+\"której się urodził i obiecuje zemstę. Mijają lata a w królestwie nic się nie\"\n+NewLine()\n+\"zmienia nadal panujespokój i dobra atmosfera. Pewnego poranka do królestwa \"\n+NewLine()\n+\"wkracza Gotan wraz z zabójczą armią, która niszczy wszystko na swojej drodze.\"\n+NewLine()\n+\"Ludność Caseden próbują uciekać jednak na próżno większość została złapana do\"\n+NewLine()\n+\"niewoli. Jednak garstce z nich udało się uciec. Wśród nich był jeden z \"\n+NewLine()\n+\"najlepszych łucznikóww całym królestwie nazywa się Armin. Wraz z innymi \"\n+NewLine()\n+\"ukrywa się poza granicami królestwa zbierając siły. Jednak tęsknota za rodziną\"\n+NewLine()\n+\"i domem nie daje mu spokoju. Postanawia wyruszyć w drogę pełną niebezpieczeństw\"\n+NewLine()\n+\"i wyzwolić swoją rodzinę i królestwo...\"\n+NewLine()\n+NewLine()\n+\"Naciśnij dowolny klawisz aby kontynuować...\""
                   ],
                   "subInstructions": []
                 },
