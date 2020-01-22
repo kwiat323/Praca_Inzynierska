@@ -21612,7 +21612,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Działanie przycisków",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22498,7 +22498,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Po załadowaniu sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22956,7 +22956,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Odnośniki do zdarzeń zewnętrznych",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22979,7 +22979,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Po załadowaniu sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23699,7 +23699,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Reakcja przycisków po kolizji z kursorem myszki",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24077,7 +24077,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Funkcje przycisków",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24570,7 +24570,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Powrót do poprzedniej - zatrzymanej sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27292,7 +27292,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Odnośniki do zdarzeń zewnętrznych",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33766,7 +33766,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Wyświetlanie tytułu sceny",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34546,7 +34546,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Wyświetlanie uzyskanego wyniku oraz przejście do sceny \"Menu\"",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34876,7 +34876,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Wyświetlenie uzyskanego wyniku, reset zmiennych globalnych oraz przejście do sceny \"Menu\"",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37243,7 +37243,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Centrowanie kamery na postaci bohatera gry oraz efekt paralaxy dla tła ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37468,19 +37468,7 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"ShootNow\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "actions": [],
               "events": [
                 {
                   "disabled": false,
@@ -38401,7 +38389,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Funkcja zapisu gry poprzez Checkpoint",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38422,6 +38410,19 @@
                     "",
                     "",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Checkpoint",
+                    "Used",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -38546,44 +38547,42 @@
                       "subInstructions": []
                     }
                   ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Checkpoint",
-                    "Used",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Checkpoint",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "confirm.wav",
+                            "7",
+                            "",
+                            "5",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
                 {
                   "disabled": false,
                   "folded": false,
@@ -38592,9 +38591,14 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "BuiltinCommonInstructions::Once"
+                        "value": "VarObjet"
                       },
-                      "parameters": [],
+                      "parameters": [
+                        "Checkpoint",
+                        "Used",
+                        "=",
+                        "1"
+                      ],
                       "subInstructions": []
                     }
                   ],
@@ -38602,15 +38606,47 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlaySoundCanal"
+                        "value": "ChangeAnimation"
                       },
                       "parameters": [
-                        "",
-                        "confirm.wav",
-                        "7",
-                        "",
-                        "5",
-                        ""
+                        "Checkpoint",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Checkpoint",
+                        "Used",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Checkpoint",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -38618,41 +38654,6 @@
                   "events": []
                 }
               ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Checkpoint",
-                    "Used",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Checkpoint",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
             }
           ],
           "parameters": []
@@ -38892,7 +38893,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Zachowanie przeciwników po kolizji",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
