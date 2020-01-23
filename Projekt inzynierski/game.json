@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Kuban\\Documents\\GitHub\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
+    "projectFile": "C:\\Git\\Praca_Inzynierska\\Praca_Inzynierska\\Projekt inzynierski\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -22598,7 +22598,7 @@
                   "parameters": [
                     "TextVar",
                     "=",
-                    "\"Królestwo Caseden jedna z najpiękniejszych krain tego świata wszystko i wszyscy\"\n+NewLine()\n+\"żyją ze sobą w harmonii i spokoju. Gotan jeden z mieszkańców tej krainy niczym\"\n+NewLine()\n+\"się nie wyróżnia od pozostałych żyje w szczęściu z ukochaną do czasu aż jego\"\n+NewLine()\n+\"żona umiera a za śmierć obwinia króla Caseden. Próbując go zabić zostaje \"\n+NewLine()\n+\"schwytany przez straże i wygnany poza granice królestwa. Przeklina krainę, w \"\n+NewLine()\n+\"której się urodził i obiecuje zemstę. Mijają lata a w królestwie nic się nie\"\n+NewLine()\n+\"zmienia nadal panujespokój i dobra atmosfera. Pewnego poranka do królestwa \"\n+NewLine()\n+\"wkracza Gotan wraz z zabójczą armią, która niszczy wszystko na swojej drodze.\"\n+NewLine()\n+\"Ludność Caseden próbują uciekać jednak na próżno większość została złapana do\"\n+NewLine()\n+\"niewoli. Jednak garstce z nich udało się uciec. Wśród nich był jeden z \"\n+NewLine()\n+\"najlepszych łucznikóww całym królestwie nazywa się Armin. Wraz z innymi \"\n+NewLine()\n+\"ukrywa się poza granicami królestwa zbierając siły. Jednak tęsknota za rodziną\"\n+NewLine()\n+\"i domem nie daje mu spokoju. Postanawia wyruszyć w drogę pełną niebezpieczeństw\"\n+NewLine()\n+\"i wyzwolić swoją rodzinę i królestwo...\"\n+NewLine()\n+NewLine()\n+\"Naciśnij dowolny klawisz aby kontynuować...\""
+                    "\"Królestwo Caseden jedna z najpiękniejszych krain tego świata - wszystko i wszyscy\"\n+NewLine()\n+\"żyją ze sobą w harmonii i spokoju. Gotan jeden z mieszkańców tej krainy niczym\"\n+NewLine()\n+\"się nie wyróżnia od pozostałych, żyje w szczęściu z ukochaną do czasu aż jego\"\n+NewLine()\n+\"żona umiera, a za śmierć obwinia króla Caseden. Próbując go zabić, zostaje \"\n+NewLine()\n+\"schwytany przez straże i wygnany poza granice królestwa. Przeklina krainę, w \"\n+NewLine()\n+\"której się urodził i obiecuje zemstę. Mijają lata, a w królestwie nic się nie\"\n+NewLine()\n+\"zmienia. Nadal panuje spokój i dobra atmosfera. Pewnego poranka do królestwa \"\n+NewLine()\n+\"wkracza Gotan wraz z zabójczą armią, która niszczy wszystko na swojej drodze.\"\n+NewLine()\n+\"Ludność Caseden próbują uciekać jednak na próżno. Większość została złapana do\"\n+NewLine()\n+\"niewoli. Jednak garstce z nich udało się uciec. Wśród nich był jeden z \"\n+NewLine()\n+\"najlepszych łuczników całym królestwie nazywa się Armin. Wraz z innymi \"\n+NewLine()\n+\"ukrywa się poza granicami królestwa zbierając siły. Jednak tęsknota za rodziną\"\n+NewLine()\n+\"i domem nie daje mu spokoju. Postanawia wyruszyć w drogę pełną niebezpieczeństw\"\n+NewLine()\n+\"i wyzwolić swoją rodzinę i królestwo...\"\n+NewLine()\n+NewLine()\n+\"Naciśnij dowolny klawisz aby kontynuować...\""
                   ],
                   "subInstructions": []
                 },
